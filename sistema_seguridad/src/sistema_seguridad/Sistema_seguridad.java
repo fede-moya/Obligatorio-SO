@@ -15,9 +15,9 @@ public class Sistema_seguridad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Hello obligatorio Sistemas Operativos 2017 !!!");
         
     }
     
-    public void monitorear(){}
-    
+       
 }
