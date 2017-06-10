@@ -5,10 +5,15 @@
  */
 package sistema_seguridad;
 
+import java.util.Queue;
+
 /**
  *
  * @author federico
  */
 public class Buffers {
+    public static Queue<Imagen> imagenesAProcesar;
+    public static Queue<Alerta> alertasANotificar;
+    
     
 }

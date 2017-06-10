@@ -19,10 +19,27 @@ public class main {
      */
     
     public static void main(String[] args) {
-       Buffers.alertasAEnviar = null;
+       Buffers.alertasANotificar = null;
        Buffers.imagenesAProcesar = null;
 
+       ReceptorImagen receptorImagen = new ReceptorImagen();
        ProcesadorImagen procesadorImagen = new ProcesadorImagen();
+       Notificador notificador = new Notificador();
+       
+       Thread receptorImagenThread = new Thread(receptorImagen);
+       Thread procesadorImagenTrhead = new Thread(procesadorImagen);
+       Thread notificadorThread = new Thread(notificador);
+       
+       receptorImagenThread.start();
+       procesadorImagenTrhead.start();
+       notificadorThread.start();
+       
+       while(true){
+           // is this loop necesary ???
+           System.out.println("El programa esta funcionando");
+       }
+       
+       
         
         
     }

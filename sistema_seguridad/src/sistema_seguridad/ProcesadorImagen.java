@@ -14,15 +14,14 @@ import java.util.Queue;
 public class ProcesadorImagen implements Runnable {
 
    
-    ProcesadorImagen(Queue<Imagen> imagenesAProcesar) {
+    ProcesadorImagen() {
         
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     @Override
     public void run() {
-        Imagen imagen = Buffers.imagenesAProcesar.peek();
-        procesar(imagen);
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //Imagen imagen = Buffers.imagenesAProcesar.peek();
+        //procesar(imagen);
+        System.out.println("Procesando imagenes");
     }
     
     public void procesar(Imagen imagen){
