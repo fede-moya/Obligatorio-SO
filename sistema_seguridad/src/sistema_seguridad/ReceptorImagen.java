@@ -9,15 +9,11 @@ package sistema_seguridad;
  *
  * @author federico
  */
-public class Sistema_seguridad {
+public class ReceptorImagen implements Runnable{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello obligatorio Sistemas Operativos 2017 !!!");
-        
+    @Override
+    public void run() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
-       
 }

@@ -9,6 +9,10 @@ package sistema_seguridad;
  *
  * @author federico
  */
-public class Camara {
+public class Delincuente {
+    
+    String nombre;
+    Integer ci;
+    String codigoCara;
     
 }
