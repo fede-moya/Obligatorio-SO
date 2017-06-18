@@ -1,41 +1,25 @@
 package sistema_seguridad;
-
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author federico
+ */
 public class ManejadorArchivos {
-
-    /**
-     * @param nombreCompletoArchivo
-     * @param listaLineasArchivo lista con las lineas del archivo
-     * @throws IOException
-     */
-//    public static void escribirArchivo(String nombreCompletoArchivo,
-//            String[] listaLineasArchivo) {
-//        FileWriter fw;
-//        try {
-//            fw = new FileWriter(nombreCompletoArchivo, true);
-//            BufferedWriter bw = new BufferedWriter(fw);
-//            for (int i = 0; i < listaLineasArchivo.length; i++) {
-//                String lineaActual = listaLineasArchivo[i];
-//                bw.write(lineaActual);
-//                bw.newLine();
-//            }
-//            bw.close();
-//            fw.close();
-//        } catch (IOException e) {
-//            System.out.println("Error al escribir el archivo "
-//                    + nombreCompletoArchivo);
-//            e.printStackTrace();
-//        }
-//    }
+    
+    public static void escribirArchivo(String nombreArchivo,String texto) throws IOException{
+        FileWriter simulacion = new FileWriter(nombreArchivo,true);
+        PrintWriter pw = new PrintWriter(simulacion);
+        pw.println(texto);
+        simulacion.close();
+    }
     
     public static String[] leerArchivo(String nombreCompletoArchivo, boolean ignoreHeader) {
         FileReader fr;

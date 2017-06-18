@@ -5,6 +5,8 @@
  */
 package sistema_seguridad;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -18,29 +20,30 @@ public class main {
      * @param args the command line arguments
      */
     
-    public static void main(String[] args) {
-       Buffers.alertasANotificar = null;
-       Buffers.imagenesAProcesar = null;
+    public static void main(String[] args) throws IOException {
+       Buffers.alertasANotificar = new LinkedList();
+       Buffers.imagenesAProcesar = new LinkedList();
 
-       ReceptorImagen receptorImagen = new ReceptorImagen();
-       ProcesadorImagen procesadorImagen = new ProcesadorImagen();
-       Notificador notificador = new Notificador();
-       
-       Thread receptorImagenThread = new Thread(receptorImagen);
-       Thread procesadorImagenTrhead = new Thread(procesadorImagen);
-       Thread notificadorThread = new Thread(notificador);
-       
-       receptorImagenThread.start();
-       procesadorImagenTrhead.start();
-       notificadorThread.start();
-       
-       while(true){
-           // is this loop necesary ???
-           System.out.println("El programa esta funcionando");
-       }
+        // Se crean hilos
+       Thread receptorImagenThread = new Thread(new ReceptorImagen());
+       Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen());
+       Thread notificadorThread = new Thread(new Notificador());
+       Thread reloj = new Thread(Reloj.getInstance());
        
        
-        
+       Logger.instancia = new Logger("Similuacion03");
+       Logger.getInstancia().log("Fefito is on fire !!!!");
+       Logger.getInstancia().log("que facil la vida!!!!");
+       
+        // Se inician todos los hilos        
+        // Hilo del reloj
+        reloj.start();
+        // Hilo del receptor de imagenes
+        receptorImagenThread.start();
+        // Hilo del procesador de imagenes
+        procesadorImagenTrhead.start();
+        // Hilo del notificador
+        notificadorThread.start();
         
     }
     

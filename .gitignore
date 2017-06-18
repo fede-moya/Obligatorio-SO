@@ -15,3 +15,4 @@ hs_err_pid*
 /sistema_seguridad/nbproject/genfiles.properties
 .DS_Store
 /sistema_seguridad/build/
+/sistema_seguridad/dist/
