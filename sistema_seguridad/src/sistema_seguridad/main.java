@@ -25,22 +25,22 @@ public class main {
        ReceptorImagen receptorImagen = new ReceptorImagen();
        ProcesadorImagen procesadorImagen = new ProcesadorImagen();
        Notificador notificador = new Notificador();
-       
+
        Thread receptorImagenThread = new Thread(receptorImagen);
        Thread procesadorImagenTrhead = new Thread(procesadorImagen);
        Thread notificadorThread = new Thread(notificador);
+       Thread reloj = new Thread(Reloj.getInstance());
        
-       receptorImagenThread.start();
-       procesadorImagenTrhead.start();
-       notificadorThread.start();
-       
-       while(true){
-           // is this loop necesary ???
-           System.out.println("El programa esta funcionando");
-       }
-       
-       
+
         
+        // Hilo del reloj
+        reloj.start();
+        // Hilo del receptor de imagenes
+        receptorImagenThread.start();
+        // Hilo del procesador de imagenes
+        procesadorImagenTrhead.start();
+        // Hilo del notificador
+        notificadorThread.start();
         
     }
     
