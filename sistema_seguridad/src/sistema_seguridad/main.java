@@ -5,6 +5,7 @@
  */
 package sistema_seguridad;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -19,7 +20,7 @@ public class main {
      * @param args the command line arguments
      */
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
        Buffers.alertasANotificar = new LinkedList();
        Buffers.imagenesAProcesar = new LinkedList();
 
@@ -30,7 +31,9 @@ public class main {
        Thread reloj = new Thread(Reloj.getInstance());
        
        
-       Logger.instancia = new Logger("Similuacion01");
+       Logger.instancia = new Logger("Similuacion03");
+       Logger.getInstancia().log("Fefito is on fire !!!!");
+       Logger.getInstancia().log("que facil la vida!!!!");
        
         // Se inician todos los hilos        
         // Hilo del reloj

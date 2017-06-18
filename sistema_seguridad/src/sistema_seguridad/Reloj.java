@@ -5,8 +5,10 @@
  */
 package sistema_seguridad;
 
+import java.io.IOException;
 import java.util.logging.Level;
-import java.util.logging.Logger;
+
+
 
 /**
  *
@@ -54,12 +56,23 @@ public class Reloj implements Runnable {
     @Override
     public void run() {
         while(true){
-            Reloj.getInstance().setMomentoActual(Reloj.getInstance().getMomentoActual()+1);
             try {
-                Thread.sleep(velocidad);
-                System.out.println(Reloj.getInstance().getMomentoActual());
-            } catch (InterruptedException ex) {
-                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
+                Reloj.getInstance().setMomentoActual(Reloj.getInstance().getMomentoActual()+1);
+                try {
+                    Thread.sleep(velocidad);
+                    System.out.println(Reloj.getInstance().getMomentoActual());
+                    
+                } catch (InterruptedException ex) {
+//                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                
+                Logger.getInstancia().log("cambio el momento");
+                
+                
+                
+            } catch (IOException ex) {
+                java.util.logging.Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
+//                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
             }
             
             
