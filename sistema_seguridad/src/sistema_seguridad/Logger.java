@@ -11,4 +11,21 @@ package sistema_seguridad;
  */
 public class Logger {
     
+    public static Logger instancia = null;
+    private String nombre;
+        
+    public Logger(String nombre){
+        this.nombre = nombre;
+        // Crear archivo para la simulacion
+        
+        
+        
+    }
+    
+    public static Logger getInstancia(){
+        return instancia;
+    }
+    
+    
+     
 }

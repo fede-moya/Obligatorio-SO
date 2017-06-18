@@ -5,6 +5,7 @@
  */
 package sistema_seguridad;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -19,20 +20,19 @@ public class main {
      */
     
     public static void main(String[] args) {
-       Buffers.alertasANotificar = null;
-       Buffers.imagenesAProcesar = null;
+       Buffers.alertasANotificar = new LinkedList();
+       Buffers.imagenesAProcesar = new LinkedList();
 
-       ReceptorImagen receptorImagen = new ReceptorImagen();
-       ProcesadorImagen procesadorImagen = new ProcesadorImagen();
-       Notificador notificador = new Notificador();
-
-       Thread receptorImagenThread = new Thread(receptorImagen);
-       Thread procesadorImagenTrhead = new Thread(procesadorImagen);
-       Thread notificadorThread = new Thread(notificador);
+        // Se crean hilos
+       Thread receptorImagenThread = new Thread(new ReceptorImagen());
+       Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen());
+       Thread notificadorThread = new Thread(new Notificador());
        Thread reloj = new Thread(Reloj.getInstance());
        
-
-        
+       
+       Logger.instancia = new Logger("Similuacion01");
+       
+        // Se inician todos los hilos        
         // Hilo del reloj
         reloj.start();
         // Hilo del receptor de imagenes
