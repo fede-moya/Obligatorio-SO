@@ -13,6 +13,7 @@ public class ReceptorImagen implements Runnable{
 
     @Override
     public void run() {
+        Buffers.imagenesAProcesar.add(PlanificadorReceptor.getProximaImagen());
         System.out.println("Recibiendo imagen");
     }
     

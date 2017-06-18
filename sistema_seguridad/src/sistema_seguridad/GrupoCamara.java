@@ -14,7 +14,7 @@ import java.util.Queue;
  */
 public class GrupoCamara {
     String numero;
-    Queue<Imagen> queue;
+    Queue<Imagen> imagenes;
 
     public String getNumero() {
         return numero;
@@ -22,10 +22,22 @@ public class GrupoCamara {
 
     public GrupoCamara(String numero) {
         this.numero = numero;
-        this.queue = new LinkedList<Imagen>();
+        this.imagenes = new LinkedList<Imagen>();
     }
 
     public void setNumero(String numero) {
         this.numero = numero;
+    }
+    
+    public Queue<Imagen> getImagenes() {
+        return imagenes;
+    }
+    
+    public Imagen getProximaImagen() {
+        return imagenes.peek();
+    }
+    
+    public Imagen eliminarImagen() {
+        return imagenes.remove();
     }
 }

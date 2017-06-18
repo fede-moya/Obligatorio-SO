@@ -72,9 +72,9 @@ public class ManejadorArchivos {
         for (String linea: imagenesLeidas) {
             if ((linea != null) && (!linea.trim().equals(""))) {
                 String[] datos = linea.split(";");
-                Imagen imagen = new Imagen(datos[0], Integer.parseInt(datos[1]), Integer.parseInt(datos[2]), Integer.parseInt(datos[3]));
+//                Imagen imagen = new Imagen(datos[0], Integer.parseInt(datos[1]), Integer.parseInt(datos[2]), Integer.parseInt(datos[3]));
             
-                imagenes.add(imagen);
+//                imagenes.add(imagen);
             }
         }
         return imagenes;
