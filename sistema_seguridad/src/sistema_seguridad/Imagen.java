@@ -11,6 +11,8 @@ package sistema_seguridad;
  */
 public class Imagen {
     String idCamara; 
+    
+    String codigo;
     // Representa la cantidad de momentos que necesita el ProcesadorImagen para procesar esta imagen
     Integer tiempoProcesamiento;
     // Representa el momento en que la imagen ingresa al sistema, este atributo 

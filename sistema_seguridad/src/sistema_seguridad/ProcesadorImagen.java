@@ -5,6 +5,8 @@
  */
 package sistema_seguridad;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Queue;
 
 /**
@@ -13,22 +15,24 @@ import java.util.Queue;
  */
 public class ProcesadorImagen implements Runnable {
 
-   
-    ProcesadorImagen() {
-        
+    private Map<String,String> codigosImagenes;
+    public ProcesadorImagen() {
+        this.codigosImagenes = new HashMap();
+        String[] codigoImagenesPatrones = ManejadorArchivos.leerArchivo("CodigoImagenPatron.csv", true);
+        String[] codigoPatron;
+        for (int i = 0; i < codigoImagenesPatrones.length; i++) {
+            codigoPatron = codigoImagenesPatrones[i].split(",");
+            codigosImagenes.put(codigoPatron[0], codigoPatron[1]);
+        }
     }
     @Override
     public void run() {
-        //Imagen imagen = Buffers.imagenesAProcesar.peek();
-        //procesar(imagen);
-        System.out.println("Procesando imagenes");
+        Imagen imagen = Buffers.imagenesAProcesar.peek();
+        procesar(imagen);
     }
     
     public void procesar(Imagen imagen){
-        // procesar imagene
+        String patron = codigosImagenes.get(imagen.codigo);
     }
-
-    
-    
     
 }
