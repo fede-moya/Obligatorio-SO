@@ -10,7 +10,7 @@ package sistema_seguridad;
  * @author federico
  */
 public class Imagen {
-    
+
     private String codigo;
 
     public String getCodigo() {
@@ -21,8 +21,7 @@ public class Imagen {
         this.codigo = codigo;
     }
 
-    private String idCamara; 
-
+    private String idCamara;
 
     // Representa la cantidad de momentos que necesita el ProcesadorImagen para procesar esta imagen
     private Integer tiempoProcesamiento;
@@ -36,21 +35,31 @@ public class Imagen {
     private Integer prioridad;
     // tiempo que espera en cola para 
     private Integer tiempoEsperando;
-    
+
+    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento, Integer prioridad) {
+        this.idCamara = idCamara;
+        this.codigo = codigo;
+        this.tiempoProcesamiento = tiempoProcesamiento;
+        this.prioridad = prioridad;
+        this.tiempoEsperando = 0;
+    }
+
     public String getIdCamara() {
         return idCamara;
     }
-    
 
     public Integer getTiempoEsperando() {
         return tiempoEsperando;
     }
-    
+
     public void setTiempoEsperando(int tiempo) {
-        this.tiempoEsperando = tiempo;
+        if (this.tiempoEsperando + tiempo == 3) {
+            this.tiempoEsperando = 0;
+            setPrioridad(1);
+        } else {
+            this.tiempoEsperando = tiempo;
+        }
     }
-    // representa el momento en el que la imagen fue retirada del buffer de imagenes, para ser p
-    // procesada
 
     public void setIdCamara(String idCamara) {
         this.idCamara = idCamara;
@@ -63,7 +72,7 @@ public class Imagen {
     public Integer getMomentoGeneracion() {
         return momentoGeneracion;
     }
-    
+
     public void setTiempoProcesamiento(Integer tiempoProcesamiento) {
         this.tiempoProcesamiento = tiempoProcesamiento;
     }
@@ -75,31 +84,17 @@ public class Imagen {
     public Integer getMomentoLeida() {
         return momentoLeida;
     }
-    
+
     public void setMomentoLeida(Integer momentoLeida) {
         this.momentoLeida = momentoLeida;
     }
 
-
-    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento, Integer prioridad) {
-        this.idCamara = idCamara;
-        this.codigo = codigo;
-        this.tiempoProcesamiento = tiempoProcesamiento;
-        this.prioridad = prioridad;
-        this.tiempoEsperando = 0;
- //        this.idCamara = idCamara;
-//        this.tiempoProcesamiento = tiempoProcesamiento;
-//        this.momentoGeneracion = momentoGeneracion;
-//        this.codigo = codigo;
-//        this.momentoLeida = momentoLeida;
-    }
-    
     public Integer getPrioridad() {
         return prioridad;
 
     }
-    
+
     public void setPrioridad(Integer prioridad) {
-        this.prioridad = prioridad;
+        this.prioridad += prioridad;
     }
 }
