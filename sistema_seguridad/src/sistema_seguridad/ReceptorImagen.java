@@ -21,7 +21,7 @@ public class ReceptorImagen implements Runnable{
             if (proximaImagen != null) {
                 Buffers.imagenesAProcesar.add(proximaImagen);
                 try {
-                    Logger.getInstancia().log("imagen " + proximaImagen.getIdImagen() + " en espera de procesamiento");
+                    Logger.getInstancia().log("imagen " + proximaImagen.getCodigo() + " en espera de procesamiento");
 
                 } catch (IOException ex) {
                     java.util.logging.Logger.getLogger(ReceptorImagen.class.getName()).log(Level.SEVERE, null, ex);

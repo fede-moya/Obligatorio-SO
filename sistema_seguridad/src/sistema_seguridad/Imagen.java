@@ -24,10 +24,6 @@ public class Imagen {
     private String idCamara; 
 
 
-    
-    
-    private String idImagen;
-    
     // Representa la cantidad de momentos que necesita el ProcesadorImagen para procesar esta imagen
     private Integer tiempoProcesamiento;
     // Representa el momento en que la imagen ingresa al sistema, este atributo 
@@ -40,23 +36,11 @@ public class Imagen {
     private Integer prioridad;
     // tiempo que espera en cola para 
     private Integer tiempoEsperando;
-
-    public Imagen(String idCamara, String idImagen, Integer tiempoProcesamiento, 
-            Integer prioridad) {
-        this.idCamara = idCamara;
-        this.idImagen = idImagen;
-        this.tiempoProcesamiento = tiempoProcesamiento;
-        this.prioridad = prioridad;
-        this.tiempoEsperando = 0;
-    }
     
     public String getIdCamara() {
         return idCamara;
     }
     
-    public String getIdImagen() {
-        return idImagen;
-    }
 
     public Integer getTiempoEsperando() {
         return tiempoEsperando;
@@ -97,12 +81,17 @@ public class Imagen {
     }
 
 
-    public Imagen(String idCamara, Integer tiempoProcesamiento, Integer momentoGeneracion, Integer momentoLeida, String codigo) {
+    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento, Integer prioridad) {
         this.idCamara = idCamara;
-        this.tiempoProcesamiento = tiempoProcesamiento;
-        this.momentoGeneracion = momentoGeneracion;
         this.codigo = codigo;
-        this.momentoLeida = momentoLeida;
+        this.tiempoProcesamiento = tiempoProcesamiento;
+        this.prioridad = prioridad;
+        this.tiempoEsperando = 0;
+ //        this.idCamara = idCamara;
+//        this.tiempoProcesamiento = tiempoProcesamiento;
+//        this.momentoGeneracion = momentoGeneracion;
+//        this.codigo = codigo;
+//        this.momentoLeida = momentoLeida;
     }
     
     public Integer getPrioridad() {

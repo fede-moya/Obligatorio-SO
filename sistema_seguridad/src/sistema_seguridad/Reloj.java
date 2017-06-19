@@ -50,7 +50,7 @@ public class Reloj implements Runnable {
     @Override
     public void run() {
         while(true){
-            try {
+            
                 Reloj.getInstance().setMomentoActual(Reloj.getInstance().getMomentoActual()+1);
                 try {
                     Thread.sleep(velocidad);
@@ -60,12 +60,8 @@ public class Reloj implements Runnable {
 //                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 
-                Logger.getInstancia().log("cambio el momento");
                 
-            } catch (IOException ex) {
-                java.util.logging.Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
-//                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
-            }
+            
         }
     }
  }

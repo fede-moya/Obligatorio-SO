@@ -16,22 +16,23 @@ public class PlanificadorReceptor {
     public static Imagen getProximaImagen(){
         // lista con las primeras imagenes de los grupos de camaras
         ArrayList<Imagen> primerasImagenes = new ArrayList<>();
-        Imagen paralitico = Buffers.paraliticos.getProximaImagen();
-        Imagen colombes = Buffers.colombes.getProximaImagen();
+//        Imagen paralitico = Buffers.paraliticos.getProximaImagen();
+//        Imagen colombes = Buffers.colombes.getProximaImagen();
         Imagen amsterdam = Buffers.amsterdam.getProximaImagen();
         
-        primerasImagenes.add(paralitico);
-        primerasImagenes.add(colombes);
+//        primerasImagenes.add(paralitico);
+//        primerasImagenes.add(colombes);
         primerasImagenes.add(amsterdam);
         
         // se obtiene la imagen con mayor prioridad
         Imagen prioritaria = getImagenPrioritaria(primerasImagenes);
         
-        if (paralitico != null && prioritaria.getIdImagen().equals(primerasImagenes.get(0).getIdImagen())) {
-            return Buffers.paraliticos.eliminarImagen();            
-        } else if (colombes != null && prioritaria.getIdImagen().equals(primerasImagenes.get(1).getIdImagen())) {
-            return Buffers.colombes.eliminarImagen(); 
-        } else if (amsterdam != null && prioritaria.getIdImagen().equals(primerasImagenes.get(2).getIdImagen())) {
+//        if (paralitico != null && prioritaria.getIdImagen().equals(primerasImagenes.get(0).getIdImagen())) {
+//            return Buffers.paraliticos.eliminarImagen();            
+//        } else if (colombes != null && prioritaria.getIdImagen().equals(primerasImagenes.get(1).getIdImagen())) {
+//            return Buffers.colombes.eliminarImagen(); 
+//        } else 
+        if (amsterdam != null && prioritaria.getCodigo().equals(primerasImagenes.get(0).getCodigo())) {
             return Buffers.amsterdam.eliminarImagen();
         }
         return null;

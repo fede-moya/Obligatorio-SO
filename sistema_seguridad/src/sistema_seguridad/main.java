@@ -22,9 +22,9 @@ public class main {
     
     public static void main(String[] args) throws IOException {
         
-        Buffers.paraliticos = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaEspecial.txt", true, "filaEspecial");
-        Buffers.colombes = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaColombes.txt", true, "filaColombes");
-        Buffers.amsterdam = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaAmsterdam.txt", true, "filaAmsterdam");
+//        Buffers.paraliticos = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaEspecial.txt", true, "filaEspecial");
+//        Buffers.colombes = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaColombes.txt", true, "filaColombes");
+       Buffers.amsterdam = ManejadorArchivos.leerImagenes("Amsterdam.csv", true, "filaAmsterdam");
          
        Buffers.alertasANotificar = new LinkedList();
        Buffers.imagenesAProcesar = new LinkedList();
@@ -37,19 +37,23 @@ public class main {
        Thread reloj = new Thread(Reloj.getInstance());
        
          
-       Logger.instancia = new Logger("Similuacion03");
-       Logger.getInstancia().log("Fefito is on fire !!!!");
-       Logger.getInstancia().log("que facil la vida!!!!");
+       Logger.instancia = new Logger("Similuacion01");
+       Logger.getInstancia().log("Inicio simulacion");
        
-        // Se inician todos los hilos        
-        // Hilo del reloj
         reloj.start();
-        // Hilo del receptor de imagenes
+
         receptorImagenThread.start();
-        // Hilo del procesador de imagenes
-//        procesadorImagenTrhead.start();
-        // Hilo del notificador
-//        notificadorThread.start();
+
+
+        while ( Reloj.getInstance().getMomentoActual()<=3){
+            System.out.println(Reloj.getInstance().getMomentoActual());
+        };
+        System.out.println("Se ejecuto");
+        procesadorImagenTrhead.start();
+        while ( Reloj.getInstance().getMomentoActual()<=5){
+            System.out.println(Reloj.getInstance().getMomentoActual());
+        };
+        notificadorThread.start();
         
     }
 }

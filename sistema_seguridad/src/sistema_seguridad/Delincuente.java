@@ -20,6 +20,30 @@ public class Delincuente {
         this.ci = ci;
         this.codigoCara = codigoCara;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Integer getCi() {
+        return ci;
+    }
+
+    public void setCi(Integer ci) {
+        this.ci = ci;
+    }
+
+    public String getCodigoCara() {
+        return codigoCara;
+    }
+
+    public void setCodigoCara(String codigoCara) {
+        this.codigoCara = codigoCara;
+    }
     
     
     

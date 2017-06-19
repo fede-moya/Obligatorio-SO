@@ -5,9 +5,11 @@
  */
 package sistema_seguridad;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Queue;
+import java.util.logging.Level;
 
 /**
  *
@@ -40,18 +42,28 @@ public class ProcesadorImagen implements Runnable {
     }
     @Override
     public void run() {
-        Imagen imagen = Buffers.imagenesAProcesar.peek();
-        if (imagen!=null) procesar(imagen);
+        while(true){
+            try {
+            Imagen imagen = Buffers.imagenesAProcesar.poll();
+            
+            if (imagen!=null) procesar(imagen);
+        } catch (IOException ex) {
+            java.util.logging.Logger.getLogger(ProcesadorImagen.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        }
+        
         
     }
     
-    public void procesar(Imagen imagen){
+    public void procesar(Imagen imagen) throws IOException{
         String patron = codigosImagenes.get(imagen.getCodigo());
         if (patron!=null){
             String[] delincuenteEncontrado = delincuentes.get(patron);
             Delincuente delincuente = new Delincuente(delincuenteEncontrado[0],Integer.getInteger(delincuenteEncontrado[1]),delincuenteEncontrado[3]);
             Alerta alerta  = new Alerta(imagen,delincuente,Reloj.getInstance().getMomentoActual());
             Buffers.alertasANotificar.add(alerta);
+            Logger.getInstancia().log("Alerta agregada "+ alerta.getPersona().getNombre());
+            
         }
     }
     
