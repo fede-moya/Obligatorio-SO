@@ -13,8 +13,8 @@ import java.util.Queue;
  * @author federico
  */
 public class GrupoCamara {
-    String numero;
-    Queue<Imagen> imagenes;
+    private String numero;
+    private Queue<Imagen> imagenes;
 
     public String getNumero() {
         return numero;
@@ -38,6 +38,6 @@ public class GrupoCamara {
     }
     
     public Imagen eliminarImagen() {
-        return imagenes.remove();
+        return imagenes.poll();
     }
 }

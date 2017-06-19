@@ -1,0 +1,14 @@
+idCamara,idImagen,tiempoProcesamiento,prioridad
+C4,I10,3,2
+C5,I11,2,2
+C6,I11,2,2
+C7,I12,1,2
+C8,I13,3,2
+C9,I14,2,2
+C5,I15,1,2
+C8,I16,1,2
+C7,I17,2,2
+C9,I18,1,2
+C4,I18,2,2
+C6,I19,1,2
+C7,I20,2,2

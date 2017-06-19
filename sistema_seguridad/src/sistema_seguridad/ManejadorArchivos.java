@@ -48,19 +48,20 @@ public class ManejadorArchivos {
         return listaLineasArchivo.toArray(new String[0]);
     }
     
-    public static List<Imagen> leerImagenes(String nomArch, boolean ignoreHeader){
+    public static GrupoCamara leerImagenes(String nomArch, boolean ignoreHeader, String id){
+        GrupoCamara grupoCamara = new GrupoCamara(id);
         List<Imagen> imagenes = new ArrayList<>();
         
         String[] imagenesLeidas = leerArchivo(nomArch, ignoreHeader);
         
         for (String linea: imagenesLeidas) {
             if ((linea != null) && (!linea.trim().equals(""))) {
-                String[] datos = linea.split(";");
-//                Imagen imagen = new Imagen(datos[0], Integer.parseInt(datos[1]), Integer.parseInt(datos[2]), Integer.parseInt(datos[3]));
+                String[] datos = linea.split(",");
+                Imagen imagen = new Imagen(datos[0], datos[1], Integer.parseInt(datos[2]), Integer.parseInt(datos[3]));
             
-//                imagenes.add(imagen);
+                grupoCamara.getImagenes().add(imagen);
             }
         }
-        return imagenes;
+        return grupoCamara;
     }
 }

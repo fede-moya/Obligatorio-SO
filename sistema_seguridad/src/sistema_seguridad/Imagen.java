@@ -12,6 +12,8 @@ package sistema_seguridad;
 public class Imagen {
     private String idCamara;
     
+    private String idImagen;
+    
     // Representa la cantidad de momentos que necesita el ProcesadorImagen para procesar esta imagen
     private Integer tiempoProcesamiento;
     // Representa el momento en que la imagen ingresa al sistema, este atributo 
@@ -25,17 +27,29 @@ public class Imagen {
     // tiempo que espera en cola para 
     private Integer tiempoEsperando;
 
-    public Imagen(String idCamara, Integer tiempoProcesamiento, Integer momentoGeneracion, Integer momentoLeida, Integer prioridad) {
+    public Imagen(String idCamara, String idImagen, Integer tiempoProcesamiento, 
+            Integer prioridad) {
         this.idCamara = idCamara;
+        this.idImagen = idImagen;
         this.tiempoProcesamiento = tiempoProcesamiento;
-        this.momentoGeneracion = momentoGeneracion;
-        this.momentoLeida = momentoLeida;
         this.prioridad = prioridad;
         this.tiempoEsperando = 0;
     }
     
     public String getIdCamara() {
         return idCamara;
+    }
+    
+    public String getIdImagen() {
+        return idImagen;
+    }
+
+    public Integer getTiempoEsperando() {
+        return tiempoEsperando;
+    }
+    
+    public void setTiempoEsperando(int tiempo) {
+        this.tiempoEsperando = tiempo;
     }
 
     public Integer getTiempoProcesamiento() {
@@ -45,9 +59,17 @@ public class Imagen {
     public Integer getMomentoGeneracion() {
         return momentoGeneracion;
     }
+    
+    public void setMomentoGeneracion(int momento) {
+        this.momentoGeneracion = momentoGeneracion;
+    }
 
     public Integer getMomentoLeida() {
         return momentoLeida;
+    }
+    
+    public void setMomentoLeida(int momento) {
+        this.momentoLeida = momento;
     }
 
     public Integer getPrioridad() {

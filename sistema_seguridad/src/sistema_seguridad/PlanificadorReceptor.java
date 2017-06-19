@@ -16,20 +16,25 @@ public class PlanificadorReceptor {
     public static Imagen getProximaImagen(){
         // lista con las primeras imagenes de los grupos de camaras
         ArrayList<Imagen> primerasImagenes = new ArrayList<>();
-        primerasImagenes.add(Buffers.paraliticos.getProximaImagen());
-        primerasImagenes.add(Buffers.colombes.getProximaImagen());
-        primerasImagenes.add(Buffers.amsterdam.getProximaImagen());
+        Imagen paralitico = Buffers.paraliticos.getProximaImagen();
+        Imagen colombes = Buffers.colombes.getProximaImagen();
+        Imagen amsterdam = Buffers.amsterdam.getProximaImagen();
+        
+        primerasImagenes.add(paralitico);
+        primerasImagenes.add(colombes);
+        primerasImagenes.add(amsterdam);
         
         // se obtiene la imagen con mayor prioridad
         Imagen prioritaria = getImagenPrioritaria(primerasImagenes);
         
-        if (prioritaria.getIdCamara().equals(primerasImagenes.get(0).getIdCamara())) {
+        if (paralitico != null && prioritaria.getIdImagen().equals(primerasImagenes.get(0).getIdImagen())) {
             return Buffers.paraliticos.eliminarImagen();            
-        } else if (prioritaria.getIdCamara().equals(primerasImagenes.get(1).getIdCamara())) {
+        } else if (colombes != null && prioritaria.getIdImagen().equals(primerasImagenes.get(1).getIdImagen())) {
             return Buffers.colombes.eliminarImagen(); 
-        } else {
+        } else if (amsterdam != null && prioritaria.getIdImagen().equals(primerasImagenes.get(2).getIdImagen())) {
             return Buffers.amsterdam.eliminarImagen();
-        }     
+        }
+        return null;
     }
     
     // busca entre las imagenes la de mayor prioridad
@@ -39,7 +44,7 @@ public class PlanificadorReceptor {
         int prioridadMaxima = 4;
         
         for (Imagen imagen : primerasImagenes) {
-            if (imagen.getPrioridad() < prioridadMaxima) {
+            if (imagen != null && imagen.getPrioridad() < prioridadMaxima) {
                 imagenPrioridadMaxima = imagen;
                 prioridadMaxima = imagen.getPrioridad();
             }

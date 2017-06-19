@@ -60,7 +60,7 @@ public class Reloj implements Runnable {
                 Reloj.getInstance().setMomentoActual(Reloj.getInstance().getMomentoActual()+1);
                 try {
                     Thread.sleep(velocidad);
-                    System.out.println(Reloj.getInstance().getMomentoActual());
+//                    System.out.println(Reloj.getInstance().getMomentoActual());
                     
                 } catch (InterruptedException ex) {
 //                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
