@@ -26,6 +26,7 @@ public class ProcesadorImagen implements Runnable {
             
                 
             if (imagen!=null) {
+                Thread.sleep(imagen.getTiempoProcesamiento()*Reloj.getInstance().getVelocidad());
 //                try {
 //                    imagen.setMomentoLeida(Reloj.getInstance().getMomentoActual());
 //                    //Thread.sleep(imagen.getTiempoProcesamiento()*Reloj.getInstance().getVelocidad());
@@ -34,13 +35,14 @@ public class ProcesadorImagen implements Runnable {
                 procesar(imagen);
             }        
             } catch (IOException ex) {
+            } catch (InterruptedException ex) {
             }
         }
         
         
     }
     
-    public void procesar(Imagen imagen) throws IOException{
+    public synchronized void procesar(Imagen imagen) throws IOException{
         Delincuente delincuente = BaseDatosDelincuente.getInstance().esDelincuente(imagen);
         if (delincuente!=null){
             Alerta alerta  = new Alerta(imagen,delincuente,Reloj.getInstance().getMomentoActual());

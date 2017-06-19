@@ -15,7 +15,7 @@ import java.util.logging.Level;
 public class ReceptorImagen implements Runnable{
 
     @Override
-    public void run() {
+    public synchronized void run() {
         while (true) {       
             Imagen proximaImagen = PlanificadorReceptor.getProximaImagen();
             if (proximaImagen != null) {
