@@ -49,7 +49,7 @@ public class Alerta {
         this.momentoNotificada = momentoNotificada;
     }
 
-    public Alerta(Imagen requerido,Delincuente persona, Integer momentoGeneracion, Integer momentoNotificada) {
+    public Alerta(Imagen requerido,Delincuente persona, Integer momentoGeneracion) {
         this.requerido = requerido;
         this.momentoGeneracion = momentoGeneracion;
         this.momentoNotificada = momentoNotificada;

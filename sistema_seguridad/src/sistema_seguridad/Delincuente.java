@@ -14,5 +14,13 @@ public class Delincuente {
     String nombre;
     Integer ci;
     String codigoCara;
+
+    public Delincuente(String nombre, Integer ci, String codigoCara) {
+        this.nombre = nombre;
+        this.ci = ci;
+        this.codigoCara = codigoCara;
+    }
+    
+    
     
 }
