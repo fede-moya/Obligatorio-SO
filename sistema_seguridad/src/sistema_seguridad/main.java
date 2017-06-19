@@ -6,9 +6,7 @@
 package sistema_seguridad;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  *
@@ -18,6 +16,7 @@ public class main {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     
     public static void main(String[] args) throws IOException {

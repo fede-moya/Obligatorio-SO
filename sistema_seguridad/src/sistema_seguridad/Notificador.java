@@ -24,7 +24,7 @@ public class Notificador implements Runnable {
         }
     }
     
-    private void notificar() throws IOException{
+    private synchronized void notificar() throws IOException{
         if(!Buffers.alertasANotificar.isEmpty())
         {
             Alerta notificacion = Buffers.alertasANotificar.poll();
