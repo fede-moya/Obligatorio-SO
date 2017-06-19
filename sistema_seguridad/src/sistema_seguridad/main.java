@@ -40,19 +40,12 @@ public class main {
        Logger.instancia = new Logger("Similuacion01");
        Logger.getInstancia().log("Inicio simulacion");
        
-        reloj.start();
+       reloj.start();
 
         receptorImagenThread.start();
 
-
-        while ( Reloj.getInstance().getMomentoActual()<=3){
-            System.out.println(Reloj.getInstance().getMomentoActual());
-        };
-        System.out.println("Se ejecuto");
         procesadorImagenTrhead.start();
-        while ( Reloj.getInstance().getMomentoActual()<=5){
-            System.out.println(Reloj.getInstance().getMomentoActual());
-        };
+
         notificadorThread.start();
         
     }
