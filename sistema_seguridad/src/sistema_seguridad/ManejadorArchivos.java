@@ -1,11 +1,12 @@
+package sistema_seguridad;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistema_seguridad;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -47,4 +48,20 @@ public class ManejadorArchivos {
         return listaLineasArchivo.toArray(new String[0]);
     }
     
+    public static GrupoCamara leerImagenes(String nomArch, boolean ignoreHeader, String id){
+        GrupoCamara grupoCamara = new GrupoCamara(id);
+        List<Imagen> imagenes = new ArrayList<>();
+        
+        String[] imagenesLeidas = leerArchivo(nomArch, ignoreHeader);
+        
+        for (String linea: imagenesLeidas) {
+            if ((linea != null) && (!linea.trim().equals(""))) {
+                String[] datos = linea.split(",");
+                Imagen imagen = new Imagen(datos[0], datos[1], Integer.parseInt(datos[2]), Integer.parseInt(datos[3]));
+            
+                grupoCamara.getImagenes().add(imagen);
+            }
+        }
+        return grupoCamara;
+    }
 }

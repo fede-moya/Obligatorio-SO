@@ -15,5 +15,7 @@ public class Buffers {
     public static Queue<Imagen> imagenesAProcesar;
     public static Queue<Alerta> alertasANotificar;
     
-    
+    public static GrupoCamara amsterdam;
+    public static GrupoCamara colombes;
+    public static GrupoCamara paraliticos;
 }
