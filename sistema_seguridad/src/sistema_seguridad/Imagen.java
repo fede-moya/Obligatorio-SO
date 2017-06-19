@@ -51,6 +51,12 @@ public class Imagen {
     public void setTiempoEsperando(int tiempo) {
         this.tiempoEsperando = tiempo;
     }
+    // representa el momento en el que la imagen fue retirada del buffer de imagenes, para ser p
+    // procesada
+
+    public void setIdCamara(String idCamara) {
+        this.idCamara = idCamara;
+    }
 
     public Integer getTiempoProcesamiento() {
         return tiempoProcesamiento;
@@ -60,7 +66,11 @@ public class Imagen {
         return momentoGeneracion;
     }
     
-    public void setMomentoGeneracion(int momento) {
+    public void setTiempoProcesamiento(Integer tiempoProcesamiento) {
+        this.tiempoProcesamiento = tiempoProcesamiento;
+    }
+
+    public void setMomentoGeneracion(Integer momentoGeneracion) {
         this.momentoGeneracion = momentoGeneracion;
     }
 
@@ -68,8 +78,8 @@ public class Imagen {
         return momentoLeida;
     }
     
-    public void setMomentoLeida(int momento) {
-        this.momentoLeida = momento;
+    public void setMomentoLeida(Integer momentoLeida) {
+        this.momentoLeida = momentoLeida;
     }
 
     public Integer getPrioridad() {
