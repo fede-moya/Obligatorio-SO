@@ -12,13 +12,23 @@ package sistema_seguridad;
 public class Delincuente {
     
     String nombre;
+    String apellido;
     Integer ci;
     String codigoCara;
 
-    public Delincuente(String nombre, Integer ci, String codigoCara) {
+    public Delincuente(String nombre,String apellido, Integer ci, String codigoCara) {
         this.nombre = nombre;
+        this.apellido = apellido;
         this.ci = ci;
         this.codigoCara = codigoCara;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
     public String getNombre() {

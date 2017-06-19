@@ -6,7 +6,6 @@
 package sistema_seguridad;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 /**
  *
@@ -20,7 +19,7 @@ public class Notificador implements Runnable {
             try {
                 notificar();
             } catch (IOException ex) {
-                java.util.logging.Logger.getLogger(Notificador.class.getName()).log(Level.SEVERE, null, ex);
+                
             }
         }
     }
