@@ -32,7 +32,7 @@ public class ProcesadorImagen implements Runnable {
     }
     
     public void procesar(Imagen imagen){
-        String patron = codigosImagenes.get(imagen.codigo);
+        String patron = codigosImagenes.get(imagen.getCodigo());
     }
     
 }

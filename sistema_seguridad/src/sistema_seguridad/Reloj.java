@@ -17,7 +17,7 @@ import java.util.logging.Level;
 public class Reloj implements Runnable {
     public static Reloj instance = null;
     public static int velocidad = 1000;
-    private long momentoActual;
+    private int momentoActual;
     
 
     public int getVelocidad() {
@@ -34,11 +34,11 @@ public class Reloj implements Runnable {
         this.momentoActual = 0;
     }
 
-    public long getMomentoActual() {
+    public int getMomentoActual() {
         return momentoActual;
     }
 
-    public void setMomentoActual(long momentoActual) {
+    public void setMomentoActual(int momentoActual) {
         this.momentoActual = momentoActual;
     }
     

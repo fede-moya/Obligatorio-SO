@@ -10,10 +10,52 @@ package sistema_seguridad;
  * @author federico
  */
 public class Alerta {
-    Imagen requerido;
+    private Imagen requerido;
     // representa el momento en que se creo la alerta
-    Integer momentoGeneracion;
+    private Integer momentoGeneracion;
     // representa el momento en que la alerta se retiro del buffer de alertas
-    Integer momentoNotificada;
+    private Integer momentoNotificada;
+    private Delincuente persona;
+
+    public Delincuente getPersona() {
+        return persona;
+    }
+
+    public void setPersona(Delincuente persona) {
+        this.persona = persona;
+    }
+
+    public Imagen getRequerido() {
+        return requerido;
+    }
+
+    public void setRequerido(Imagen requerido) {
+        this.requerido = requerido;
+    }
+
+    public Integer getMomentoGeneracion() {
+        return momentoGeneracion;
+    }
+
+    public void setMomentoGeneracion(Integer momentoGeneracion) {
+        this.momentoGeneracion = momentoGeneracion;
+    }
+
+    public Integer getMomentoNotificada() {
+        return momentoNotificada;
+    }
+
+    public void setMomentoNotificada(Integer momentoNotificada) {
+        this.momentoNotificada = momentoNotificada;
+    }
+
+    public Alerta(Imagen requerido,Delincuente persona, Integer momentoGeneracion, Integer momentoNotificada) {
+        this.requerido = requerido;
+        this.momentoGeneracion = momentoGeneracion;
+        this.momentoNotificada = momentoNotificada;
+        this.persona = persona;
+    }
+    
+    
     
 }
