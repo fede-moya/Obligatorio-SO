@@ -81,11 +81,11 @@ public class Imagen {
     }
 
 
-    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento, Integer prioridad) {
+    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento) {
         this.idCamara = idCamara;
         this.codigo = codigo;
         this.tiempoProcesamiento = tiempoProcesamiento;
-        this.prioridad = prioridad;
+        this.prioridad = 4;
         this.tiempoEsperando = 0;
  //        this.idCamara = idCamara;
 //        this.tiempoProcesamiento = tiempoProcesamiento;
