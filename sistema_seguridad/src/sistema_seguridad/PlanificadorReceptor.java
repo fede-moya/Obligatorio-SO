@@ -26,7 +26,7 @@ public class PlanificadorReceptor {
         if (amsterdam != null && prioritaria.getCodigo().equals(primerasImagenes.get(0).getCodigo())) {
             result = Buffers.amsterdam.eliminarImagen();
         }
-        if (result.getMomentoGeneracion() + result.getTiempoEsperando() != Reloj.getInstance().getMomentoActual()) {
+        if (result != null && result.getMomentoGeneracion() + result.getTiempoEsperando() != Reloj.getInstance().getMomentoActual()) {
             subirPrioridad();
         }
         return result;

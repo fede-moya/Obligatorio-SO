@@ -88,6 +88,7 @@ public class Imagen {
         this.tiempoProcesamiento = tiempoProcesamiento;
         this.prioridad = 4;
         this.tiempoEsperando = 0;
+        this.momentoGeneracion = Reloj.getInstance().getMomentoActual();
     }
     
     public Integer getPrioridad() {
