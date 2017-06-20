@@ -6,10 +6,6 @@
 package sistema_seguridad;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Queue;
-import java.util.logging.Level;
 
 /**
  *
