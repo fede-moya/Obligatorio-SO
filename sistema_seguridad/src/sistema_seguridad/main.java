@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.concurrent.Semaphore;
 
 /**
  *
@@ -30,10 +31,20 @@ public class main {
         Buffers.olimpica = new GrupoCamara();
         Buffers.especiales = new GrupoCamara();
 
-        //     Hilos del sistema
-        Thread receptorImagenThread = new Thread(new ReceptorImagen());
-        Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen());
-        Thread notificadorThread = new Thread(new Notificador());
+        
+        //      Se cargan los datos
+        BaseDatos.getInstance();
+        
+        //      Se inicializan los semaforos
+        Semaphore semImagen = new Semaphore(1);
+        Semaphore semAlerta = new Semaphore(1);
+        
+        
+         //     Hilos del sistema
+        Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagen));
+        Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagen,semAlerta));
+        Thread notificadorThread = new Thread(new Notificador(semAlerta));
+
         Thread reloj = new Thread(Reloj.getInstance());
 
         Logger.instancia = new Logger("Similuacion01");

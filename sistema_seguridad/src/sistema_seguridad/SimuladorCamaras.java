@@ -95,7 +95,7 @@ break;
             while (lineaActual != null) {
                 capturadas++;
                 if (capturadas == 5) {
-                    Thread.sleep(100);
+                    Thread.sleep(1);
                     capturadas = 0;
                 }
                 linea = lineaActual.split(",");

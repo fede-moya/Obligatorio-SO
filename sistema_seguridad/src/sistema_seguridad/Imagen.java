@@ -85,7 +85,7 @@ public class Imagen {
         this.idCamara = idCamara;
         this.codigo = codigo;
         this.tiempoProcesamiento = tiempoProcesamiento;
-        this.prioridad = 4;
+        this.prioridad = BaseDatos.getInstance().getPrioridad(idCamara);
         this.tiempoEsperando = 0;
         this.momentoGeneracion = Reloj.getInstance().getMomentoActual();
     }

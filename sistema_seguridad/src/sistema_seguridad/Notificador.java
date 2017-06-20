@@ -6,6 +6,9 @@
 package sistema_seguridad;
 
 import java.io.IOException;
+import java.util.concurrent.Semaphore;
+import java.util.logging.Level;
+
 
 /**
  *
@@ -13,28 +16,38 @@ import java.io.IOException;
  */
 public class Notificador implements Runnable {
     
+    private Semaphore semAlerta;
+    
     @Override
     public void run() {
         while(true){
             try {
                 notificar();
-            } catch (IOException ex) {
+            } catch (IOException | InterruptedException ex) {
                 
             }
         }
     }
     
-    private void notificar() throws IOException{
+    private void notificar() throws IOException, InterruptedException{
         if(!Buffers.alertasANotificar.isEmpty())
         {
+            semAlerta.acquireUninterruptibly();
             Alerta notificacion = Buffers.alertasANotificar.poll();
             notificacion.setMomentoNotificada(Reloj.getInstance().getMomentoActual());
             Imagen imagen  = notificacion.getRequerido();
             String idTablet = "D" + imagen.getIdCamara().substring(1, imagen.getIdCamara().length());
             String texto = "Se ha enviado la alerta al dispositivo: "+idTablet;
             Logger.getInstancia().log(texto);
+            semAlerta.release();
         }
         
     }
+
+    public Notificador(Semaphore semAlerta) {
+        this.semAlerta = semAlerta;
+    }
+    
+    
     
 }

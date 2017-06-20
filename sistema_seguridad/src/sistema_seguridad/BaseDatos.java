@@ -71,4 +71,8 @@ public class BaseDatos {
         }
         return delincuente;
     }
+    
+    public int getPrioridad(String idCamara){
+        return camaras.get(idCamara).getPrioridad();
+    }
 }
