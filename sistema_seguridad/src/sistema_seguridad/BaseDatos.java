@@ -14,16 +14,18 @@ import java.util.Map;
  *
  * @author federico
  */
-public class BaseDatosDelincuente {
+public class BaseDatos {
     
     private  Map<String,String> codigosImagenes;
     private  Map<String,Delincuente> delincuentes;
+    private  Map<String,Camara> camaras;
     
-    private static BaseDatosDelincuente instance = null;
     
-    public static BaseDatosDelincuente getInstance(){
+    private static BaseDatos instance = null;
+    
+    public static BaseDatos getInstance(){
         if (instance ==null){
-            instance = new BaseDatosDelincuente();
+            instance = new BaseDatos();
             instance.cargarDatos();
         }
         return instance;
@@ -32,6 +34,7 @@ public class BaseDatosDelincuente {
     private void cargarDatos(){
         codigosImagenes = new HashMap();
         delincuentes = new HashMap();
+        camaras = new HashMap();
         // inicializa el arraylist de delincuente
         String[] datos = ManejadorArchivos.leerArchivo("Delincuentes.csv", true);
         if(datos.length > 0)
@@ -47,6 +50,16 @@ public class BaseDatosDelincuente {
         for (int i = 0; i < codigoImagenesPatrones.length; i++) {
             String[] codigoPatron = codigoImagenesPatrones[i].split(",");
             codigosImagenes.put(codigoPatron[0], codigoPatron[1]);
+        }
+        
+        String[] camarasLeidas = ManejadorArchivos.leerArchivo("PrioridadCamaras.csv", true);
+        if(camarasLeidas.length > 0)
+        {
+            for(String camara : camarasLeidas)
+            {
+                String[] atributos = camara.split(",");
+                camaras.put(atributos[0],new Camara(atributos[0],Integer.parseInt(atributos[1])));
+            }
         }
     }
 

@@ -41,7 +41,7 @@ public class ProcesadorImagen implements Runnable {
     }
     
     public void procesar(Imagen imagen) throws IOException{
-        Delincuente delincuente = BaseDatosDelincuente.getInstance().esDelincuente(imagen);
+        Delincuente delincuente = BaseDatos.getInstance().esDelincuente(imagen);
         if (delincuente!=null){
             Alerta alerta  = new Alerta(imagen,delincuente,Reloj.getInstance().getMomentoActual());
             Buffers.alertasANotificar.add(alerta);
