@@ -47,5 +47,4 @@ public class ManejadorArchivos {
 
         return listaLineasArchivo.toArray(new String[0]);
     }
-    
 }

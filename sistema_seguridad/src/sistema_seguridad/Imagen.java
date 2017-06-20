@@ -47,9 +47,9 @@ public class Imagen {
     public void setTiempoEsperando(int tiempo) {
         if (this.tiempoEsperando + tiempo == 3) {
             this.tiempoEsperando = 0;
-            setPrioridad(1);
+            aumentarPrioridad(1);
         } else {
-            this.tiempoEsperando = tiempo;
+            this.tiempoEsperando += tiempo;
         }
     }
 
@@ -81,7 +81,6 @@ public class Imagen {
         this.momentoLeida = momentoLeida;
     }
 
-
     public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento) {
         this.idCamara = idCamara;
         this.codigo = codigo;
@@ -90,13 +89,17 @@ public class Imagen {
         this.tiempoEsperando = 0;
         this.momentoGeneracion = Reloj.getInstance().getMomentoActual();
     }
-    
+
     public Integer getPrioridad() {
         return prioridad;
 
     }
 
     public void setPrioridad(Integer prioridad) {
-        this.prioridad += prioridad;
+        this.prioridad = prioridad;
+    }
+
+    public void aumentarPrioridad(Integer aumento) {
+        this.prioridad += aumento;
     }
 }

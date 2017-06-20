@@ -5,6 +5,7 @@
  */
 package sistema_seguridad;
 
+import java.nio.Buffer;
 import java.util.ArrayList;
 
 /**
@@ -17,16 +18,33 @@ public class PlanificadorReceptor {
         // lista con las primeras imagenes de los grupos de camaras
         ArrayList<Imagen> primerasImagenes = new ArrayList<>();
         Imagen amsterdam = Buffers.amsterdam.getProximaImagen();
+        Imagen colombes = Buffers.colombes.getProximaImagen();
+        Imagen especial = Buffers.especiales.getProximaImagen();
+        Imagen olimpica = Buffers.olimpica.getProximaImagen();
+        Imagen america = Buffers.america.getProximaImagen();
 
+        primerasImagenes.add(america);
+        primerasImagenes.add(olimpica);
         primerasImagenes.add(amsterdam);
+        primerasImagenes.add(colombes);
+        primerasImagenes.add(especial);
 
         // se obtiene la imagen con mayor prioridad
         Imagen prioritaria = getImagenPrioritaria(primerasImagenes);
         Imagen result = null;
-        if (amsterdam != null && prioritaria.getCodigo().equals(primerasImagenes.get(0).getCodigo())) {
+        if (america != null && prioritaria.getCodigo().equals(primerasImagenes.get(0).getCodigo())) {
+            result = Buffers.america.eliminarImagen();
+        } else if (olimpica != null && prioritaria.getCodigo().equals(primerasImagenes.get(1).getCodigo())) {
+            result = Buffers.olimpica.eliminarImagen();
+        } else if (amsterdam != null && prioritaria.getCodigo().equals(primerasImagenes.get(2).getCodigo())) {
             result = Buffers.amsterdam.eliminarImagen();
+        } else if (colombes != null && prioritaria.getCodigo().equals(primerasImagenes.get(3).getCodigo())) {
+            result = Buffers.colombes.eliminarImagen();
+        } else {
+            result = Buffers.especiales.eliminarImagen();
         }
         if (result != null && result.getMomentoGeneracion() + result.getTiempoEsperando() != Reloj.getInstance().getMomentoActual()) {
+
             subirPrioridad();
         }
         return result;
@@ -37,7 +55,7 @@ public class PlanificadorReceptor {
 
         Imagen imagenPrioridadMaxima = null;
         int prioridadMaxima = 0;
-        
+
         for (Imagen imagen : primerasImagenes) {
             if (imagen != null && imagen.getPrioridad() > prioridadMaxima) {
                 imagenPrioridadMaxima = imagen;
@@ -55,6 +73,12 @@ public class PlanificadorReceptor {
             imagen.setTiempoEsperando(1);
         }
         for (Imagen imagen : Buffers.especiales.getImagenes()) {
+            imagen.setTiempoEsperando(1);
+        }
+        for (Imagen imagen : Buffers.olimpica.getImagenes()) {
+            imagen.setTiempoEsperando(1);
+        }
+        for (Imagen imagen : Buffers.america.getImagenes()) {
             imagen.setTiempoEsperando(1);
         }
     }
