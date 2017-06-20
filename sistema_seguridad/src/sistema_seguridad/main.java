@@ -21,31 +21,43 @@ public class main {
     
     public static void main(String[] args) throws IOException {
         
-//        Buffers.paraliticos = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaEspecial.txt", true, "filaEspecial");
-//        Buffers.colombes = ManejadorArchivos.leerImagenes("src/sistema_seguridad/filaColombes.txt", true, "filaColombes");
-       Buffers.amsterdam = ManejadorArchivos.leerImagenes("Amsterdam.csv", true, "filaAmsterdam");
-         
-       Buffers.alertasANotificar = new LinkedList();
-       Buffers.imagenesAProcesar = new LinkedList();
-       
 
-        // Se crean hilos
-       Thread receptorImagenThread = new Thread(new ReceptorImagen());
-       Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen());
-       Thread notificadorThread = new Thread(new Notificador());
-       Thread reloj = new Thread(Reloj.getInstance());
-       
-         
-       Logger.instancia = new Logger("Similuacion01");
-       Logger.getInstancia().log("Inicio simulacion");
-       
-       reloj.start();
+        Buffers.alertasANotificar = new LinkedList();
+        Buffers.imagenesAProcesar = new LinkedList();
+        Buffers.amsterdam = new GrupoCamara();
+        Buffers.colombes = new GrupoCamara();
+        Buffers.america = new GrupoCamara();
+        Buffers.olimpica = new GrupoCamara();
+        Buffers.especiales = new GrupoCamara();
 
+
+         //     Hilos del sistema
+        Thread receptorImagenThread = new Thread(new ReceptorImagen());
+        Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen());
+        Thread notificadorThread = new Thread(new Notificador());
+        Thread reloj = new Thread(Reloj.getInstance());
+
+        Logger.instancia = new Logger("Similuacion01");
+        
+
+        reloj.start();
         receptorImagenThread.start();
-
         procesadorImagenTrhead.start();
-
         notificadorThread.start();
+        
+        //       Hilos de la simulacion
+       Thread camarasAmsterdam = new Thread(new SimuladorCamaras("Amsterdam"));
+       Thread camarasColombes = new Thread(new SimuladorCamaras("Colombes"));
+       Thread camarasOlimpica = new Thread(new SimuladorCamaras("America"));
+       Thread camarasAmerica = new Thread(new SimuladorCamaras("Olimpica"));
+       Thread camarasEspeciales = new Thread(new SimuladorCamaras("Especiales"));
+       
+       Logger.getInstancia().log("Se inician hilos de simulacion");
+       camarasAmsterdam.start();
+       camarasColombes.start();
+       camarasOlimpica.start();
+       camarasAmerica.start();
+       camarasEspeciales.start();
         
     }
 }

@@ -14,8 +14,9 @@ import java.util.Queue;
 public class Buffers {
     public static Queue<Imagen> imagenesAProcesar;
     public static Queue<Alerta> alertasANotificar;
-    
     public static GrupoCamara amsterdam;
     public static GrupoCamara colombes;
-    public static GrupoCamara paraliticos;
+    public static GrupoCamara olimpica;
+    public static GrupoCamara america;
+    public static GrupoCamara especiales;
 }

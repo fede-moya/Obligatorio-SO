@@ -36,14 +36,6 @@ public class Imagen {
     // tiempo que espera en cola para 
     private Integer tiempoEsperando;
 
-    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento, Integer prioridad) {
-        this.idCamara = idCamara;
-        this.codigo = codigo;
-        this.tiempoProcesamiento = tiempoProcesamiento;
-        this.prioridad = prioridad;
-        this.tiempoEsperando = 0;
-    }
-
     public String getIdCamara() {
         return idCamara;
     }
@@ -89,6 +81,15 @@ public class Imagen {
         this.momentoLeida = momentoLeida;
     }
 
+
+    public Imagen(String idCamara, String codigo, Integer tiempoProcesamiento) {
+        this.idCamara = idCamara;
+        this.codigo = codigo;
+        this.tiempoProcesamiento = tiempoProcesamiento;
+        this.prioridad = 4;
+        this.tiempoEsperando = 0;
+    }
+    
     public Integer getPrioridad() {
         return prioridad;
 

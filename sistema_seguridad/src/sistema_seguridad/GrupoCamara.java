@@ -20,8 +20,7 @@ public class GrupoCamara {
         return numero;
     }
 
-    public GrupoCamara(String numero) {
-        this.numero = numero;
+    public GrupoCamara() {
         this.imagenes = new LinkedList<Imagen>();
     }
 
