@@ -42,10 +42,10 @@ public class PlanificadorReceptor {
     private static Imagen getImagenPrioritaria(ArrayList<Imagen> primerasImagenes) {
         
         Imagen imagenPrioridadMaxima = null;
-        int prioridadMaxima = 4;
+        int prioridadMaxima = 0;
         
         for (Imagen imagen : primerasImagenes) {
-            if (imagen != null && imagen.getPrioridad() < prioridadMaxima) {
+            if (imagen != null && imagen.getPrioridad() > prioridadMaxima) {
                 imagenPrioridadMaxima = imagen;
                 prioridadMaxima = imagen.getPrioridad();
             }
