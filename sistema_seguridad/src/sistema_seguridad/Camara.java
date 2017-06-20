@@ -10,6 +10,7 @@ package sistema_seguridad;
  * @author Mariela
  */
 public class Camara {
+    
     private String id;
     private int prioridad;
 
@@ -33,7 +34,6 @@ public class Camara {
         this.id = id;
         this.prioridad = prioridad;
     }
-    
     
     
 }

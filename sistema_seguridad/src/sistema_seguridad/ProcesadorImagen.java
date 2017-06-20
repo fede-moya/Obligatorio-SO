@@ -6,10 +6,6 @@
 package sistema_seguridad;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Queue;
-import java.util.logging.Level;
 
 /**
  *
@@ -26,7 +22,6 @@ public class ProcesadorImagen implements Runnable {
             
                 
             if (imagen!=null) {
-                Thread.sleep(imagen.getTiempoProcesamiento()*Reloj.getInstance().getVelocidad());
 //                try {
 //                    imagen.setMomentoLeida(Reloj.getInstance().getMomentoActual());
 //                    //Thread.sleep(imagen.getTiempoProcesamiento()*Reloj.getInstance().getVelocidad());
@@ -35,15 +30,14 @@ public class ProcesadorImagen implements Runnable {
                 procesar(imagen);
             }        
             } catch (IOException ex) {
-            } catch (InterruptedException ex) {
             }
         }
         
         
     }
     
-    public synchronized void procesar(Imagen imagen) throws IOException{
-        Delincuente delincuente = BaseDatosDelincuente.getInstance().esDelincuente(imagen);
+    public void procesar(Imagen imagen) throws IOException{
+        Delincuente delincuente = BaseDatos.getInstance().esDelincuente(imagen);
         if (delincuente!=null){
             Alerta alerta  = new Alerta(imagen,delincuente,Reloj.getInstance().getMomentoActual());
             Buffers.alertasANotificar.add(alerta);
