@@ -32,7 +32,7 @@ public class SimuladorCamaras implements Runnable {
         switch(tribuna){
             case "Amsterdam":
                 try {
-                    capturarImagenes("Amsterdam.csv",Buffers.amsterdam.getImagenes());
+                    capturarImagenes("Amsterdam30.csv",Buffers.amsterdam.getImagenes());
                 } catch (InterruptedException ex) {
 
                 } catch (IOException ex) {
@@ -42,7 +42,7 @@ break;
             case "Colombes":
                 try {
             try {
-                capturarImagenes("Colombes.csv",Buffers.colombes.getImagenes());
+                capturarImagenes("Colombes30.csv",Buffers.colombes.getImagenes());
             } catch (IOException ex) {
                 
             }
@@ -51,7 +51,7 @@ break;
                 }break;
             case "Olimpica":
                 try {
-                    capturarImagenes("Olimpica.csv",Buffers.olimpica.getImagenes());
+                    capturarImagenes("Olimpica30.csv",Buffers.olimpica.getImagenes());
                 } catch (InterruptedException ex) {
                     
                 } catch (IOException ex) {
@@ -60,7 +60,7 @@ break;
 break;
             case "America":
                 try {
-                    capturarImagenes("America.csv",Buffers.america.getImagenes());
+                    capturarImagenes("America30.csv",Buffers.america.getImagenes());
                 } catch (InterruptedException ex) {
                     
                 } catch (IOException ex) {
@@ -69,7 +69,7 @@ break;
 break;
             case "Especiales":
                 try {
-                    capturarImagenes("CamarasEspeciales.csv",Buffers.especiales.getImagenes());
+                    capturarImagenes("CamarasEspeciales30.csv",Buffers.especiales.getImagenes());
                 } catch (InterruptedException ex) {
                     
                 } catch (IOException ex) {
@@ -95,7 +95,7 @@ break;
             while (lineaActual != null) {
                 capturadas++;
                 if (capturadas == 5) {
-                    Thread.sleep(1);
+                    Thread.sleep(10);
                     capturadas = 0;
                 }
                 linea = lineaActual.split(",");

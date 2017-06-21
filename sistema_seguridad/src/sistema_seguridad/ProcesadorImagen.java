@@ -42,21 +42,18 @@ public class ProcesadorImagen implements Runnable {
     }
 
     public void procesar(Imagen imagen) throws IOException, InterruptedException {
+        
         Logger.getInstancia().log("Procesando | imagen: " + imagen.getCodigo() + 
                 " | Tiempo procesamiento: " + imagen.getTiempoProcesamiento());
-        int momentoActual = Reloj.getInstance().getMomentoActual();
         
-        
+        int momentoActual = Reloj.getInstance().getMomentoActual();        
         while(imagen.getTiempoProcesamiento() > Reloj.getInstance().getMomentoActual() - momentoActual) {
-            System.out.println(imagen.getCodigo());
-            System.out.println(momentoActual);
-            System.out.println(Reloj.getInstance().getMomentoActual() - momentoActual);
-            System.out.println(imagen.getTiempoProcesamiento());
-            System.out.println("_____________");
-//            noop();
+            // NOOP porque un while vacio no anda
+            System.out.println("");
         }
         
         Logger.getInstancia().log("Fin procesamiento | imagen: " + imagen.getCodigo());
+        
         Delincuente delincuente = BaseDatos.getInstance().esDelincuente(imagen);
         if (delincuente != null) {
             Alerta alerta = new Alerta(imagen, delincuente, Reloj.getInstance().getMomentoActual());
@@ -64,7 +61,6 @@ public class ProcesadorImagen implements Runnable {
             Buffers.alertasANotificar.add(alerta);
             Logger.getInstancia().log("Alerta agregada | " + 
                     "Persona: " + alerta.getPersona().getNombre() + " " + alerta.getPersona().getApellido());
-//            Logger.getInstancia().log("Alerta agregada " + alerta.getPersona().getNombre());
             semAlerta.release();
 
         }

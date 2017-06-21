@@ -30,17 +30,18 @@ public class Notificador implements Runnable {
     }
     
     private void notificar() throws IOException, InterruptedException{
+        System.out.println("");
         if(!Buffers.alertasANotificar.isEmpty())
         {
+            System.out.println("");
             semAlerta.acquireUninterruptibly();
             Alerta notificacion = Buffers.alertasANotificar.poll();
             notificacion.setMomentoNotificada(Reloj.getInstance().getMomentoActual());
             Imagen imagen  = notificacion.getRequerido();
             String idTablet = "D" + imagen.getIdCamara().substring(1, imagen.getIdCamara().length());
-            String texto = "Salerta enviada | " + 
+            String texto = "Alerta enviada | " + 
                     "Tablet: " + idTablet + " | "+ 
                     "Persona: " + notificacion.getPersona().getNombre() + " " + notificacion.getPersona().getApellido();
-//            String texto = "Se ha enviado la alerta al dispositivo: "+idTablet + " sobre " + imagen.get;
             Logger.getInstancia().log(texto);
             semAlerta.release();
         }

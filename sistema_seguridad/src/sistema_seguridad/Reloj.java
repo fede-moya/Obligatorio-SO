@@ -16,7 +16,7 @@ import java.util.logging.Level;
  */
 public class Reloj implements Runnable {
     public static Reloj instance = null;
-    public static int velocidad = 500;
+    public static int velocidad = 100;
     private int momentoActual;
     
 

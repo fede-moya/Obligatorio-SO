@@ -43,6 +43,7 @@ public class main {
          //     Hilos del sistema
         Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagen));
         Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagen,semAlerta));
+        Thread procesadorImagenTrhead2 = new Thread(new ProcesadorImagen(semImagen,semAlerta));
         Thread notificadorThread = new Thread(new Notificador(semAlerta));
 
         Thread reloj = new Thread(Reloj.getInstance());
@@ -52,6 +53,7 @@ public class main {
         reloj.start();
         receptorImagenThread.start();
         procesadorImagenTrhead.start();
+        procesadorImagenTrhead2.start();
         notificadorThread.start();
 
         //       Hilos de la simulacion
