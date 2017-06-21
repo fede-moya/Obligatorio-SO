@@ -11,10 +11,10 @@ package sistema_seguridad;
  */
 public class Delincuente {
     
-    String nombre;
-    String apellido;
-    Integer ci;
-    String codigoCara;
+    private String nombre;
+    private String apellido;
+    private Integer ci;
+    private String codigoCara;
 
     public Delincuente(String nombre,String apellido, Integer ci, String codigoCara) {
         this.nombre = nombre;

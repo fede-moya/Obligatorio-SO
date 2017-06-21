@@ -37,7 +37,10 @@ public class Notificador implements Runnable {
             notificacion.setMomentoNotificada(Reloj.getInstance().getMomentoActual());
             Imagen imagen  = notificacion.getRequerido();
             String idTablet = "D" + imagen.getIdCamara().substring(1, imagen.getIdCamara().length());
-            String texto = "Se ha enviado la alerta al dispositivo: "+idTablet;
+            String texto = "Salerta enviada | " + 
+                    "Tablet: " + idTablet + " | "+ 
+                    "Persona: " + notificacion.getPersona().getNombre() + " " + notificacion.getPersona().getApellido();
+//            String texto = "Se ha enviado la alerta al dispositivo: "+idTablet + " sobre " + imagen.get;
             Logger.getInstancia().log(texto);
             semAlerta.release();
         }

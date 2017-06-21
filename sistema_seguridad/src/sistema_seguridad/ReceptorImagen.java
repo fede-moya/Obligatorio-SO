@@ -26,9 +26,10 @@ public class ReceptorImagen implements Runnable{
                 try {
                     semImagen.acquire();
                     Buffers.imagenesAProcesar.add(proximaImagen);
-                    Logger.getInstancia().log("imagen " + proximaImagen.getCodigo() + " en espera de procesamiento");
+                    Logger.getInstancia().log("Lista para procesar | imagen " + proximaImagen.getCodigo());
                     semImagen.release();
                 } catch (IOException | InterruptedException ex) {
+                    System.out.println(ex.getMessage());
                 }            
             }
         }

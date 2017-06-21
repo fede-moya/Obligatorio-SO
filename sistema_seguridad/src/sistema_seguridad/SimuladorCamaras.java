@@ -99,7 +99,7 @@ break;
                     capturadas = 0;
                 }
                 linea = lineaActual.split(",");
-                imagenes.add(new Imagen(linea[0],linea[1],Integer.getInteger(linea[2])));
+                imagenes.add(new Imagen(linea[0],linea[1],Integer.parseInt(linea[2])));
                 lineaActual = br.readLine();
             }
             br.close();
