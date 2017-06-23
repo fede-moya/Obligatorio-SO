@@ -27,21 +27,22 @@ public class SimuladorCamaras implements Runnable {
 
     @Override
     public void run() {
+        
         switch(tribuna){
             case "Amsterdam":
-                capturarImagenes("Amsterdam30.csv",Buffers.amsterdam.getImagenes());
+                capturarImagenes("Amsterdam10.csv",Buffers.amsterdam.getImagenes());
                 break;
             case "Colombes":
-                capturarImagenes("Colombes30.csv",Buffers.colombes.getImagenes());
+                capturarImagenes("Colombes10.csv",Buffers.colombes.getImagenes());
                 break;
             case "Olimpica":
-                capturarImagenes("Olimpica30.csv",Buffers.olimpica.getImagenes());
+                capturarImagenes("Olimpica10.csv",Buffers.olimpica.getImagenes());
                 break;
             case "America":
-                capturarImagenes("America30.csv",Buffers.america.getImagenes());
+                capturarImagenes("America10.csv",Buffers.america.getImagenes());
                 break;
             case "Especiales":
-                capturarImagenes("CamarasEspeciales30.csv",Buffers.especiales.getImagenes());
+                capturarImagenes("CamarasEspeciales10.csv",Buffers.especiales.getImagenes());
                 break;
         }
         
