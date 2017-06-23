@@ -5,6 +5,10 @@
  */
 package sistema_seguridad;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 
 /**
  *
@@ -17,8 +21,9 @@ public class Logger {
     
      
         
-    public Logger(String nombre){
-        this.nombre = nombre;
+    public Logger(){
+        String fecha = new SimpleDateFormat("dd.MM|HH:mm").format(new Date());
+        this.nombre = "Simulaciones/"+ "Simulacion" + "_" + fecha;
         this.log("Simulacion iniciada");
     }
     public void log(String entrada){
@@ -26,6 +31,7 @@ public class Logger {
         ManejadorArchivos.escribirArchivo(nombre,base + entrada);
     }
     public static Logger getInstancia(){
+        if (instancia == null) instancia = new Logger();
         return instancia;
     }
     

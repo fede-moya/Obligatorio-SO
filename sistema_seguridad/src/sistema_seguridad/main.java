@@ -5,7 +5,6 @@
  */
 package sistema_seguridad;
 
-import java.io.IOException;
 import java.util.concurrent.Semaphore;
 
 /**
@@ -37,8 +36,6 @@ public class main {
         Thread notificadorThread = new Thread(new Notificador(semAlerta));
 
         Thread reloj = new Thread(Reloj.getInstance());
-
-        Logger.instancia = new Logger("Similuacion01");
 
         reloj.start();
         receptorImagenThread.start();
