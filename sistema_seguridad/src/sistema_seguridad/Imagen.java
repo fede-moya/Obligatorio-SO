@@ -12,6 +12,21 @@ package sistema_seguridad;
 public class Imagen {
 
     private String codigo;
+    
+    private String idCamara;
+
+    // Representa la cantidad de momentos que necesita el ProcesadorImagen para procesar esta imagen
+    private Integer tiempoProcesamiento;
+    // Representa el momento en que la imagen ingresa al sistema, este atributo 
+    // debe ser modificado unicamente por una instancia de la clase GrupoCamara
+    private Integer momentoGeneracion;
+    // representa el momento en el que la imagen fue retirada del buffer de imagenes, para ser procesada
+    private Integer momentoLeida;
+
+    private Integer prioridad;
+    
+    // tiempo que espera en cola para 
+    private Integer tiempoEsperando;
 
     public String getCodigo() {
         return codigo;
@@ -21,20 +36,7 @@ public class Imagen {
         this.codigo = codigo;
     }
 
-    private String idCamara;
-
-    // Representa la cantidad de momentos que necesita el ProcesadorImagen para procesar esta imagen
-    private Integer tiempoProcesamiento;
-    // Representa el momento en que la imagen ingresa al sistema, este atributo 
-    // debe ser modificado unicamente por una instancia de la clase GrupoCamara
-    private Integer momentoGeneracion;
-    // representa el momento en el que la imagen fue retirada del buffer de imagenes, para ser
-    // procesada
-    private Integer momentoLeida;
-
-    private Integer prioridad;
-    // tiempo que espera en cola para 
-    private Integer tiempoEsperando;
+    
 
     public String getIdCamara() {
         return idCamara;

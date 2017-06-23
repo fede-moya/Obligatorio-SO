@@ -6,7 +6,6 @@
 package sistema_seguridad;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,13 +17,14 @@ public class BaseDatos {
     
     private  static Map<String,String> codigosImagenes;
     private  static Map<String,Delincuente> delincuentes;
-    private  static Map<String,Camara> camaras;
+    private  static Map<String,Camara> prioridadCamaras;
     
     public static void cargarDatos(){
         codigosImagenes = new HashMap();
         delincuentes = new HashMap();
-        camaras = new HashMap();
-        // inicializa el arraylist de delincuente
+        prioridadCamaras = new HashMap();
+        
+        // Inicializa el hash delincuentes
         String[] datos = ManejadorArchivos.leerArchivo("Delincuentes.csv", true);
         if(datos.length > 0)
         {
@@ -35,19 +35,21 @@ public class BaseDatos {
             }
         }
         
+        // Inicializa el hash codigosImagenes
         String[] codigoImagenesPatrones = ManejadorArchivos.leerArchivo("CodigoImagenPatron.csv", true);     
         for (int i = 0; i < codigoImagenesPatrones.length; i++) {
             String[] codigoPatron = codigoImagenesPatrones[i].split(",");
             codigosImagenes.put(codigoPatron[0], codigoPatron[1]);
         }
         
+        // Inicializa el hash prioridadCamaras
         String[] camarasLeidas = ManejadorArchivos.leerArchivo("PrioridadCamaras.csv", true);
         if(camarasLeidas.length > 0)
         {
             for(String camara : camarasLeidas)
             {
                 String[] atributos = camara.split(",");
-                camaras.put(atributos[0],new Camara(atributos[0],Integer.parseInt(atributos[1])));
+                prioridadCamaras.put(atributos[0],new Camara(atributos[0],Integer.parseInt(atributos[1])));
             }
         }
     }
@@ -62,6 +64,6 @@ public class BaseDatos {
     }
     
     public static int getPrioridadCamara(String idCamara){
-        return camaras.get(idCamara).getPrioridad();
+        return prioridadCamaras.get(idCamara).getPrioridad();
     }
 }

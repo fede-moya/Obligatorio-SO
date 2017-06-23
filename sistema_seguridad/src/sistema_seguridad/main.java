@@ -1,4 +1,4 @@
-    /*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -6,9 +6,6 @@
 package sistema_seguridad;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.concurrent.Semaphore;
 
 /**
@@ -21,18 +18,19 @@ public class main {
      * @param args the command line arguments
      */
     
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Buffers.inicializarBuffers();
-
-        BaseDatos.getInstance();
         
-        //      Se inicializan los semaforos
+        // Se levantan los archivos: Delincuentes.csv, PrioridadCamaras.csv, y CodigoImagenPatron.csv
+        BaseDatos.cargarDatos();
+        
+        // Se inicializan los semaforos
         Semaphore semImagen = new Semaphore(1);
         Semaphore semAlerta = new Semaphore(1);
         
         
-         //     Hilos del sistema
+        // Hilos del sistema
         Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagen));
         Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagen,semAlerta));
         Thread procesadorImagenTrhead2 = new Thread(new ProcesadorImagen(semImagen,semAlerta));

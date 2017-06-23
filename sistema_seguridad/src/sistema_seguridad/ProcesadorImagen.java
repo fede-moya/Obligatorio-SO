@@ -7,7 +7,6 @@ package sistema_seguridad;
 
 import java.io.IOException;
 import java.util.concurrent.Semaphore;
-import java.util.logging.Level;
 
 
 /**
@@ -16,8 +15,8 @@ import java.util.logging.Level;
  */
 public class ProcesadorImagen implements Runnable {
 
-    private Semaphore semImagen;
-    private Semaphore semAlerta;
+    private final Semaphore semImagen;
+    private final Semaphore semAlerta;
 
     @Override
     public void run() {

@@ -5,9 +5,8 @@
  */
 package sistema_seguridad;
 
-import java.io.IOException;
-import java.util.logging.Level;
 import java.util.concurrent.Semaphore;
+import java.util.logging.Level;
 
 
 /**
@@ -25,12 +24,13 @@ public class ReceptorImagen implements Runnable{
             if (proximaImagen != null) {
                 try {
                     semImagen.acquire();
-                    Buffers.imagenesAProcesar.add(proximaImagen);
-                    Logger.getInstancia().log("Lista para procesar | imagen " + proximaImagen.getCodigo());
-                    semImagen.release();
-                } catch (IOException | InterruptedException ex) {
-                    System.out.println(ex.getMessage());
-                }            
+                } catch (InterruptedException ex) {
+                    java.util.logging.Logger.getLogger(ReceptorImagen.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                Buffers.imagenesAProcesar.add(proximaImagen);
+                Logger.getInstancia().log("Lista para procesar | imagen " + proximaImagen.getCodigo());
+                semImagen.release();
+                            
             }
         }
     }

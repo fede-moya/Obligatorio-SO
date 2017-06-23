@@ -5,10 +5,6 @@
  */
 package sistema_seguridad;
 
-/**
- *
- * @author Mariela
- */
 public class Camara {
     
     private String id;

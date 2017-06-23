@@ -5,11 +5,6 @@
  */
 package sistema_seguridad;
 
-import java.io.IOException;
-import java.util.logging.Level;
-
-
-
 /**
  *
  * @author federico
@@ -50,18 +45,12 @@ public class Reloj implements Runnable {
     @Override
     public void run() {
         while(true){
-            
-                Reloj.getInstance().setMomentoActual(Reloj.getInstance().getMomentoActual()+1);
-                try {
-                    Thread.sleep(velocidad);
-//                    System.out.println(Reloj.getInstance().getMomentoActual());
-                    
-                } catch (InterruptedException ex) {
-//                Logger.getLogger(Reloj.class.getName()).log(Level.SEVERE, null, ex);
-                }
-                
-                
-            
+            Reloj.getInstance().setMomentoActual(Reloj.getInstance().getMomentoActual()+1);
+            try {
+                Thread.sleep(velocidad);
+            } catch (InterruptedException ex) {
+                System.out.println(" Error tratando de poner a dormir el thread Reloj");
+            }
         }
     }
  }

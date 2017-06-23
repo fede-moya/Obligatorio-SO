@@ -1,465 +1,465 @@
 | Momento: 0|| Simulacion iniciada
-| Momento: 1|| Se inician hilos de simulacion
-| Momento: 3|| Lista para procesar | imagen WF255
-| Momento: 3|| Lista para procesar | imagen TS709
-| Momento: 3|| Procesando | imagen: TS709 | Tiempo procesamiento: 2
-| Momento: 3|| Procesando | imagen: WF255 | Tiempo procesamiento: 3
-| Momento: 3|| Lista para procesar | imagen CW532
-| Momento: 3|| Lista para procesar | imagen ZD380
-| Momento: 3|| Lista para procesar | imagen RM219
-| Momento: 3|| Lista para procesar | imagen FP758
-| Momento: 3|| Lista para procesar | imagen VG348
-| Momento: 3|| Lista para procesar | imagen LZ653
-| Momento: 3|| Lista para procesar | imagen CW638
-| Momento: 3|| Lista para procesar | imagen VH684
-| Momento: 3|| Lista para procesar | imagen BX261
-| Momento: 3|| Lista para procesar | imagen GV183
-| Momento: 3|| Lista para procesar | imagen RH943
-| Momento: 3|| Lista para procesar | imagen LV430
-| Momento: 3|| Lista para procesar | imagen DX473
-| Momento: 3|| Lista para procesar | imagen FM084
-| Momento: 3|| Lista para procesar | imagen JG885
-| Momento: 3|| Lista para procesar | imagen KF624
-| Momento: 3|| Lista para procesar | imagen IF234
-| Momento: 3|| Lista para procesar | imagen WJ182
-| Momento: 3|| Lista para procesar | imagen JB674
-| Momento: 3|| Lista para procesar | imagen TN672
-| Momento: 3|| Lista para procesar | imagen AX444
-| Momento: 3|| Lista para procesar | imagen AP229
-| Momento: 3|| Lista para procesar | imagen SJ073
-| Momento: 3|| Lista para procesar | imagen GW200
-| Momento: 3|| Lista para procesar | imagen KZ448
-| Momento: 3|| Lista para procesar | imagen WZ963
-| Momento: 3|| Lista para procesar | imagen WM617
-| Momento: 3|| Lista para procesar | imagen LS959
-| Momento: 3|| Lista para procesar | imagen XM135
-| Momento: 3|| Lista para procesar | imagen IQ772
-| Momento: 3|| Lista para procesar | imagen IQ977
-| Momento: 3|| Lista para procesar | imagen RO781
-| Momento: 3|| Lista para procesar | imagen WV882
-| Momento: 3|| Lista para procesar | imagen VW270
-| Momento: 3|| Lista para procesar | imagen IT871
-| Momento: 3|| Lista para procesar | imagen RQ826
-| Momento: 3|| Lista para procesar | imagen WK642
-| Momento: 3|| Lista para procesar | imagen LN801
-| Momento: 3|| Lista para procesar | imagen XO785
-| Momento: 3|| Lista para procesar | imagen KR215
-| Momento: 3|| Lista para procesar | imagen OK592
-| Momento: 3|| Lista para procesar | imagen JT706
-| Momento: 3|| Lista para procesar | imagen HP749
-| Momento: 3|| Lista para procesar | imagen LY753
-| Momento: 3|| Lista para procesar | imagen HU669
-| Momento: 3|| Lista para procesar | imagen KG533
-| Momento: 3|| Lista para procesar | imagen QT467
-| Momento: 3|| Lista para procesar | imagen XY866
+| Momento: 2|| Se inician hilos de simulacion
+| Momento: 2|| Lista para procesar | imagen VH684
+| Momento: 2|| Lista para procesar | imagen WF255
+| Momento: 2|| Lista para procesar | imagen TS709
+| Momento: 2|| Lista para procesar | imagen CW532
+| Momento: 2|| Lista para procesar | imagen ZD380
+| Momento: 2|| Procesando | imagen: VH684 | Tiempo procesamiento: 1
+| Momento: 2|| Procesando | imagen: WF255 | Tiempo procesamiento: 3
+| Momento: 2|| Lista para procesar | imagen BX261
+| Momento: 2|| Lista para procesar | imagen GV183
+| Momento: 2|| Lista para procesar | imagen RH943
+| Momento: 2|| Lista para procesar | imagen IF234
+| Momento: 2|| Lista para procesar | imagen WJ182
+| Momento: 2|| Lista para procesar | imagen JB674
+| Momento: 2|| Lista para procesar | imagen TN672
+| Momento: 2|| Lista para procesar | imagen WZ963
+| Momento: 2|| Lista para procesar | imagen WM617
+| Momento: 2|| Lista para procesar | imagen LS959
+| Momento: 2|| Lista para procesar | imagen XM135
+| Momento: 2|| Lista para procesar | imagen IT871
+| Momento: 2|| Lista para procesar | imagen RQ826
+| Momento: 2|| Lista para procesar | imagen WK642
+| Momento: 2|| Lista para procesar | imagen LN801
+| Momento: 2|| Lista para procesar | imagen RM219
+| Momento: 2|| Lista para procesar | imagen FP758
+| Momento: 2|| Lista para procesar | imagen VG348
+| Momento: 2|| Lista para procesar | imagen LZ653
+| Momento: 2|| Lista para procesar | imagen CW638
+| Momento: 2|| Lista para procesar | imagen LV430
+| Momento: 2|| Lista para procesar | imagen DX473
+| Momento: 2|| Lista para procesar | imagen FM084
+| Momento: 2|| Lista para procesar | imagen JG885
+| Momento: 2|| Lista para procesar | imagen KF624
+| Momento: 2|| Lista para procesar | imagen AX444
+| Momento: 2|| Lista para procesar | imagen AP229
+| Momento: 2|| Lista para procesar | imagen SJ073
+| Momento: 2|| Lista para procesar | imagen GW200
+| Momento: 2|| Lista para procesar | imagen KZ448
+| Momento: 2|| Lista para procesar | imagen IQ772
+| Momento: 2|| Lista para procesar | imagen IQ977
+| Momento: 2|| Lista para procesar | imagen RO781
+| Momento: 2|| Lista para procesar | imagen WV882
+| Momento: 2|| Lista para procesar | imagen VW270
+| Momento: 2|| Lista para procesar | imagen XO785
+| Momento: 2|| Lista para procesar | imagen KR215
+| Momento: 2|| Lista para procesar | imagen OK592
+| Momento: 2|| Lista para procesar | imagen JT706
+| Momento: 2|| Lista para procesar | imagen HP749
+| Momento: 2|| Lista para procesar | imagen LY753
+| Momento: 2|| Lista para procesar | imagen HU669
+| Momento: 2|| Lista para procesar | imagen KG533
+| Momento: 2|| Lista para procesar | imagen QT467
+| Momento: 2|| Lista para procesar | imagen XY866
+| Momento: 2|| Lista para procesar | imagen YV365
+| Momento: 2|| Lista para procesar | imagen DG148
+| Momento: 2|| Lista para procesar | imagen KN545
+| Momento: 2|| Lista para procesar | imagen GL926
+| Momento: 2|| Lista para procesar | imagen IM342
 | Momento: 3|| Lista para procesar | imagen DO342
 | Momento: 3|| Lista para procesar | imagen HU051
 | Momento: 3|| Lista para procesar | imagen QN887
 | Momento: 3|| Lista para procesar | imagen XB849
 | Momento: 3|| Lista para procesar | imagen VI373
-| Momento: 3|| Lista para procesar | imagen YV365
-| Momento: 3|| Lista para procesar | imagen DG148
-| Momento: 3|| Lista para procesar | imagen KN545
-| Momento: 3|| Lista para procesar | imagen GL926
-| Momento: 3|| Lista para procesar | imagen IM342
 | Momento: 3|| Lista para procesar | imagen YE333
 | Momento: 3|| Lista para procesar | imagen GH621
 | Momento: 3|| Lista para procesar | imagen XP937
 | Momento: 3|| Lista para procesar | imagen CD845
+| Momento: 3|| Fin procesamiento | imagen: VH684
+| Momento: 3|| Alerta agregada | Persona: Mario Mas
 | Momento: 3|| Lista para procesar | imagen JP515
+| Momento: 3|| Alerta enviada | Tablet: D1 | Persona: Mario Mas
 | Momento: 3|| Lista para procesar | imagen IF891
 | Momento: 3|| Lista para procesar | imagen ZS278
 | Momento: 3|| Lista para procesar | imagen MZ188
 | Momento: 3|| Lista para procesar | imagen ZE269
 | Momento: 3|| Lista para procesar | imagen RO678
-| Momento: 4|| Lista para procesar | imagen TO578
-| Momento: 4|| Lista para procesar | imagen ZG764
-| Momento: 4|| Lista para procesar | imagen TN167
-| Momento: 4|| Lista para procesar | imagen UY684
-| Momento: 4|| Lista para procesar | imagen LC932
-| Momento: 4|| Lista para procesar | imagen NK003
-| Momento: 4|| Lista para procesar | imagen UK299
-| Momento: 4|| Lista para procesar | imagen JR998
-| Momento: 4|| Lista para procesar | imagen TR666
-| Momento: 4|| Lista para procesar | imagen OQ235
-| Momento: 4|| Lista para procesar | imagen ZL879
-| Momento: 4|| Lista para procesar | imagen VB601
-| Momento: 4|| Lista para procesar | imagen XR979
-| Momento: 4|| Lista para procesar | imagen GH660
-| Momento: 4|| Lista para procesar | imagen IW702
-| Momento: 4|| Lista para procesar | imagen XV672
-| Momento: 4|| Lista para procesar | imagen HQ594
-| Momento: 4|| Lista para procesar | imagen MZ508
-| Momento: 4|| Lista para procesar | imagen RD422
-| Momento: 4|| Lista para procesar | imagen CY436
-| Momento: 4|| Lista para procesar | imagen EQ106
-| Momento: 4|| Lista para procesar | imagen JD932
-| Momento: 4|| Lista para procesar | imagen DQ937
-| Momento: 4|| Lista para procesar | imagen ML266
-| Momento: 4|| Lista para procesar | imagen IT745
-| Momento: 4|| Lista para procesar | imagen RC725
-| Momento: 4|| Lista para procesar | imagen ID299
-| Momento: 4|| Lista para procesar | imagen OJ842
-| Momento: 4|| Lista para procesar | imagen EQ201
-| Momento: 4|| Lista para procesar | imagen AV747
-| Momento: 4|| Lista para procesar | imagen YY866
-| Momento: 4|| Lista para procesar | imagen SI913
-| Momento: 4|| Lista para procesar | imagen JG257
-| Momento: 4|| Lista para procesar | imagen IW397
-| Momento: 4|| Lista para procesar | imagen UF450
-| Momento: 4|| Lista para procesar | imagen YB736
-| Momento: 4|| Lista para procesar | imagen XB339
-| Momento: 4|| Lista para procesar | imagen FK844
-| Momento: 4|| Lista para procesar | imagen BL945
-| Momento: 4|| Lista para procesar | imagen GL899
-| Momento: 4|| Lista para procesar | imagen LC739
-| Momento: 4|| Lista para procesar | imagen HG054
-| Momento: 4|| Lista para procesar | imagen OI270
-| Momento: 4|| Lista para procesar | imagen MP214
-| Momento: 4|| Lista para procesar | imagen HX134
-| Momento: 4|| Lista para procesar | imagen GO613
-| Momento: 4|| Lista para procesar | imagen NR392
-| Momento: 4|| Lista para procesar | imagen YH382
-| Momento: 4|| Lista para procesar | imagen YR171
-| Momento: 4|| Lista para procesar | imagen RH761
-| Momento: 4|| Lista para procesar | imagen YV345
-| Momento: 4|| Lista para procesar | imagen YQ772
-| Momento: 4|| Lista para procesar | imagen QL543
-| Momento: 4|| Lista para procesar | imagen IY771
-| Momento: 4|| Lista para procesar | imagen SV442
-| Momento: 4|| Lista para procesar | imagen IZ578
-| Momento: 4|| Lista para procesar | imagen HY721
-| Momento: 4|| Lista para procesar | imagen TJ407
-| Momento: 4|| Lista para procesar | imagen IF546
-| Momento: 4|| Lista para procesar | imagen DZ306
-| Momento: 4|| Lista para procesar | imagen XF933
-| Momento: 4|| Lista para procesar | imagen ER206
-| Momento: 4|| Lista para procesar | imagen SO482
-| Momento: 4|| Lista para procesar | imagen HP246
-| Momento: 4|| Lista para procesar | imagen WO251
-| Momento: 6|| Fin procesamiento | imagen: WF255
-| Momento: 6|| Fin procesamiento | imagen: TS709
-| Momento: 6|| Procesando | imagen: CW532 | Tiempo procesamiento: 1
-| Momento: 6|| Procesando | imagen: ZD380 | Tiempo procesamiento: 4
-| Momento: 9|| Fin procesamiento | imagen: CW532
-| Momento: 9|| Procesando | imagen: RM219 | Tiempo procesamiento: 1
-| Momento: 12|| Fin procesamiento | imagen: RM219
-| Momento: 12|| Fin procesamiento | imagen: ZD380
-| Momento: 12|| Procesando | imagen: FP758 | Tiempo procesamiento: 2
-| Momento: 12|| Procesando | imagen: VG348 | Tiempo procesamiento: 2
-| Momento: 14|| Fin procesamiento | imagen: VG348
-| Momento: 14|| Fin procesamiento | imagen: FP758
-| Momento: 14|| Procesando | imagen: LZ653 | Tiempo procesamiento: 4
-| Momento: 14|| Procesando | imagen: CW638 | Tiempo procesamiento: 1
-| Momento: 18|| Fin procesamiento | imagen: CW638
-| Momento: 18|| Procesando | imagen: VH684 | Tiempo procesamiento: 1
-| Momento: 18|| Fin procesamiento | imagen: LZ653
-| Momento: 18|| Procesando | imagen: BX261 | Tiempo procesamiento: 2
-| Momento: 23|| Fin procesamiento | imagen: VH684
-| Momento: 23|| Fin procesamiento | imagen: BX261
-| Momento: 23|| Alerta agregada | Persona: Mario Bueno
-| Momento: 23|| Procesando | imagen: GV183 | Tiempo procesamiento: 1
-| Momento: 23|| Alerta agregada | Persona: Mario Mas
-| Momento: 23|| Procesando | imagen: RH943 | Tiempo procesamiento: 2
-| Momento: 23|| Alerta enviada | Tablet: D2 | Persona: Mario Bueno
-| Momento: 23|| Alerta enviada | Tablet: D1 | Persona: Mario Mas
-| Momento: 30|| Fin procesamiento | imagen: RH943
-| Momento: 30|| Alerta agregada | Persona: Joaquin Bueno
-| Momento: 30|| Fin procesamiento | imagen: GV183
-| Momento: 30|| Procesando | imagen: LV430 | Tiempo procesamiento: 1
-| Momento: 30|| Alerta agregada | Persona: Olivia Mas
-| Momento: 30|| Procesando | imagen: DX473 | Tiempo procesamiento: 3
-| Momento: 30|| Alerta enviada | Tablet: D4 | Persona: Joaquin Bueno
-| Momento: 30|| Alerta enviada | Tablet: D3 | Persona: Olivia Mas
-| Momento: 34|| Fin procesamiento | imagen: LV430
-| Momento: 34|| Fin procesamiento | imagen: DX473
-| Momento: 34|| Alerta agregada | Persona: Mario Bueno
-| Momento: 34|| Procesando | imagen: FM084 | Tiempo procesamiento: 4
-| Momento: 34|| Alerta enviada | Tablet: D6 | Persona: Mario Bueno
-| Momento: 34|| Alerta agregada | Persona: Mario Mas
-| Momento: 34|| Procesando | imagen: JG885 | Tiempo procesamiento: 2
-| Momento: 34|| Alerta enviada | Tablet: D5 | Persona: Mario Mas
-| Momento: 36|| Fin procesamiento | imagen: JG885
-| Momento: 36|| Alerta agregada | Persona: Mario Bueno
-| Momento: 37|| Procesando | imagen: KF624 | Tiempo procesamiento: 2
-| Momento: 37|| Alerta enviada | Tablet: D8 | Persona: Mario Bueno
-| Momento: 39|| Fin procesamiento | imagen: KF624
-| Momento: 39|| Fin procesamiento | imagen: FM084
-| Momento: 39|| Alerta agregada | Persona: Fernando Mas
-| Momento: 39|| Procesando | imagen: IF234 | Tiempo procesamiento: 4
-| Momento: 39|| Alerta enviada | Tablet: D9 | Persona: Fernando Mas
-| Momento: 39|| Alerta agregada | Persona: Mario Mas
-| Momento: 39|| Procesando | imagen: WJ182 | Tiempo procesamiento: 1
-| Momento: 39|| Alerta enviada | Tablet: D7 | Persona: Mario Mas
-| Momento: 41|| Fin procesamiento | imagen: WJ182
-| Momento: 41|| Procesando | imagen: JB674 | Tiempo procesamiento: 4
-| Momento: 44|| Fin procesamiento | imagen: IF234
-| Momento: 44|| Procesando | imagen: TN672 | Tiempo procesamiento: 3
-| Momento: 47|| Fin procesamiento | imagen: JB674
-| Momento: 47|| Fin procesamiento | imagen: TN672
-| Momento: 47|| Procesando | imagen: AP229 | Tiempo procesamiento: 1
-| Momento: 47|| Procesando | imagen: AX444 | Tiempo procesamiento: 1
-| Momento: 49|| Fin procesamiento | imagen: AP229
-| Momento: 49|| Fin procesamiento | imagen: AX444
-| Momento: 49|| Procesando | imagen: SJ073 | Tiempo procesamiento: 2
-| Momento: 49|| Procesando | imagen: GW200 | Tiempo procesamiento: 4
-| Momento: 51|| Fin procesamiento | imagen: SJ073
-| Momento: 51|| Procesando | imagen: KZ448 | Tiempo procesamiento: 3
-| Momento: 54|| Fin procesamiento | imagen: KZ448
-| Momento: 54|| Procesando | imagen: WZ963 | Tiempo procesamiento: 3
-| Momento: 54|| Fin procesamiento | imagen: GW200
-| Momento: 54|| Procesando | imagen: WM617 | Tiempo procesamiento: 1
-| Momento: 59|| Fin procesamiento | imagen: WM617
-| Momento: 59|| Fin procesamiento | imagen: WZ963
-| Momento: 59|| Procesando | imagen: LS959 | Tiempo procesamiento: 4
-| Momento: 59|| Procesando | imagen: XM135 | Tiempo procesamiento: 4
-| Momento: 66|| Fin procesamiento | imagen: XM135
-| Momento: 66|| Procesando | imagen: IQ772 | Tiempo procesamiento: 2
-| Momento: 66|| Fin procesamiento | imagen: LS959
-| Momento: 66|| Procesando | imagen: IQ977 | Tiempo procesamiento: 3
-| Momento: 69|| Fin procesamiento | imagen: IQ772
-| Momento: 69|| Fin procesamiento | imagen: IQ977
-| Momento: 69|| Procesando | imagen: RO781 | Tiempo procesamiento: 4
-| Momento: 69|| Procesando | imagen: WV882 | Tiempo procesamiento: 2
-| Momento: 72|| Fin procesamiento | imagen: WV882
-| Momento: 72|| Procesando | imagen: VW270 | Tiempo procesamiento: 1
+| Momento: 3|| Procesando | imagen: TS709 | Tiempo procesamiento: 2
+| Momento: 3|| Lista para procesar | imagen TO578
+| Momento: 3|| Lista para procesar | imagen ZG764
+| Momento: 3|| Lista para procesar | imagen TN167
+| Momento: 3|| Lista para procesar | imagen UY684
+| Momento: 3|| Lista para procesar | imagen LC932
+| Momento: 3|| Lista para procesar | imagen NK003
+| Momento: 3|| Lista para procesar | imagen UK299
+| Momento: 3|| Lista para procesar | imagen JR998
+| Momento: 3|| Lista para procesar | imagen TR666
+| Momento: 3|| Lista para procesar | imagen OQ235
+| Momento: 3|| Lista para procesar | imagen RC725
+| Momento: 3|| Lista para procesar | imagen ID299
+| Momento: 3|| Lista para procesar | imagen OJ842
+| Momento: 3|| Lista para procesar | imagen EQ201
+| Momento: 3|| Lista para procesar | imagen AV747
+| Momento: 3|| Lista para procesar | imagen ZL879
+| Momento: 3|| Lista para procesar | imagen VB601
+| Momento: 3|| Lista para procesar | imagen XR979
+| Momento: 3|| Lista para procesar | imagen GH660
+| Momento: 3|| Lista para procesar | imagen IW702
+| Momento: 3|| Lista para procesar | imagen YB736
+| Momento: 3|| Lista para procesar | imagen XB339
+| Momento: 3|| Lista para procesar | imagen FK844
+| Momento: 3|| Lista para procesar | imagen BL945
+| Momento: 3|| Lista para procesar | imagen GL899
+| Momento: 3|| Lista para procesar | imagen XV672
+| Momento: 3|| Lista para procesar | imagen HQ594
+| Momento: 3|| Lista para procesar | imagen MZ508
+| Momento: 3|| Lista para procesar | imagen RD422
+| Momento: 3|| Lista para procesar | imagen CY436
+| Momento: 3|| Lista para procesar | imagen GO613
+| Momento: 3|| Lista para procesar | imagen NR392
+| Momento: 3|| Lista para procesar | imagen YH382
+| Momento: 3|| Lista para procesar | imagen YR171
+| Momento: 3|| Lista para procesar | imagen RH761
+| Momento: 3|| Lista para procesar | imagen EQ106
+| Momento: 3|| Lista para procesar | imagen JD932
+| Momento: 3|| Lista para procesar | imagen DQ937
+| Momento: 3|| Lista para procesar | imagen ML266
+| Momento: 3|| Lista para procesar | imagen IT745
+| Momento: 3|| Lista para procesar | imagen IZ578
+| Momento: 3|| Lista para procesar | imagen HY721
+| Momento: 3|| Lista para procesar | imagen TJ407
+| Momento: 3|| Lista para procesar | imagen IF546
+| Momento: 3|| Lista para procesar | imagen DZ306
+| Momento: 3|| Lista para procesar | imagen LC739
+| Momento: 3|| Lista para procesar | imagen HG054
+| Momento: 3|| Lista para procesar | imagen OI270
+| Momento: 3|| Lista para procesar | imagen MP214
+| Momento: 3|| Lista para procesar | imagen HX134
+| Momento: 3|| Lista para procesar | imagen YY866
+| Momento: 3|| Lista para procesar | imagen SI913
+| Momento: 3|| Lista para procesar | imagen JG257
+| Momento: 3|| Lista para procesar | imagen IW397
+| Momento: 3|| Lista para procesar | imagen UF450
+| Momento: 3|| Lista para procesar | imagen YV345
+| Momento: 3|| Lista para procesar | imagen YQ772
+| Momento: 3|| Lista para procesar | imagen QL543
+| Momento: 3|| Lista para procesar | imagen IY771
+| Momento: 3|| Lista para procesar | imagen SV442
+| Momento: 3|| Lista para procesar | imagen XF933
+| Momento: 3|| Lista para procesar | imagen ER206
+| Momento: 3|| Lista para procesar | imagen SO482
+| Momento: 3|| Lista para procesar | imagen HP246
+| Momento: 3|| Lista para procesar | imagen WO251
+| Momento: 5|| Fin procesamiento | imagen: WF255
+| Momento: 5|| Procesando | imagen: CW532 | Tiempo procesamiento: 1
+| Momento: 5|| Fin procesamiento | imagen: TS709
+| Momento: 5|| Procesando | imagen: ZD380 | Tiempo procesamiento: 4
+| Momento: 6|| Fin procesamiento | imagen: CW532
+| Momento: 6|| Procesando | imagen: BX261 | Tiempo procesamiento: 2
+| Momento: 9|| Fin procesamiento | imagen: ZD380
+| Momento: 9|| Procesando | imagen: GV183 | Tiempo procesamiento: 1
+| Momento: 9|| Fin procesamiento | imagen: BX261
+| Momento: 9|| Alerta agregada | Persona: Mario Bueno
+| Momento: 9|| Procesando | imagen: RH943 | Tiempo procesamiento: 2
+| Momento: 9|| Alerta enviada | Tablet: D2 | Persona: Mario Bueno
+| Momento: 12|| Fin procesamiento | imagen: GV183
+| Momento: 12|| Fin procesamiento | imagen: RH943
+| Momento: 12|| Alerta agregada | Persona: Olivia Mas
+| Momento: 12|| Procesando | imagen: IF234 | Tiempo procesamiento: 4
+| Momento: 12|| Alerta enviada | Tablet: D3 | Persona: Olivia Mas
+| Momento: 12|| Alerta agregada | Persona: Joaquin Bueno
+| Momento: 12|| Procesando | imagen: WJ182 | Tiempo procesamiento: 1
+| Momento: 12|| Alerta enviada | Tablet: D4 | Persona: Joaquin Bueno
+| Momento: 15|| Fin procesamiento | imagen: WJ182
+| Momento: 15|| Procesando | imagen: JB674 | Tiempo procesamiento: 4
+| Momento: 19|| Fin procesamiento | imagen: IF234
+| Momento: 19|| Fin procesamiento | imagen: JB674
+| Momento: 19|| Procesando | imagen: WZ963 | Tiempo procesamiento: 3
+| Momento: 19|| Procesando | imagen: TN672 | Tiempo procesamiento: 3
+| Momento: 24|| Fin procesamiento | imagen: TN672
+| Momento: 24|| Fin procesamiento | imagen: WZ963
+| Momento: 24|| Procesando | imagen: WM617 | Tiempo procesamiento: 1
+| Momento: 24|| Procesando | imagen: LS959 | Tiempo procesamiento: 4
+| Momento: 27|| Fin procesamiento | imagen: WM617
+| Momento: 27|| Procesando | imagen: XM135 | Tiempo procesamiento: 4
+| Momento: 30|| Fin procesamiento | imagen: LS959
+| Momento: 30|| Procesando | imagen: IT871 | Tiempo procesamiento: 1
+| Momento: 35|| Fin procesamiento | imagen: XM135
+| Momento: 35|| Fin procesamiento | imagen: IT871
+| Momento: 35|| Procesando | imagen: RQ826 | Tiempo procesamiento: 2
+| Momento: 35|| Procesando | imagen: WK642 | Tiempo procesamiento: 3
+| Momento: 38|| Fin procesamiento | imagen: WK642
+| Momento: 38|| Fin procesamiento | imagen: RQ826
+| Momento: 38|| Procesando | imagen: LN801 | Tiempo procesamiento: 2
+| Momento: 38|| Procesando | imagen: RM219 | Tiempo procesamiento: 1
+| Momento: 41|| Fin procesamiento | imagen: RM219
+| Momento: 41|| Fin procesamiento | imagen: LN801
+| Momento: 41|| Procesando | imagen: FP758 | Tiempo procesamiento: 2
+| Momento: 41|| Procesando | imagen: VG348 | Tiempo procesamiento: 2
+| Momento: 45|| Fin procesamiento | imagen: VG348
+| Momento: 45|| Procesando | imagen: LZ653 | Tiempo procesamiento: 4
+| Momento: 45|| Fin procesamiento | imagen: FP758
+| Momento: 45|| Procesando | imagen: CW638 | Tiempo procesamiento: 1
+| Momento: 48|| Fin procesamiento | imagen: CW638
+| Momento: 48|| Procesando | imagen: LV430 | Tiempo procesamiento: 1
+| Momento: 51|| Fin procesamiento | imagen: LZ653
+| Momento: 51|| Fin procesamiento | imagen: LV430
+| Momento: 51|| Procesando | imagen: DX473 | Tiempo procesamiento: 3
+| Momento: 51|| Alerta agregada | Persona: Mario Mas
+| Momento: 51|| Procesando | imagen: FM084 | Tiempo procesamiento: 4
+| Momento: 51|| Alerta enviada | Tablet: D5 | Persona: Mario Mas
+| Momento: 54|| Fin procesamiento | imagen: DX473
+| Momento: 54|| Alerta agregada | Persona: Mario Bueno
+| Momento: 54|| Alerta enviada | Tablet: D6 | Persona: Mario Bueno
+| Momento: 54|| Procesando | imagen: JG885 | Tiempo procesamiento: 2
+| Momento: 55|| Fin procesamiento | imagen: FM084
+| Momento: 55|| Alerta agregada | Persona: Mario Mas
+| Momento: 55|| Procesando | imagen: KF624 | Tiempo procesamiento: 2
+| Momento: 55|| Alerta enviada | Tablet: D7 | Persona: Mario Mas
+| Momento: 56|| Fin procesamiento | imagen: JG885
+| Momento: 56|| Alerta agregada | Persona: Mario Bueno
+| Momento: 56|| Procesando | imagen: AX444 | Tiempo procesamiento: 1
+| Momento: 56|| Alerta enviada | Tablet: D8 | Persona: Mario Bueno
+| Momento: 59|| Fin procesamiento | imagen: AX444
+| Momento: 59|| Fin procesamiento | imagen: KF624
+| Momento: 59|| Procesando | imagen: AP229 | Tiempo procesamiento: 1
+| Momento: 59|| Alerta agregada | Persona: Fernando Mas
+| Momento: 59|| Alerta enviada | Tablet: D9 | Persona: Fernando Mas
+| Momento: 59|| Procesando | imagen: SJ073 | Tiempo procesamiento: 2
+| Momento: 64|| Fin procesamiento | imagen: AP229
+| Momento: 64|| Fin procesamiento | imagen: SJ073
+| Momento: 64|| Procesando | imagen: GW200 | Tiempo procesamiento: 4
+| Momento: 64|| Procesando | imagen: KZ448 | Tiempo procesamiento: 3
+| Momento: 68|| Fin procesamiento | imagen: GW200
+| Momento: 68|| Fin procesamiento | imagen: KZ448
+| Momento: 68|| Procesando | imagen: IQ772 | Tiempo procesamiento: 2
+| Momento: 68|| Procesando | imagen: IQ977 | Tiempo procesamiento: 3
+| Momento: 70|| Fin procesamiento | imagen: IQ772
+| Momento: 70|| Procesando | imagen: RO781 | Tiempo procesamiento: 4
+| Momento: 72|| Fin procesamiento | imagen: IQ977
+| Momento: 72|| Procesando | imagen: WV882 | Tiempo procesamiento: 2
 | Momento: 75|| Fin procesamiento | imagen: RO781
-| Momento: 75|| Fin procesamiento | imagen: VW270
-| Momento: 75|| Procesando | imagen: IT871 | Tiempo procesamiento: 1
-| Momento: 75|| Procesando | imagen: RQ826 | Tiempo procesamiento: 2
-| Momento: 76|| Fin procesamiento | imagen: IT871
-| Momento: 76|| Procesando | imagen: WK642 | Tiempo procesamiento: 3
-| Momento: 80|| Fin procesamiento | imagen: RQ826
-| Momento: 80|| Fin procesamiento | imagen: WK642
-| Momento: 80|| Procesando | imagen: LN801 | Tiempo procesamiento: 2
-| Momento: 80|| Procesando | imagen: XO785 | Tiempo procesamiento: 2
-| Momento: 83|| Fin procesamiento | imagen: LN801
-| Momento: 83|| Procesando | imagen: KR215 | Tiempo procesamiento: 4
-| Momento: 83|| Fin procesamiento | imagen: XO785
-| Momento: 83|| Procesando | imagen: OK592 | Tiempo procesamiento: 3
-| Momento: 86|| Fin procesamiento | imagen: OK592
-| Momento: 86|| Procesando | imagen: JT706 | Tiempo procesamiento: 3
-| Momento: 87|| Fin procesamiento | imagen: KR215
-| Momento: 87|| Procesando | imagen: HP749 | Tiempo procesamiento: 4
-| Momento: 90|| Fin procesamiento | imagen: JT706
-| Momento: 90|| Procesando | imagen: LY753 | Tiempo procesamiento: 4
-| Momento: 94|| Fin procesamiento | imagen: HP749
-| Momento: 94|| Procesando | imagen: HU669 | Tiempo procesamiento: 3
-| Momento: 94|| Fin procesamiento | imagen: LY753
-| Momento: 94|| Procesando | imagen: KG533 | Tiempo procesamiento: 2
-| Momento: 97|| Fin procesamiento | imagen: HU669
-| Momento: 97|| Procesando | imagen: QT467 | Tiempo procesamiento: 1
-| Momento: 97|| Fin procesamiento | imagen: KG533
-| Momento: 97|| Procesando | imagen: XY866 | Tiempo procesamiento: 3
-| Momento: 100|| Fin procesamiento | imagen: QT467
-| Momento: 100|| Procesando | imagen: DO342 | Tiempo procesamiento: 2
-| Momento: 100|| Fin procesamiento | imagen: XY866
-| Momento: 100|| Procesando | imagen: HU051 | Tiempo procesamiento: 4
-| Momento: 103|| Fin procesamiento | imagen: DO342
-| Momento: 103|| Alerta agregada | Persona: Mario Bueno
-| Momento: 103|| Alerta enviada | Tablet: D1 | Persona: Mario Bueno
-| Momento: 103|| Procesando | imagen: QN887 | Tiempo procesamiento: 3
-| Momento: 106|| Fin procesamiento | imagen: QN887
-| Momento: 106|| Alerta agregada | Persona: Mario Bueno
-| Momento: 106|| Fin procesamiento | imagen: HU051
-| Momento: 106|| Procesando | imagen: XB849 | Tiempo procesamiento: 1
-| Momento: 106|| Alerta enviada | Tablet: D3 | Persona: Mario Bueno
-| Momento: 106|| Alerta agregada | Persona: Mario Mas
-| Momento: 106|| Procesando | imagen: VI373 | Tiempo procesamiento: 3
-| Momento: 106|| Alerta enviada | Tablet: D2 | Persona: Mario Mas
-| Momento: 109|| Fin procesamiento | imagen: VI373
-| Momento: 109|| Fin procesamiento | imagen: XB849
+| Momento: 75|| Procesando | imagen: VW270 | Tiempo procesamiento: 1
+| Momento: 75|| Fin procesamiento | imagen: WV882
+| Momento: 75|| Procesando | imagen: XO785 | Tiempo procesamiento: 2
+| Momento: 77|| Fin procesamiento | imagen: XO785
+| Momento: 77|| Fin procesamiento | imagen: VW270
+| Momento: 77|| Procesando | imagen: KR215 | Tiempo procesamiento: 4
+| Momento: 77|| Procesando | imagen: OK592 | Tiempo procesamiento: 3
+| Momento: 80|| Fin procesamiento | imagen: OK592
+| Momento: 80|| Procesando | imagen: JT706 | Tiempo procesamiento: 3
+| Momento: 83|| Fin procesamiento | imagen: KR215
+| Momento: 83|| Procesando | imagen: HP749 | Tiempo procesamiento: 4
+| Momento: 83|| Fin procesamiento | imagen: JT706
+| Momento: 83|| Procesando | imagen: LY753 | Tiempo procesamiento: 4
+| Momento: 89|| Fin procesamiento | imagen: HP749
+| Momento: 89|| Procesando | imagen: HU669 | Tiempo procesamiento: 3
+| Momento: 89|| Fin procesamiento | imagen: LY753
+| Momento: 89|| Procesando | imagen: KG533 | Tiempo procesamiento: 2
+| Momento: 91|| Fin procesamiento | imagen: KG533
+| Momento: 91|| Procesando | imagen: QT467 | Tiempo procesamiento: 1
+| Momento: 95|| Fin procesamiento | imagen: QT467
+| Momento: 95|| Procesando | imagen: XY866 | Tiempo procesamiento: 3
+| Momento: 95|| Fin procesamiento | imagen: HU669
+| Momento: 95|| Procesando | imagen: YV365 | Tiempo procesamiento: 4
+| Momento: 99|| Fin procesamiento | imagen: YV365
+| Momento: 99|| Fin procesamiento | imagen: XY866
+| Momento: 99|| Procesando | imagen: DG148 | Tiempo procesamiento: 2
+| Momento: 99|| Procesando | imagen: KN545 | Tiempo procesamiento: 3
+| Momento: 101|| Fin procesamiento | imagen: DG148
+| Momento: 101|| Procesando | imagen: GL926 | Tiempo procesamiento: 3
+| Momento: 103|| Fin procesamiento | imagen: KN545
+| Momento: 103|| Procesando | imagen: IM342 | Tiempo procesamiento: 3
+| Momento: 106|| Fin procesamiento | imagen: IM342
+| Momento: 106|| Fin procesamiento | imagen: GL926
+| Momento: 106|| Procesando | imagen: DO342 | Tiempo procesamiento: 2
+| Momento: 106|| Procesando | imagen: HU051 | Tiempo procesamiento: 4
+| Momento: 109|| Fin procesamiento | imagen: DO342
 | Momento: 109|| Alerta agregada | Persona: Mario Bueno
-| Momento: 109|| Procesando | imagen: YV365 | Tiempo procesamiento: 4
-| Momento: 109|| Alerta enviada | Tablet: D5 | Persona: Mario Bueno
-| Momento: 109|| Alerta agregada | Persona: Mario Mas
-| Momento: 109|| Procesando | imagen: DG148 | Tiempo procesamiento: 2
-| Momento: 109|| Alerta enviada | Tablet: D4 | Persona: Mario Mas
-| Momento: 113|| Fin procesamiento | imagen: DG148
-| Momento: 113|| Fin procesamiento | imagen: YV365
-| Momento: 113|| Procesando | imagen: KN545 | Tiempo procesamiento: 3
-| Momento: 113|| Procesando | imagen: GL926 | Tiempo procesamiento: 3
-| Momento: 117|| Fin procesamiento | imagen: KN545
-| Momento: 117|| Fin procesamiento | imagen: GL926
-| Momento: 117|| Procesando | imagen: IM342 | Tiempo procesamiento: 3
-| Momento: 117|| Procesando | imagen: YE333 | Tiempo procesamiento: 3
+| Momento: 109|| Procesando | imagen: QN887 | Tiempo procesamiento: 3
+| Momento: 109|| Alerta enviada | Tablet: D1 | Persona: Mario Bueno
+| Momento: 112|| Fin procesamiento | imagen: QN887
+| Momento: 112|| Fin procesamiento | imagen: HU051
+| Momento: 112|| Alerta agregada | Persona: Mario Bueno
+| Momento: 112|| Procesando | imagen: XB849 | Tiempo procesamiento: 1
+| Momento: 112|| Alerta agregada | Persona: Mario Mas
+| Momento: 112|| Procesando | imagen: VI373 | Tiempo procesamiento: 3
+| Momento: 112|| Alerta enviada | Tablet: D3 | Persona: Mario Bueno
+| Momento: 112|| Alerta enviada | Tablet: D2 | Persona: Mario Mas
+| Momento: 116|| Fin procesamiento | imagen: XB849
+| Momento: 116|| Alerta agregada | Persona: Mario Mas
+| Momento: 116|| Fin procesamiento | imagen: VI373
+| Momento: 116|| Procesando | imagen: YE333 | Tiempo procesamiento: 3
+| Momento: 116|| Alerta enviada | Tablet: D4 | Persona: Mario Mas
+| Momento: 116|| Alerta agregada | Persona: Mario Bueno
+| Momento: 116|| Procesando | imagen: GH621 | Tiempo procesamiento: 1
+| Momento: 116|| Alerta enviada | Tablet: D5 | Persona: Mario Bueno
+| Momento: 118|| Fin procesamiento | imagen: GH621
+| Momento: 118|| Procesando | imagen: XP937 | Tiempo procesamiento: 1
 | Momento: 120|| Fin procesamiento | imagen: YE333
-| Momento: 120|| Fin procesamiento | imagen: IM342
-| Momento: 120|| Procesando | imagen: GH621 | Tiempo procesamiento: 1
-| Momento: 120|| Procesando | imagen: XP937 | Tiempo procesamiento: 1
-| Momento: 122|| Fin procesamiento | imagen: GH621
-| Momento: 122|| Procesando | imagen: CD845 | Tiempo procesamiento: 3
-| Momento: 122|| Fin procesamiento | imagen: XP937
-| Momento: 122|| Procesando | imagen: JP515 | Tiempo procesamiento: 4
-| Momento: 126|| Fin procesamiento | imagen: CD845
-| Momento: 126|| Fin procesamiento | imagen: JP515
-| Momento: 126|| Procesando | imagen: IF891 | Tiempo procesamiento: 2
-| Momento: 126|| Procesando | imagen: ZS278 | Tiempo procesamiento: 3
-| Momento: 128|| Fin procesamiento | imagen: IF891
-| Momento: 128|| Procesando | imagen: MZ188 | Tiempo procesamiento: 1
-| Momento: 129|| Fin procesamiento | imagen: MZ188
-| Momento: 129|| Procesando | imagen: ZE269 | Tiempo procesamiento: 3
-| Momento: 129|| Fin procesamiento | imagen: ZS278
-| Momento: 129|| Procesando | imagen: RO678 | Tiempo procesamiento: 3
-| Momento: 133|| Fin procesamiento | imagen: ZE269
-| Momento: 133|| Procesando | imagen: TO578 | Tiempo procesamiento: 4
-| Momento: 133|| Fin procesamiento | imagen: RO678
-| Momento: 133|| Procesando | imagen: ZG764 | Tiempo procesamiento: 2
+| Momento: 120|| Fin procesamiento | imagen: XP937
+| Momento: 120|| Procesando | imagen: CD845 | Tiempo procesamiento: 3
+| Momento: 120|| Procesando | imagen: JP515 | Tiempo procesamiento: 4
+| Momento: 123|| Fin procesamiento | imagen: CD845
+| Momento: 123|| Procesando | imagen: IF891 | Tiempo procesamiento: 2
+| Momento: 127|| Fin procesamiento | imagen: JP515
+| Momento: 127|| Procesando | imagen: ZS278 | Tiempo procesamiento: 3
+| Momento: 127|| Fin procesamiento | imagen: IF891
+| Momento: 127|| Procesando | imagen: MZ188 | Tiempo procesamiento: 1
+| Momento: 131|| Fin procesamiento | imagen: ZS278
+| Momento: 131|| Fin procesamiento | imagen: MZ188
+| Momento: 131|| Procesando | imagen: ZE269 | Tiempo procesamiento: 3
+| Momento: 131|| Procesando | imagen: RO678 | Tiempo procesamiento: 3
+| Momento: 134|| Fin procesamiento | imagen: ZE269
+| Momento: 134|| Fin procesamiento | imagen: RO678
+| Momento: 134|| Procesando | imagen: ZG764 | Tiempo procesamiento: 2
+| Momento: 134|| Procesando | imagen: TO578 | Tiempo procesamiento: 4
 | Momento: 136|| Fin procesamiento | imagen: ZG764
 | Momento: 136|| Procesando | imagen: TN167 | Tiempo procesamiento: 3
-| Momento: 139|| Fin procesamiento | imagen: TO578
-| Momento: 139|| Fin procesamiento | imagen: TN167
-| Momento: 139|| Procesando | imagen: UY684 | Tiempo procesamiento: 4
-| Momento: 139|| Procesando | imagen: LC932 | Tiempo procesamiento: 4
-| Momento: 145|| Fin procesamiento | imagen: LC932
-| Momento: 145|| Fin procesamiento | imagen: UY684
-| Momento: 145|| Procesando | imagen: NK003 | Tiempo procesamiento: 1
-| Momento: 145|| Procesando | imagen: UK299 | Tiempo procesamiento: 3
-| Momento: 148|| Fin procesamiento | imagen: NK003
-| Momento: 148|| Fin procesamiento | imagen: UK299
-| Momento: 148|| Alerta agregada | Persona: Mario Mas
-| Momento: 148|| Procesando | imagen: JR998 | Tiempo procesamiento: 3
-| Momento: 148|| Alerta agregada | Persona: Carla Bueno
-| Momento: 148|| Procesando | imagen: TR666 | Tiempo procesamiento: 1
-| Momento: 148|| Alerta enviada | Tablet: D6 | Persona: Mario Mas
-| Momento: 148|| Alerta enviada | Tablet: D7 | Persona: Carla Bueno
-| Momento: 149|| Fin procesamiento | imagen: TR666
-| Momento: 149|| Alerta agregada | Persona: Mario Bueno
-| Momento: 149|| Procesando | imagen: OQ235 | Tiempo procesamiento: 3
-| Momento: 149|| Alerta enviada | Tablet: D9 | Persona: Mario Bueno
-| Momento: 152|| Fin procesamiento | imagen: OQ235
-| Momento: 152|| Fin procesamiento | imagen: JR998
-| Momento: 152|| Alerta agregada | Persona: Mario Mas
-| Momento: 152|| Procesando | imagen: ZL879 | Tiempo procesamiento: 2
-| Momento: 152|| Alerta agregada | Persona: Mario Mas
-| Momento: 152|| Procesando | imagen: VB601 | Tiempo procesamiento: 4
-| Momento: 152|| Alerta enviada | Tablet: D8 | Persona: Mario Mas
-| Momento: 152|| Alerta enviada | Tablet: D1 | Persona: Mario Mas
-| Momento: 154|| Fin procesamiento | imagen: ZL879
-| Momento: 154|| Procesando | imagen: XR979 | Tiempo procesamiento: 3
-| Momento: 157|| Fin procesamiento | imagen: VB601
-| Momento: 157|| Procesando | imagen: GH660 | Tiempo procesamiento: 3
-| Momento: 157|| Fin procesamiento | imagen: XR979
-| Momento: 157|| Procesando | imagen: IW702 | Tiempo procesamiento: 4
-| Momento: 160|| Fin procesamiento | imagen: GH660
-| Momento: 160|| Procesando | imagen: XV672 | Tiempo procesamiento: 3
-| Momento: 163|| Fin procesamiento | imagen: XV672
-| Momento: 163|| Fin procesamiento | imagen: IW702
-| Momento: 163|| Procesando | imagen: HQ594 | Tiempo procesamiento: 3
-| Momento: 163|| Procesando | imagen: MZ508 | Tiempo procesamiento: 3
-| Momento: 166|| Fin procesamiento | imagen: MZ508
-| Momento: 166|| Procesando | imagen: RD422 | Tiempo procesamiento: 1
-| Momento: 166|| Fin procesamiento | imagen: HQ594
-| Momento: 166|| Procesando | imagen: CY436 | Tiempo procesamiento: 1
-| Momento: 169|| Fin procesamiento | imagen: RD422
-| Momento: 169|| Fin procesamiento | imagen: CY436
-| Momento: 169|| Procesando | imagen: EQ106 | Tiempo procesamiento: 1
-| Momento: 169|| Procesando | imagen: JD932 | Tiempo procesamiento: 1
-| Momento: 170|| Fin procesamiento | imagen: EQ106
-| Momento: 170|| Procesando | imagen: DQ937 | Tiempo procesamiento: 3
-| Momento: 170|| Fin procesamiento | imagen: JD932
-| Momento: 170|| Procesando | imagen: ML266 | Tiempo procesamiento: 4
-| Momento: 173|| Fin procesamiento | imagen: DQ937
-| Momento: 173|| Procesando | imagen: IT745 | Tiempo procesamiento: 3
-| Momento: 175|| Fin procesamiento | imagen: ML266
-| Momento: 175|| Procesando | imagen: RC725 | Tiempo procesamiento: 4
-| Momento: 176|| Fin procesamiento | imagen: IT745
-| Momento: 176|| Procesando | imagen: ID299 | Tiempo procesamiento: 2
-| Momento: 179|| Fin procesamiento | imagen: ID299
-| Momento: 179|| Fin procesamiento | imagen: RC725
-| Momento: 179|| Alerta agregada | Persona: Mario Mas
-| Momento: 179|| Procesando | imagen: OJ842 | Tiempo procesamiento: 3
-| Momento: 179|| Alerta enviada | Tablet: D3 | Persona: Mario Mas
-| Momento: 179|| Alerta agregada | Persona: Mario Bueno
-| Momento: 179|| Procesando | imagen: EQ201 | Tiempo procesamiento: 3
-| Momento: 179|| Alerta enviada | Tablet: D2 | Persona: Mario Bueno
-| Momento: 182|| Fin procesamiento | imagen: EQ201
-| Momento: 182|| Alerta agregada | Persona: Mario Mas
-| Momento: 182|| Fin procesamiento | imagen: OJ842
-| Momento: 182|| Procesando | imagen: AV747 | Tiempo procesamiento: 4
-| Momento: 182|| Alerta enviada | Tablet: D5 | Persona: Mario Mas
-| Momento: 182|| Alerta agregada | Persona: Mario Bueno
-| Momento: 182|| Procesando | imagen: YY866 | Tiempo procesamiento: 4
-| Momento: 182|| Alerta enviada | Tablet: D4 | Persona: Mario Bueno
-| Momento: 187|| Fin procesamiento | imagen: YY866
-| Momento: 187|| Fin procesamiento | imagen: AV747
-| Momento: 187|| Alerta agregada | Persona: Mario Mas
-| Momento: 187|| Alerta enviada | Tablet: D7 | Persona: Mario Mas
-| Momento: 187|| Procesando | imagen: SI913 | Tiempo procesamiento: 1
-| Momento: 187|| Alerta agregada | Persona: Mario Bueno
-| Momento: 187|| Procesando | imagen: JG257 | Tiempo procesamiento: 2
-| Momento: 187|| Alerta enviada | Tablet: D6 | Persona: Mario Bueno
-| Momento: 188|| Fin procesamiento | imagen: SI913
-| Momento: 188|| Alerta agregada | Persona: Mario Bueno
-| Momento: 188|| Procesando | imagen: IW397 | Tiempo procesamiento: 4
-| Momento: 188|| Alerta enviada | Tablet: D8 | Persona: Mario Bueno
-| Momento: 190|| Fin procesamiento | imagen: JG257
-| Momento: 190|| Alerta agregada | Persona: Mario Mas
-| Momento: 190|| Procesando | imagen: UF450 | Tiempo procesamiento: 4
-| Momento: 190|| Alerta enviada | Tablet: D9 | Persona: Mario Mas
-| Momento: 193|| Fin procesamiento | imagen: IW397
-| Momento: 193|| Alerta agregada | Persona: Mario Bueno
-| Momento: 193|| Alerta enviada | Tablet: D1 | Persona: Mario Bueno
-| Momento: 193|| Procesando | imagen: YB736 | Tiempo procesamiento: 2
-| Momento: 195|| Fin procesamiento | imagen: YB736
-| Momento: 195|| Procesando | imagen: XB339 | Tiempo procesamiento: 3
-| Momento: 195|| Fin procesamiento | imagen: UF450
-| Momento: 195|| Alerta agregada | Persona: Mario Mas
-| Momento: 195|| Procesando | imagen: FK844 | Tiempo procesamiento: 4
-| Momento: 195|| Alerta enviada | Tablet: D2 | Persona: Mario Mas
-| Momento: 199|| Fin procesamiento | imagen: XB339
-| Momento: 199|| Procesando | imagen: BL945 | Tiempo procesamiento: 1
-| Momento: 199|| Fin procesamiento | imagen: FK844
-| Momento: 199|| Procesando | imagen: GL899 | Tiempo procesamiento: 4
-| Momento: 202|| Fin procesamiento | imagen: BL945
-| Momento: 202|| Procesando | imagen: LC739 | Tiempo procesamiento: 2
-| Momento: 204|| Fin procesamiento | imagen: GL899
-| Momento: 204|| Procesando | imagen: HG054 | Tiempo procesamiento: 3
-| Momento: 204|| Fin procesamiento | imagen: LC739
-| Momento: 204|| Procesando | imagen: OI270 | Tiempo procesamiento: 2
-| Momento: 208|| Fin procesamiento | imagen: HG054
-| Momento: 208|| Procesando | imagen: MP214 | Tiempo procesamiento: 4
-| Momento: 208|| Fin procesamiento | imagen: OI270
-| Momento: 208|| Procesando | imagen: HX134 | Tiempo procesamiento: 4
-| Momento: 214|| Fin procesamiento | imagen: MP214
-| Momento: 214|| Fin procesamiento | imagen: HX134
-| Momento: 214|| Procesando | imagen: GO613 | Tiempo procesamiento: 2
-| Momento: 214|| Procesando | imagen: NR392 | Tiempo procesamiento: 3
-| Momento: 218|| Fin procesamiento | imagen: NR392
-| Momento: 218|| Procesando | imagen: YH382 | Tiempo procesamiento: 3
-| Momento: 218|| Fin procesamiento | imagen: GO613
-| Momento: 218|| Procesando | imagen: YR171 | Tiempo procesamiento: 3
-| Momento: 225|| Fin procesamiento | imagen: YR171
-| Momento: 225|| Fin procesamiento | imagen: YH382
-| Momento: 225|| Procesando | imagen: RH761 | Tiempo procesamiento: 1
-| Momento: 225|| Procesando | imagen: YV345 | Tiempo procesamiento: 3
-| Momento: 228|| Fin procesamiento | imagen: YV345
-| Momento: 228|| Fin procesamiento | imagen: RH761
-| Momento: 228|| Procesando | imagen: YQ772 | Tiempo procesamiento: 3
-| Momento: 228|| Procesando | imagen: QL543 | Tiempo procesamiento: 4
-| Momento: 231|| Fin procesamiento | imagen: YQ772
-| Momento: 231|| Procesando | imagen: IY771 | Tiempo procesamiento: 1
-| Momento: 233|| Fin procesamiento | imagen: IY771
-| Momento: 233|| Fin procesamiento | imagen: QL543
-| Momento: 233|| Procesando | imagen: SV442 | Tiempo procesamiento: 4
-| Momento: 233|| Procesando | imagen: IZ578 | Tiempo procesamiento: 4
-| Momento: 240|| Fin procesamiento | imagen: IZ578
-| Momento: 240|| Fin procesamiento | imagen: SV442
-| Momento: 240|| Procesando | imagen: HY721 | Tiempo procesamiento: 4
-| Momento: 240|| Procesando | imagen: TJ407 | Tiempo procesamiento: 3
-| Momento: 245|| Fin procesamiento | imagen: HY721
-| Momento: 245|| Fin procesamiento | imagen: TJ407
-| Momento: 245|| Procesando | imagen: IF546 | Tiempo procesamiento: 2
-| Momento: 245|| Procesando | imagen: DZ306 | Tiempo procesamiento: 1
-| Momento: 250|| Fin procesamiento | imagen: DZ306
-| Momento: 250|| Procesando | imagen: XF933 | Tiempo procesamiento: 1
-| Momento: 255|| Fin procesamiento | imagen: IF546
+| Momento: 140|| Fin procesamiento | imagen: TN167
+| Momento: 140|| Fin procesamiento | imagen: TO578
+| Momento: 140|| Procesando | imagen: UY684 | Tiempo procesamiento: 4
+| Momento: 140|| Procesando | imagen: LC932 | Tiempo procesamiento: 4
+| Momento: 146|| Fin procesamiento | imagen: UY684
+| Momento: 146|| Fin procesamiento | imagen: LC932
+| Momento: 146|| Procesando | imagen: NK003 | Tiempo procesamiento: 1
+| Momento: 146|| Procesando | imagen: UK299 | Tiempo procesamiento: 3
+| Momento: 150|| Fin procesamiento | imagen: UK299
+| Momento: 150|| Alerta agregada | Persona: Carla Bueno
+| Momento: 150|| Fin procesamiento | imagen: NK003
+| Momento: 150|| Procesando | imagen: JR998 | Tiempo procesamiento: 3
+| Momento: 150|| Alerta enviada | Tablet: D7 | Persona: Carla Bueno
+| Momento: 150|| Alerta agregada | Persona: Mario Mas
+| Momento: 150|| Procesando | imagen: TR666 | Tiempo procesamiento: 1
+| Momento: 150|| Alerta enviada | Tablet: D6 | Persona: Mario Mas
+| Momento: 152|| Fin procesamiento | imagen: TR666
+| Momento: 152|| Alerta agregada | Persona: Mario Bueno
+| Momento: 152|| Alerta enviada | Tablet: D9 | Persona: Mario Bueno
+| Momento: 152|| Procesando | imagen: OQ235 | Tiempo procesamiento: 3
+| Momento: 155|| Fin procesamiento | imagen: JR998
+| Momento: 155|| Alerta agregada | Persona: Mario Mas
+| Momento: 155|| Fin procesamiento | imagen: OQ235
+| Momento: 155|| Procesando | imagen: RC725 | Tiempo procesamiento: 4
+| Momento: 155|| Alerta enviada | Tablet: D8 | Persona: Mario Mas
+| Momento: 155|| Alerta agregada | Persona: Mario Mas
+| Momento: 155|| Procesando | imagen: ID299 | Tiempo procesamiento: 2
+| Momento: 155|| Alerta enviada | Tablet: D1 | Persona: Mario Mas
+| Momento: 158|| Fin procesamiento | imagen: ID299
+| Momento: 158|| Alerta agregada | Persona: Mario Mas
+| Momento: 158|| Procesando | imagen: OJ842 | Tiempo procesamiento: 3
+| Momento: 158|| Alerta enviada | Tablet: D3 | Persona: Mario Mas
+| Momento: 159|| Fin procesamiento | imagen: RC725
+| Momento: 159|| Alerta agregada | Persona: Mario Bueno
+| Momento: 159|| Procesando | imagen: EQ201 | Tiempo procesamiento: 3
+| Momento: 159|| Alerta enviada | Tablet: D2 | Persona: Mario Bueno
+| Momento: 161|| Fin procesamiento | imagen: OJ842
+| Momento: 161|| Alerta agregada | Persona: Mario Bueno
+| Momento: 161|| Alerta enviada | Tablet: D4 | Persona: Mario Bueno
+| Momento: 161|| Procesando | imagen: AV747 | Tiempo procesamiento: 4
+| Momento: 164|| Fin procesamiento | imagen: EQ201
+| Momento: 164|| Alerta agregada | Persona: Mario Mas
+| Momento: 164|| Alerta enviada | Tablet: D5 | Persona: Mario Mas
+| Momento: 164|| Procesando | imagen: ZL879 | Tiempo procesamiento: 2
+| Momento: 167|| Fin procesamiento | imagen: AV747
+| Momento: 167|| Fin procesamiento | imagen: ZL879
+| Momento: 167|| Procesando | imagen: VB601 | Tiempo procesamiento: 4
+| Momento: 167|| Alerta agregada | Persona: Mario Bueno
+| Momento: 167|| Alerta enviada | Tablet: D6 | Persona: Mario Bueno
+| Momento: 167|| Procesando | imagen: XR979 | Tiempo procesamiento: 3
+| Momento: 172|| Fin procesamiento | imagen: XR979
+| Momento: 172|| Procesando | imagen: GH660 | Tiempo procesamiento: 3
+| Momento: 172|| Fin procesamiento | imagen: VB601
+| Momento: 172|| Procesando | imagen: IW702 | Tiempo procesamiento: 4
+| Momento: 175|| Fin procesamiento | imagen: GH660
+| Momento: 175|| Procesando | imagen: YB736 | Tiempo procesamiento: 2
+| Momento: 178|| Fin procesamiento | imagen: IW702
+| Momento: 178|| Procesando | imagen: XB339 | Tiempo procesamiento: 3
+| Momento: 178|| Fin procesamiento | imagen: YB736
+| Momento: 178|| Procesando | imagen: FK844 | Tiempo procesamiento: 4
+| Momento: 184|| Fin procesamiento | imagen: XB339
+| Momento: 184|| Fin procesamiento | imagen: FK844
+| Momento: 184|| Procesando | imagen: BL945 | Tiempo procesamiento: 1
+| Momento: 184|| Procesando | imagen: GL899 | Tiempo procesamiento: 4
+| Momento: 187|| Fin procesamiento | imagen: BL945
+| Momento: 187|| Procesando | imagen: XV672 | Tiempo procesamiento: 3
+| Momento: 190|| Fin procesamiento | imagen: GL899
+| Momento: 190|| Fin procesamiento | imagen: XV672
+| Momento: 190|| Procesando | imagen: HQ594 | Tiempo procesamiento: 3
+| Momento: 190|| Procesando | imagen: MZ508 | Tiempo procesamiento: 3
+| Momento: 194|| Fin procesamiento | imagen: HQ594
+| Momento: 194|| Fin procesamiento | imagen: MZ508
+| Momento: 194|| Procesando | imagen: RD422 | Tiempo procesamiento: 1
+| Momento: 194|| Procesando | imagen: CY436 | Tiempo procesamiento: 1
+| Momento: 198|| Fin procesamiento | imagen: CY436
+| Momento: 198|| Fin procesamiento | imagen: RD422
+| Momento: 198|| Procesando | imagen: GO613 | Tiempo procesamiento: 2
+| Momento: 198|| Procesando | imagen: NR392 | Tiempo procesamiento: 3
+| Momento: 201|| Fin procesamiento | imagen: NR392
+| Momento: 201|| Procesando | imagen: YH382 | Tiempo procesamiento: 3
+| Momento: 201|| Fin procesamiento | imagen: GO613
+| Momento: 201|| Procesando | imagen: YR171 | Tiempo procesamiento: 3
+| Momento: 204|| Fin procesamiento | imagen: YH382
+| Momento: 204|| Fin procesamiento | imagen: YR171
+| Momento: 204|| Procesando | imagen: RH761 | Tiempo procesamiento: 1
+| Momento: 204|| Procesando | imagen: EQ106 | Tiempo procesamiento: 1
+| Momento: 205|| Fin procesamiento | imagen: EQ106
+| Momento: 205|| Fin procesamiento | imagen: RH761
+| Momento: 205|| Procesando | imagen: JD932 | Tiempo procesamiento: 1
+| Momento: 205|| Procesando | imagen: DQ937 | Tiempo procesamiento: 3
+| Momento: 209|| Fin procesamiento | imagen: JD932
+| Momento: 209|| Fin procesamiento | imagen: DQ937
+| Momento: 209|| Procesando | imagen: ML266 | Tiempo procesamiento: 4
+| Momento: 209|| Procesando | imagen: IT745 | Tiempo procesamiento: 3
+| Momento: 212|| Fin procesamiento | imagen: IT745
+| Momento: 212|| Procesando | imagen: IZ578 | Tiempo procesamiento: 4
+| Momento: 213|| Fin procesamiento | imagen: ML266
+| Momento: 213|| Procesando | imagen: HY721 | Tiempo procesamiento: 4
+| Momento: 218|| Fin procesamiento | imagen: HY721
+| Momento: 218|| Fin procesamiento | imagen: IZ578
+| Momento: 218|| Procesando | imagen: TJ407 | Tiempo procesamiento: 3
+| Momento: 218|| Procesando | imagen: IF546 | Tiempo procesamiento: 2
+| Momento: 221|| Fin procesamiento | imagen: IF546
+| Momento: 221|| Fin procesamiento | imagen: TJ407
+| Momento: 221|| Procesando | imagen: DZ306 | Tiempo procesamiento: 1
+| Momento: 221|| Procesando | imagen: LC739 | Tiempo procesamiento: 2
+| Momento: 222|| Fin procesamiento | imagen: DZ306
+| Momento: 222|| Procesando | imagen: HG054 | Tiempo procesamiento: 3
+| Momento: 225|| Fin procesamiento | imagen: LC739
+| Momento: 225|| Procesando | imagen: OI270 | Tiempo procesamiento: 2
+| Momento: 225|| Fin procesamiento | imagen: HG054
+| Momento: 225|| Procesando | imagen: MP214 | Tiempo procesamiento: 4
+| Momento: 229|| Fin procesamiento | imagen: MP214
+| Momento: 229|| Procesando | imagen: HX134 | Tiempo procesamiento: 4
+| Momento: 229|| Fin procesamiento | imagen: OI270
+| Momento: 229|| Procesando | imagen: YY866 | Tiempo procesamiento: 4
+| Momento: 235|| Fin procesamiento | imagen: YY866
+| Momento: 235|| Fin procesamiento | imagen: HX134
+| Momento: 235|| Procesando | imagen: SI913 | Tiempo procesamiento: 1
+| Momento: 235|| Alerta agregada | Persona: Mario Mas
+| Momento: 235|| Alerta enviada | Tablet: D7 | Persona: Mario Mas
+| Momento: 235|| Procesando | imagen: JG257 | Tiempo procesamiento: 2
+| Momento: 237|| Fin procesamiento | imagen: SI913
+| Momento: 237|| Fin procesamiento | imagen: JG257
+| Momento: 237|| Alerta agregada | Persona: Mario Bueno
+| Momento: 237|| Procesando | imagen: IW397 | Tiempo procesamiento: 4
+| Momento: 237|| Alerta enviada | Tablet: D8 | Persona: Mario Bueno
+| Momento: 237|| Alerta agregada | Persona: Mario Mas
+| Momento: 237|| Procesando | imagen: UF450 | Tiempo procesamiento: 4
+| Momento: 237|| Alerta enviada | Tablet: D9 | Persona: Mario Mas
+| Momento: 241|| Fin procesamiento | imagen: IW397
+| Momento: 241|| Fin procesamiento | imagen: UF450
+| Momento: 241|| Alerta agregada | Persona: Mario Mas
+| Momento: 241|| Alerta enviada | Tablet: D2 | Persona: Mario Mas
+| Momento: 241|| Procesando | imagen: YV345 | Tiempo procesamiento: 3
+| Momento: 241|| Alerta agregada | Persona: Mario Bueno
+| Momento: 241|| Alerta enviada | Tablet: D1 | Persona: Mario Bueno
+| Momento: 241|| Procesando | imagen: YQ772 | Tiempo procesamiento: 3
+| Momento: 245|| Fin procesamiento | imagen: YV345
+| Momento: 245|| Fin procesamiento | imagen: YQ772
+| Momento: 245|| Procesando | imagen: QL543 | Tiempo procesamiento: 4
+| Momento: 245|| Procesando | imagen: IY771 | Tiempo procesamiento: 1
+| Momento: 248|| Fin procesamiento | imagen: IY771
+| Momento: 248|| Procesando | imagen: SV442 | Tiempo procesamiento: 4
+| Momento: 251|| Fin procesamiento | imagen: QL543
+| Momento: 251|| Procesando | imagen: XF933 | Tiempo procesamiento: 1
+| Momento: 255|| Fin procesamiento | imagen: SV442
 | Momento: 255|| Procesando | imagen: ER206 | Tiempo procesamiento: 3
 | Momento: 255|| Fin procesamiento | imagen: XF933
 | Momento: 255|| Procesando | imagen: SO482 | Tiempo procesamiento: 2
-| Momento: 259|| Fin procesamiento | imagen: SO482
-| Momento: 259|| Fin procesamiento | imagen: ER206
-| Momento: 259|| Procesando | imagen: HP246 | Tiempo procesamiento: 3
+| Momento: 258|| Fin procesamiento | imagen: SO482
+| Momento: 258|| Procesando | imagen: HP246 | Tiempo procesamiento: 3
+| Momento: 258|| Fin procesamiento | imagen: ER206
 | Momento: 259|| Procesando | imagen: WO251 | Tiempo procesamiento: 2
-| Momento: 262|| Fin procesamiento | imagen: HP246
 | Momento: 262|| Fin procesamiento | imagen: WO251
+| Momento: 267|| Fin procesamiento | imagen: HP246

@@ -5,10 +5,6 @@
  */
 package sistema_seguridad;
 
-import java.io.*;
-//import java.io.FileWriter;
-//import java.io.IOException;
-//import java.io.PrintWriter;
 
 /**
  *
@@ -17,15 +13,15 @@ import java.io.*;
 public class Logger {
     
     public static Logger instancia = null;
-    private String nombre;
+    private final String nombre;
     
      
         
-    public Logger(String nombre) throws IOException{
+    public Logger(String nombre){
         this.nombre = nombre;
         this.log("Simulacion iniciada");
     }
-    public void log(String entrada) throws IOException{
+    public void log(String entrada){
         String base = "| Momento: " +Reloj.getInstance().getMomentoActual() + "|| ";
         ManejadorArchivos.escribirArchivo(nombre,base + entrada);
     }

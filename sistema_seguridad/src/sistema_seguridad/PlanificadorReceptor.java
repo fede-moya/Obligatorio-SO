@@ -5,7 +5,6 @@
  */
 package sistema_seguridad;
 
-import java.nio.Buffer;
 import java.util.ArrayList;
 
 /**
@@ -16,7 +15,9 @@ public class PlanificadorReceptor {
 
     public static Imagen getProximaImagen() {
         // lista con las primeras imagenes de los grupos de camaras
-        ArrayList<Imagen> primerasImagenes = new ArrayList<>();
+        ArrayList<Imagen> primerasImagenes;
+        primerasImagenes = new ArrayList<>();
+        
         Imagen amsterdam = Buffers.amsterdam.getProximaImagen();
         Imagen colombes = Buffers.colombes.getProximaImagen();
         Imagen especial = Buffers.especiales.getProximaImagen();
@@ -31,7 +32,7 @@ public class PlanificadorReceptor {
 
         // se obtiene la imagen con mayor prioridad
         Imagen prioritaria = getImagenPrioritaria(primerasImagenes);
-        Imagen result = null;
+        Imagen result;
         if (america != null && prioritaria.getCodigo().equals(primerasImagenes.get(0).getCodigo())) {
             result = Buffers.america.eliminarImagen();
         } else if (olimpica != null && prioritaria.getCodigo().equals(primerasImagenes.get(1).getCodigo())) {

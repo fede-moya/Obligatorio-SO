@@ -10,12 +10,14 @@ package sistema_seguridad;
  * @author federico
  */
 public class Alerta {
+    private Delincuente persona;
     private Imagen requerido;
+    
     // representa el momento en que se creo la alerta
     private Integer momentoGeneracion;
-    // representa el momento en que la alerta se retiro del buffer de alertas
+    // representa el momento en que se recibio la alerta
     private Integer momentoNotificada;
-    private Delincuente persona;
+    
 
     public Delincuente getPersona() {
         return persona;
@@ -52,10 +54,7 @@ public class Alerta {
     public Alerta(Imagen requerido,Delincuente persona, Integer momentoGeneracion) {
         this.requerido = requerido;
         this.momentoGeneracion = momentoGeneracion;
-        this.momentoNotificada = momentoNotificada;
         this.persona = persona;
     }
-    
-    
     
 }

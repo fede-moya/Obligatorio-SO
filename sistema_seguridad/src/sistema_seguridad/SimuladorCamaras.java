@@ -9,10 +9,8 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Queue;
-import java.util.logging.Level;
-import static sistema_seguridad.ManejadorArchivos.leerArchivo;
+
 
 /**
  *
@@ -24,78 +22,49 @@ public class SimuladorCamaras implements Runnable {
         this.tribuna = tribuna;
     }
     
-    private String tribuna;
+    private final String tribuna;
     
 
     @Override
     public void run() {
         switch(tribuna){
             case "Amsterdam":
-                try {
-                    capturarImagenes("Amsterdam30.csv",Buffers.amsterdam.getImagenes());
-                } catch (InterruptedException ex) {
-
-                } catch (IOException ex) {
-            
-        }
-break;
+                capturarImagenes("Amsterdam30.csv",Buffers.amsterdam.getImagenes());
+                break;
             case "Colombes":
-                try {
-            try {
                 capturarImagenes("Colombes30.csv",Buffers.colombes.getImagenes());
-            } catch (IOException ex) {
-                
-            }
-                } catch (InterruptedException ex) {
-                    
-                }break;
+                break;
             case "Olimpica":
-                try {
-                    capturarImagenes("Olimpica30.csv",Buffers.olimpica.getImagenes());
-                } catch (InterruptedException ex) {
-                    
-                } catch (IOException ex) {
-
-        }
-break;
+                capturarImagenes("Olimpica30.csv",Buffers.olimpica.getImagenes());
+                break;
             case "America":
-                try {
-                    capturarImagenes("America30.csv",Buffers.america.getImagenes());
-                } catch (InterruptedException ex) {
-                    
-                } catch (IOException ex) {
-            
-        }
-break;
+                capturarImagenes("America30.csv",Buffers.america.getImagenes());
+                break;
             case "Especiales":
-                try {
-                    capturarImagenes("CamarasEspeciales30.csv",Buffers.especiales.getImagenes());
-                } catch (InterruptedException ex) {
-                    
-                } catch (IOException ex) {
-            
-        }
-break;
-                
-            
+                capturarImagenes("CamarasEspeciales30.csv",Buffers.especiales.getImagenes());
+                break;
         }
         
     }
     
-    public void capturarImagenes(String nombreArchivo,Queue<Imagen> imagenes) throws InterruptedException, IOException{
+    public void capturarImagenes(String nombreArchivo,Queue<Imagen> imagenes){
         int capturadas = 0;
         FileReader fr;
+        BufferedReader br;
+        String[] linea;
         try {
             fr = new FileReader(nombreArchivo);
-            BufferedReader br = new BufferedReader(fr);
+            br = new BufferedReader(fr);
             String lineaActual = br.readLine();
             lineaActual = br.readLine();
-            String[] linea = null;
-            Imagen imagen = null;
             while (lineaActual != null) {
                 capturadas++;
                 if (capturadas == 5) {
-                    Thread.sleep(10);
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException ex) {
+                        System.out.println("Error tratando de dormir el hilo de la tribuna" + this.tribuna);
+                    }
                     capturadas = 0;
                 }
                 linea = lineaActual.split(",");

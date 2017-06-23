@@ -6,7 +6,7 @@ package sistema_seguridad;
  */
 import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
+
 
 /**
  *
@@ -14,19 +14,31 @@ import java.util.List;
  */
 public class ManejadorArchivos {
     
-    public static void escribirArchivo(String nombreArchivo,String texto) throws IOException{
-        FileWriter simulacion = new FileWriter(nombreArchivo,true);
-        PrintWriter pw = new PrintWriter(simulacion);
-        pw.println(texto);
-        simulacion.close();
+    public static void escribirArchivo(String nombreArchivo,String texto){
+        FileWriter simulacion = null;
+        try {
+            simulacion = new FileWriter(nombreArchivo,true);
+            PrintWriter pw = new PrintWriter(simulacion);
+            pw.println(texto);
+            simulacion.close();
+        } catch (IOException ex) {
+            System.out.println("Algo salio mal tratando de escribir el archivo "+ nombreArchivo);
+        } finally {
+            try {
+                simulacion.close();
+            } catch (IOException ex) {
+                System.out.println("Algo salio mal tratando de cerrar el archivo "+ nombreArchivo);
+            }
+        }
     }
     
     public static String[] leerArchivo(String nombreCompletoArchivo, boolean ignoreHeader) {
         FileReader fr;
-        ArrayList<String> listaLineasArchivo = new ArrayList<String>();
+        BufferedReader br;
+        ArrayList<String> listaLineasArchivo = new ArrayList<>();
         try {
             fr = new FileReader(nombreCompletoArchivo);
-            BufferedReader br = new BufferedReader(fr);
+            br = new BufferedReader(fr);
             String lineaActual = br.readLine();
             if (ignoreHeader) lineaActual = br.readLine();
             while (lineaActual != null) {
@@ -36,13 +48,10 @@ public class ManejadorArchivos {
             br.close();
             fr.close();
         } catch (FileNotFoundException e) {
-            System.out.println("Error al leer el archivo "
-                    + nombreCompletoArchivo);
-            e.printStackTrace();
+            System.out.println("No se encontro el archivo "+ nombreCompletoArchivo);
+            
         } catch (IOException e) {
-            System.out.println("Error al leer el archivo "
-                    + nombreCompletoArchivo);
-            e.printStackTrace();
+            System.out.println("Error al leer el archivo " + nombreCompletoArchivo);
         }
 
         return listaLineasArchivo.toArray(new String[0]);

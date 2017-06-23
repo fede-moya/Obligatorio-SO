@@ -7,7 +7,6 @@ package sistema_seguridad;
 
 import java.io.IOException;
 import java.util.concurrent.Semaphore;
-import java.util.logging.Level;
 
 
 /**
@@ -16,7 +15,7 @@ import java.util.logging.Level;
  */
 public class Notificador implements Runnable {
     
-    private Semaphore semAlerta;
+    private final Semaphore semAlerta;
     
     @Override
     public void run() {
@@ -31,9 +30,7 @@ public class Notificador implements Runnable {
     
     private void notificar() throws IOException, InterruptedException{
         System.out.println("");
-        if(!Buffers.alertasANotificar.isEmpty())
-        {
-            System.out.println("");
+        if(!Buffers.alertasANotificar.isEmpty()){
             semAlerta.acquireUninterruptibly();
             Alerta notificacion = Buffers.alertasANotificar.poll();
             notificacion.setMomentoNotificada(Reloj.getInstance().getMomentoActual());
@@ -51,7 +48,5 @@ public class Notificador implements Runnable {
     public Notificador(Semaphore semAlerta) {
         this.semAlerta = semAlerta;
     }
-    
-    
     
 }

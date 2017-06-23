@@ -14,14 +14,14 @@ import java.util.Queue;
  */
 public class GrupoCamara {
     private String numero;
-    private Queue<Imagen> imagenes;
+    private final Queue<Imagen> imagenes;
 
     public String getNumero() {
         return numero;
     }
 
     public GrupoCamara() {
-        this.imagenes = new LinkedList<Imagen>();
+        this.imagenes = new LinkedList<>();
     }
 
     public void setNumero(String numero) {
