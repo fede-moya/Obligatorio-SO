@@ -54,7 +54,7 @@ public class ProcesadorImagen implements Runnable {
         
         Logger.getInstancia().log("Fin procesamiento | imagen: " + imagen.getCodigo());
         
-        Delincuente delincuente = BaseDatos.getInstance().esDelincuente(imagen);
+        Delincuente delincuente = BaseDatos.esDelincuente(imagen);
         if (delincuente != null) {
             Alerta alerta = new Alerta(imagen, delincuente, Reloj.getInstance().getMomentoActual());
             semAlerta.acquire();
@@ -70,7 +70,5 @@ public class ProcesadorImagen implements Runnable {
         this.semImagen = semImagen;
         this.semAlerta = semAlerta;
     }
-    
-    private void noop(){}
 
 }

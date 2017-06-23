@@ -16,22 +16,11 @@ import java.util.Map;
  */
 public class BaseDatos {
     
-    private  Map<String,String> codigosImagenes;
-    private  Map<String,Delincuente> delincuentes;
-    private  Map<String,Camara> camaras;
+    private  static Map<String,String> codigosImagenes;
+    private  static Map<String,Delincuente> delincuentes;
+    private  static Map<String,Camara> camaras;
     
-    
-    private static BaseDatos instance = null;
-    
-    public static BaseDatos getInstance(){
-        if (instance ==null){
-            instance = new BaseDatos();
-            instance.cargarDatos();
-        }
-        return instance;
-    }  
-    
-    private void cargarDatos(){
+    public static void cargarDatos(){
         codigosImagenes = new HashMap();
         delincuentes = new HashMap();
         camaras = new HashMap();
@@ -63,7 +52,7 @@ public class BaseDatos {
         }
     }
 
-    public Delincuente esDelincuente(Imagen imagen) throws IOException{
+    public static Delincuente esDelincuente(Imagen imagen) throws IOException{
         String patron = codigosImagenes.get(imagen.getCodigo());
         Delincuente delincuente = null;
         if (patron!=null){
@@ -72,7 +61,7 @@ public class BaseDatos {
         return delincuente;
     }
     
-    public int getPrioridad(String idCamara){
+    public static int getPrioridadCamara(String idCamara){
         return camaras.get(idCamara).getPrioridad();
     }
 }

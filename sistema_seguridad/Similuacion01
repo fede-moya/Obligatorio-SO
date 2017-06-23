@@ -1,1326 +1,465 @@
 | Momento: 0|| Simulacion iniciada
 | Momento: 1|| Se inician hilos de simulacion
-| Momento: 1|| Lista para procesar | imagen WZ963
-| Momento: 1|| Lista para procesar | imagen WF255
-| Momento: 1|| Lista para procesar | imagen TS709
-| Momento: 1|| Lista para procesar | imagen CW532
-| Momento: 1|| Procesando | imagen: WZ963 | Tiempo procesamiento: 3
-| Momento: 1|| Lista para procesar | imagen ZD380
-| Momento: 1|| Lista para procesar | imagen RM219
-| Momento: 1|| Lista para procesar | imagen FP758
-| Momento: 1|| Lista para procesar | imagen VG348
-| Momento: 1|| Lista para procesar | imagen LZ653
-| Momento: 1|| Lista para procesar | imagen CW638
-| Momento: 1|| Lista para procesar | imagen LY753
-| Momento: 1|| Lista para procesar | imagen HU669
-| Momento: 1|| Lista para procesar | imagen KG533
-| Momento: 1|| Lista para procesar | imagen QT467
-| Momento: 1|| Lista para procesar | imagen XY866
-| Momento: 1|| Lista para procesar | imagen TO578
-| Momento: 1|| Lista para procesar | imagen ZG764
-| Momento: 1|| Lista para procesar | imagen TN167
-| Momento: 1|| Lista para procesar | imagen UY684
-| Momento: 1|| Lista para procesar | imagen LC932
-| Momento: 1|| Lista para procesar | imagen NF474
-| Momento: 1|| Lista para procesar | imagen CT223
-| Momento: 1|| Lista para procesar | imagen ZU270
-| Momento: 1|| Lista para procesar | imagen ID956
-| Momento: 1|| Lista para procesar | imagen XP976
-| Momento: 1|| Lista para procesar | imagen VO438
-| Momento: 1|| Lista para procesar | imagen GP577
-| Momento: 1|| Lista para procesar | imagen PL462
-| Momento: 1|| Lista para procesar | imagen FS977
-| Momento: 1|| Lista para procesar | imagen ZW536
-| Momento: 1|| Lista para procesar | imagen LK785
-| Momento: 1|| Lista para procesar | imagen YJ672
-| Momento: 1|| Lista para procesar | imagen TE531
-| Momento: 1|| Lista para procesar | imagen FC734
-| Momento: 1|| Lista para procesar | imagen KL116
-| Momento: 1|| Lista para procesar | imagen KD733
-| Momento: 1|| Lista para procesar | imagen OP942
-| Momento: 1|| Lista para procesar | imagen XG527
-| Momento: 1|| Lista para procesar | imagen PG113
-| Momento: 1|| Lista para procesar | imagen IY347
-| Momento: 1|| Lista para procesar | imagen MG485
-| Momento: 1|| Lista para procesar | imagen OY593
-| Momento: 1|| Lista para procesar | imagen JD925
-| Momento: 1|| Lista para procesar | imagen UZ190
-| Momento: 1|| Lista para procesar | imagen CI822
-| Momento: 1|| Lista para procesar | imagen IW333
-| Momento: 1|| Lista para procesar | imagen UT733
-| Momento: 1|| Lista para procesar | imagen OW426
-| Momento: 1|| Lista para procesar | imagen GV543
-| Momento: 1|| Lista para procesar | imagen XO726
-| Momento: 1|| Lista para procesar | imagen TJ671
-| Momento: 1|| Lista para procesar | imagen FS146
-| Momento: 1|| Lista para procesar | imagen OQ749
-| Momento: 1|| Lista para procesar | imagen YK515
-| Momento: 1|| Lista para procesar | imagen SM968
-| Momento: 1|| Lista para procesar | imagen OU815
-| Momento: 1|| Lista para procesar | imagen GO302
-| Momento: 1|| Lista para procesar | imagen RP539
-| Momento: 1|| Lista para procesar | imagen YD721
-| Momento: 1|| Lista para procesar | imagen DQ179
-| Momento: 1|| Lista para procesar | imagen CR714
-| Momento: 1|| Lista para procesar | imagen SS957
-| Momento: 1|| Lista para procesar | imagen CU862
-| Momento: 1|| Lista para procesar | imagen KD822
-| Momento: 1|| Lista para procesar | imagen SK745
-| Momento: 1|| Lista para procesar | imagen LP823
-| Momento: 1|| Lista para procesar | imagen JF700
-| Momento: 1|| Lista para procesar | imagen SX186
-| Momento: 1|| Lista para procesar | imagen GC578
-| Momento: 1|| Lista para procesar | imagen RD761
-| Momento: 1|| Lista para procesar | imagen XF878
-| Momento: 1|| Lista para procesar | imagen XO482
-| Momento: 1|| Lista para procesar | imagen DI222
-| Momento: 1|| Lista para procesar | imagen LQ585
-| Momento: 1|| Lista para procesar | imagen OO368
-| Momento: 1|| Lista para procesar | imagen HQ402
-| Momento: 1|| Lista para procesar | imagen QO544
-| Momento: 1|| Lista para procesar | imagen LN809
-| Momento: 1|| Lista para procesar | imagen WE414
-| Momento: 1|| Lista para procesar | imagen FD962
-| Momento: 1|| Lista para procesar | imagen JD988
-| Momento: 1|| Lista para procesar | imagen XY651
-| Momento: 1|| Lista para procesar | imagen QZ643
-| Momento: 1|| Lista para procesar | imagen WR784
-| Momento: 1|| Lista para procesar | imagen TW278
-| Momento: 1|| Lista para procesar | imagen CY122
-| Momento: 1|| Lista para procesar | imagen SO685
-| Momento: 1|| Lista para procesar | imagen QI195
-| Momento: 1|| Lista para procesar | imagen RP289
-| Momento: 1|| Lista para procesar | imagen MF755
-| Momento: 1|| Lista para procesar | imagen YL312
-| Momento: 1|| Lista para procesar | imagen JC514
-| Momento: 1|| Lista para procesar | imagen TC501
-| Momento: 1|| Lista para procesar | imagen RX778
-| Momento: 1|| Lista para procesar | imagen ZY537
-| Momento: 1|| Lista para procesar | imagen WI766
-| Momento: 1|| Lista para procesar | imagen JO526
-| Momento: 1|| Lista para procesar | imagen QQ487
-| Momento: 1|| Lista para procesar | imagen HX511
-| Momento: 1|| Lista para procesar | imagen VH684
-| Momento: 1|| Lista para procesar | imagen BX261
-| Momento: 1|| Lista para procesar | imagen GV183
-| Momento: 2|| Lista para procesar | imagen RH943
-| Momento: 2|| Lista para procesar | imagen LV430
-| Momento: 2|| Lista para procesar | imagen DX473
-| Momento: 2|| Lista para procesar | imagen FM084
-| Momento: 2|| Lista para procesar | imagen JG885
-| Momento: 2|| Lista para procesar | imagen KF624
-| Momento: 2|| Lista para procesar | imagen DO342
-| Momento: 2|| Lista para procesar | imagen HU051
-| Momento: 2|| Lista para procesar | imagen QN887
-| Momento: 2|| Lista para procesar | imagen XB849
-| Momento: 2|| Lista para procesar | imagen VI373
-| Momento: 2|| Lista para procesar | imagen NK003
-| Momento: 2|| Lista para procesar | imagen UK299
-| Momento: 2|| Lista para procesar | imagen JR998
-| Momento: 2|| Lista para procesar | imagen TR666
-| Momento: 2|| Lista para procesar | imagen OQ235
-| Momento: 2|| Lista para procesar | imagen RC725
-| Momento: 2|| Lista para procesar | imagen ID299
-| Momento: 2|| Lista para procesar | imagen OJ842
-| Momento: 2|| Lista para procesar | imagen EQ201
-| Momento: 2|| Lista para procesar | imagen AV747
-| Momento: 2|| Lista para procesar | imagen YY866
-| Momento: 2|| Lista para procesar | imagen SI913
-| Momento: 2|| Lista para procesar | imagen JG257
-| Momento: 2|| Lista para procesar | imagen IW397
-| Momento: 2|| Lista para procesar | imagen UF450
-| Momento: 2|| Lista para procesar | imagen AH690
-| Momento: 2|| Lista para procesar | imagen MC877
-| Momento: 2|| Lista para procesar | imagen ER850
-| Momento: 2|| Lista para procesar | imagen KY123
-| Momento: 2|| Lista para procesar | imagen IM054
-| Momento: 2|| Lista para procesar | imagen FV650
-| Momento: 2|| Lista para procesar | imagen MM277
-| Momento: 2|| Lista para procesar | imagen PS223
-| Momento: 2|| Lista para procesar | imagen SB592
-| Momento: 2|| Lista para procesar | imagen QT203
-| Momento: 2|| Lista para procesar | imagen RV342
-| Momento: 2|| Lista para procesar | imagen LU897
-| Momento: 2|| Lista para procesar | imagen FD013
-| Momento: 2|| Lista para procesar | imagen BC778
-| Momento: 2|| Lista para procesar | imagen BR435
-| Momento: 2|| Lista para procesar | imagen MC802
-| Momento: 2|| Lista para procesar | imagen UN638
-| Momento: 2|| Lista para procesar | imagen WO583
-| Momento: 2|| Lista para procesar | imagen VE167
-| Momento: 2|| Lista para procesar | imagen YZ651
-| Momento: 2|| Lista para procesar | imagen LT769
-| Momento: 2|| Lista para procesar | imagen HG057
-| Momento: 2|| Lista para procesar | imagen NT479
-| Momento: 2|| Lista para procesar | imagen SV368
-| Momento: 2|| Lista para procesar | imagen TG394
-| Momento: 2|| Lista para procesar | imagen AZ607
-| Momento: 2|| Lista para procesar | imagen IP227
-| Momento: 2|| Lista para procesar | imagen YJ847
-| Momento: 2|| Lista para procesar | imagen IM657
-| Momento: 2|| Lista para procesar | imagen MK881
-| Momento: 2|| Lista para procesar | imagen ZS108
-| Momento: 2|| Lista para procesar | imagen PW197
-| Momento: 2|| Lista para procesar | imagen VC383
-| Momento: 2|| Lista para procesar | imagen BQ588
-| Momento: 2|| Lista para procesar | imagen EM600
-| Momento: 2|| Lista para procesar | imagen GD414
-| Momento: 2|| Lista para procesar | imagen CS362
-| Momento: 2|| Lista para procesar | imagen NH736
-| Momento: 2|| Lista para procesar | imagen NI848
-| Momento: 2|| Lista para procesar | imagen MZ978
-| Momento: 2|| Lista para procesar | imagen OJ960
-| Momento: 2|| Lista para procesar | imagen NR954
-| Momento: 2|| Lista para procesar | imagen UV648
-| Momento: 2|| Lista para procesar | imagen PK039
-| Momento: 2|| Lista para procesar | imagen IV542
-| Momento: 2|| Lista para procesar | imagen OZ773
-| Momento: 2|| Lista para procesar | imagen YI457
-| Momento: 2|| Lista para procesar | imagen HD586
-| Momento: 2|| Lista para procesar | imagen QD117
-| Momento: 2|| Lista para procesar | imagen MV089
-| Momento: 2|| Lista para procesar | imagen QN887
-| Momento: 2|| Lista para procesar | imagen GE905
-| Momento: 2|| Lista para procesar | imagen PM980
-| Momento: 2|| Lista para procesar | imagen RI592
-| Momento: 2|| Lista para procesar | imagen BA524
-| Momento: 2|| Lista para procesar | imagen IU569
-| Momento: 2|| Lista para procesar | imagen VP877
-| Momento: 2|| Lista para procesar | imagen YT721
-| Momento: 2|| Lista para procesar | imagen OB237
-| Momento: 2|| Lista para procesar | imagen QN269
-| Momento: 2|| Lista para procesar | imagen AZ754
-| Momento: 2|| Lista para procesar | imagen KA712
-| Momento: 2|| Lista para procesar | imagen FE054
-| Momento: 2|| Lista para procesar | imagen LA932
-| Momento: 2|| Lista para procesar | imagen EQ225
-| Momento: 2|| Lista para procesar | imagen BF373
-| Momento: 2|| Lista para procesar | imagen WZ358
-| Momento: 2|| Lista para procesar | imagen GQ707
-| Momento: 2|| Lista para procesar | imagen MP928
-| Momento: 2|| Lista para procesar | imagen IY304
-| Momento: 2|| Lista para procesar | imagen BU676
-| Momento: 2|| Lista para procesar | imagen MH228
-| Momento: 2|| Lista para procesar | imagen ZT131
-| Momento: 2|| Lista para procesar | imagen PR172
-| Momento: 2|| Lista para procesar | imagen YN903
-| Momento: 2|| Lista para procesar | imagen HF765
-| Momento: 2|| Lista para procesar | imagen UY406
-| Momento: 2|| Lista para procesar | imagen ZN901
-| Momento: 2|| Lista para procesar | imagen OR986
-| Momento: 2|| Lista para procesar | imagen QS307
-| Momento: 2|| Lista para procesar | imagen NS452
-| Momento: 2|| Lista para procesar | imagen SX058
-| Momento: 3|| Lista para procesar | imagen TE058
-| Momento: 3|| Lista para procesar | imagen DK183
-| Momento: 3|| Lista para procesar | imagen IV630
-| Momento: 3|| Lista para procesar | imagen VG861
-| Momento: 3|| Lista para procesar | imagen LF767
-| Momento: 3|| Lista para procesar | imagen MK266
-| Momento: 3|| Lista para procesar | imagen OB766
-| Momento: 3|| Lista para procesar | imagen NP020
-| Momento: 3|| Lista para procesar | imagen TT999
-| Momento: 3|| Lista para procesar | imagen WO539
-| Momento: 3|| Lista para procesar | imagen PT520
-| Momento: 3|| Lista para procesar | imagen XJ629
-| Momento: 3|| Lista para procesar | imagen EZ386
-| Momento: 3|| Lista para procesar | imagen VS078
-| Momento: 3|| Lista para procesar | imagen PJ330
-| Momento: 3|| Lista para procesar | imagen DY687
-| Momento: 3|| Lista para procesar | imagen YJ522
-| Momento: 3|| Lista para procesar | imagen YW626
-| Momento: 3|| Lista para procesar | imagen NZ238
-| Momento: 3|| Lista para procesar | imagen SJ334
-| Momento: 3|| Lista para procesar | imagen RX119
-| Momento: 3|| Lista para procesar | imagen ZU394
-| Momento: 3|| Lista para procesar | imagen CT905
-| Momento: 3|| Lista para procesar | imagen KK886
-| Momento: 3|| Lista para procesar | imagen IT810
-| Momento: 3|| Lista para procesar | imagen GA203
-| Momento: 3|| Lista para procesar | imagen HZ813
-| Momento: 3|| Lista para procesar | imagen RN183
-| Momento: 3|| Lista para procesar | imagen QN773
-| Momento: 3|| Lista para procesar | imagen RF714
-| Momento: 3|| Lista para procesar | imagen YA638
-| Momento: 3|| Lista para procesar | imagen WI120
-| Momento: 3|| Lista para procesar | imagen RH061
-| Momento: 3|| Lista para procesar | imagen OL703
-| Momento: 3|| Lista para procesar | imagen KQ067
-| Momento: 3|| Lista para procesar | imagen UK793
-| Momento: 3|| Lista para procesar | imagen UC605
-| Momento: 3|| Lista para procesar | imagen FX106
-| Momento: 3|| Lista para procesar | imagen EY961
-| Momento: 3|| Lista para procesar | imagen OW743
-| Momento: 3|| Lista para procesar | imagen CL998
-| Momento: 3|| Lista para procesar | imagen XI135
-| Momento: 3|| Lista para procesar | imagen IB715
-| Momento: 3|| Lista para procesar | imagen II091
-| Momento: 3|| Lista para procesar | imagen YX147
-| Momento: 3|| Lista para procesar | imagen XW420
-| Momento: 3|| Lista para procesar | imagen BU517
-| Momento: 3|| Lista para procesar | imagen GT774
-| Momento: 3|| Lista para procesar | imagen QE364
-| Momento: 3|| Lista para procesar | imagen VK427
-| Momento: 3|| Lista para procesar | imagen JZ640
-| Momento: 3|| Lista para procesar | imagen IE370
-| Momento: 3|| Lista para procesar | imagen OR813
-| Momento: 3|| Lista para procesar | imagen EH381
-| Momento: 3|| Lista para procesar | imagen AX809
-| Momento: 3|| Lista para procesar | imagen NY636
-| Momento: 3|| Lista para procesar | imagen ZN128
-| Momento: 3|| Lista para procesar | imagen KR111
-| Momento: 3|| Lista para procesar | imagen GH062
-| Momento: 3|| Lista para procesar | imagen IM139
-| Momento: 3|| Lista para procesar | imagen KT200
-| Momento: 3|| Lista para procesar | imagen RQ864
-| Momento: 3|| Lista para procesar | imagen PJ543
-| Momento: 3|| Lista para procesar | imagen ZH615
-| Momento: 3|| Lista para procesar | imagen UP186
-| Momento: 3|| Lista para procesar | imagen DT926
-| Momento: 3|| Lista para procesar | imagen KJ381
-| Momento: 3|| Lista para procesar | imagen TR614
-| Momento: 3|| Lista para procesar | imagen EL746
-| Momento: 3|| Lista para procesar | imagen GG543
-| Momento: 3|| Lista para procesar | imagen MF451
-| Momento: 3|| Lista para procesar | imagen NX356
-| Momento: 3|| Lista para procesar | imagen GR915
-| Momento: 3|| Lista para procesar | imagen UA956
-| Momento: 3|| Lista para procesar | imagen EQ714
-| Momento: 3|| Lista para procesar | imagen FW458
-| Momento: 3|| Lista para procesar | imagen LR893
-| Momento: 3|| Lista para procesar | imagen WJ512
-| Momento: 3|| Lista para procesar | imagen GA783
-| Momento: 3|| Lista para procesar | imagen FR365
-| Momento: 3|| Lista para procesar | imagen LW137
-| Momento: 3|| Lista para procesar | imagen YD397
-| Momento: 3|| Lista para procesar | imagen AE061
-| Momento: 3|| Lista para procesar | imagen VO605
-| Momento: 3|| Lista para procesar | imagen MY111
-| Momento: 3|| Lista para procesar | imagen VJ784
-| Momento: 3|| Lista para procesar | imagen FR710
-| Momento: 3|| Lista para procesar | imagen EA920
-| Momento: 3|| Lista para procesar | imagen VB610
-| Momento: 3|| Lista para procesar | imagen NZ222
-| Momento: 3|| Lista para procesar | imagen YY505
-| Momento: 3|| Lista para procesar | imagen BD115
-| Momento: 3|| Lista para procesar | imagen GL842
-| Momento: 3|| Lista para procesar | imagen GZ820
-| Momento: 3|| Lista para procesar | imagen MA350
-| Momento: 3|| Lista para procesar | imagen DK296
-| Momento: 3|| Lista para procesar | imagen GD861
-| Momento: 3|| Lista para procesar | imagen QS241
-| Momento: 3|| Lista para procesar | imagen CB394
-| Momento: 3|| Lista para procesar | imagen RD736
-| Momento: 3|| Lista para procesar | imagen ZE917
-| Momento: 3|| Lista para procesar | imagen UR250
-| Momento: 3|| Lista para procesar | imagen QU357
-| Momento: 3|| Lista para procesar | imagen NO264
-| Momento: 3|| Lista para procesar | imagen QH689
-| Momento: 4|| Lista para procesar | imagen CE603
-| Momento: 4|| Lista para procesar | imagen BB170
-| Momento: 4|| Fin procesamiento | imagen: WZ963
-| Momento: 4|| Procesando | imagen: WF255 | Tiempo procesamiento: 3
-| Momento: 4|| Lista para procesar | imagen ZU826
-| Momento: 4|| Lista para procesar | imagen JZ658
-| Momento: 4|| Lista para procesar | imagen DG359
-| Momento: 4|| Lista para procesar | imagen SM677
-| Momento: 4|| Lista para procesar | imagen GK993
-| Momento: 4|| Lista para procesar | imagen RA192
-| Momento: 4|| Lista para procesar | imagen SA043
-| Momento: 4|| Lista para procesar | imagen NL711
-| Momento: 4|| Lista para procesar | imagen LS613
-| Momento: 4|| Lista para procesar | imagen OW843
-| Momento: 4|| Lista para procesar | imagen TS493
-| Momento: 4|| Lista para procesar | imagen HR805
-| Momento: 4|| Lista para procesar | imagen CA507
-| Momento: 4|| Lista para procesar | imagen KT793
-| Momento: 4|| Lista para procesar | imagen EX148
-| Momento: 4|| Lista para procesar | imagen VK551
-| Momento: 4|| Lista para procesar | imagen BI561
-| Momento: 4|| Lista para procesar | imagen IQ867
-| Momento: 4|| Lista para procesar | imagen XV389
-| Momento: 4|| Lista para procesar | imagen PN613
-| Momento: 4|| Lista para procesar | imagen ZY996
-| Momento: 4|| Lista para procesar | imagen WY389
-| Momento: 4|| Lista para procesar | imagen AL198
-| Momento: 4|| Lista para procesar | imagen MY365
-| Momento: 4|| Lista para procesar | imagen NL090
-| Momento: 4|| Lista para procesar | imagen PX167
-| Momento: 4|| Lista para procesar | imagen SM542
-| Momento: 4|| Lista para procesar | imagen IP769
-| Momento: 4|| Lista para procesar | imagen NG610
-| Momento: 4|| Lista para procesar | imagen RH493
-| Momento: 4|| Lista para procesar | imagen EG054
-| Momento: 4|| Lista para procesar | imagen MQ788
-| Momento: 4|| Lista para procesar | imagen TS687
-| Momento: 4|| Lista para procesar | imagen AC178
-| Momento: 4|| Lista para procesar | imagen DL665
-| Momento: 4|| Lista para procesar | imagen SM263
-| Momento: 4|| Lista para procesar | imagen SY328
-| Momento: 4|| Lista para procesar | imagen EC376
-| Momento: 4|| Lista para procesar | imagen ZL006
-| Momento: 4|| Lista para procesar | imagen DR969
-| Momento: 4|| Lista para procesar | imagen GT566
-| Momento: 4|| Lista para procesar | imagen CZ097
-| Momento: 4|| Lista para procesar | imagen AX303
-| Momento: 4|| Lista para procesar | imagen DJ582
-| Momento: 4|| Lista para procesar | imagen DR897
-| Momento: 4|| Lista para procesar | imagen GE229
-| Momento: 4|| Lista para procesar | imagen NM903
-| Momento: 4|| Lista para procesar | imagen SJ246
-| Momento: 4|| Lista para procesar | imagen SX300
-| Momento: 4|| Lista para procesar | imagen AS097
-| Momento: 4|| Lista para procesar | imagen LT613
-| Momento: 4|| Lista para procesar | imagen HW391
-| Momento: 4|| Lista para procesar | imagen RR041
-| Momento: 4|| Lista para procesar | imagen GW018
-| Momento: 4|| Lista para procesar | imagen AA460
-| Momento: 4|| Lista para procesar | imagen KJ633
-| Momento: 4|| Lista para procesar | imagen RD177
-| Momento: 4|| Lista para procesar | imagen CM141
-| Momento: 4|| Lista para procesar | imagen AI812
-| Momento: 4|| Lista para procesar | imagen TQ709
-| Momento: 4|| Lista para procesar | imagen CW200
-| Momento: 4|| Lista para procesar | imagen PR748
-| Momento: 4|| Lista para procesar | imagen PD358
-| Momento: 4|| Lista para procesar | imagen UI317
-| Momento: 4|| Lista para procesar | imagen SZ990
-| Momento: 4|| Lista para procesar | imagen WI001
-| Momento: 4|| Lista para procesar | imagen AO905
-| Momento: 4|| Lista para procesar | imagen FE296
-| Momento: 4|| Lista para procesar | imagen XU079
-| Momento: 4|| Lista para procesar | imagen MF274
-| Momento: 4|| Lista para procesar | imagen SP298
-| Momento: 4|| Lista para procesar | imagen IW130
-| Momento: 4|| Lista para procesar | imagen LK435
-| Momento: 4|| Lista para procesar | imagen HT092
-| Momento: 4|| Lista para procesar | imagen UQ248
-| Momento: 4|| Lista para procesar | imagen DM639
-| Momento: 4|| Lista para procesar | imagen NV205
-| Momento: 4|| Lista para procesar | imagen VV184
-| Momento: 4|| Lista para procesar | imagen VJ478
-| Momento: 4|| Lista para procesar | imagen JR481
-| Momento: 4|| Lista para procesar | imagen JW571
-| Momento: 4|| Lista para procesar | imagen IF234
-| Momento: 4|| Lista para procesar | imagen WJ182
-| Momento: 4|| Lista para procesar | imagen JB674
-| Momento: 4|| Lista para procesar | imagen TN672
-| Momento: 4|| Lista para procesar | imagen AX444
-| Momento: 4|| Lista para procesar | imagen AP229
-| Momento: 4|| Lista para procesar | imagen SJ073
-| Momento: 4|| Lista para procesar | imagen GW200
-| Momento: 4|| Lista para procesar | imagen KZ448
-| Momento: 4|| Lista para procesar | imagen YV365
-| Momento: 5|| Lista para procesar | imagen DG148
-| Momento: 5|| Lista para procesar | imagen KN545
-| Momento: 5|| Lista para procesar | imagen GL926
-| Momento: 5|| Lista para procesar | imagen IM342
-| Momento: 5|| Lista para procesar | imagen ZL879
-| Momento: 5|| Lista para procesar | imagen VB601
-| Momento: 5|| Lista para procesar | imagen XR979
-| Momento: 5|| Lista para procesar | imagen GH660
-| Momento: 5|| Lista para procesar | imagen IW702
-| Momento: 5|| Lista para procesar | imagen YB736
-| Momento: 5|| Lista para procesar | imagen XB339
-| Momento: 5|| Lista para procesar | imagen FK844
-| Momento: 5|| Lista para procesar | imagen BL945
-| Momento: 5|| Lista para procesar | imagen GL899
-| Momento: 5|| Lista para procesar | imagen LC739
-| Momento: 5|| Lista para procesar | imagen HG054
-| Momento: 5|| Lista para procesar | imagen OI270
-| Momento: 5|| Lista para procesar | imagen MP214
-| Momento: 5|| Lista para procesar | imagen HX134
-| Momento: 5|| Lista para procesar | imagen IJ428
-| Momento: 5|| Lista para procesar | imagen LQ048
-| Momento: 5|| Lista para procesar | imagen GD292
-| Momento: 5|| Lista para procesar | imagen AS702
-| Momento: 5|| Lista para procesar | imagen LU673
-| Momento: 5|| Lista para procesar | imagen RS869
-| Momento: 5|| Lista para procesar | imagen TO358
-| Momento: 5|| Lista para procesar | imagen SK487
-| Momento: 5|| Lista para procesar | imagen MU626
-| Momento: 5|| Lista para procesar | imagen VJ822
-| Momento: 5|| Lista para procesar | imagen NI897
-| Momento: 5|| Lista para procesar | imagen KN706
-| Momento: 5|| Lista para procesar | imagen EA417
-| Momento: 5|| Lista para procesar | imagen RY252
-| Momento: 5|| Lista para procesar | imagen BI785
-| Momento: 5|| Lista para procesar | imagen IS324
-| Momento: 5|| Lista para procesar | imagen WN774
-| Momento: 5|| Lista para procesar | imagen NJ744
-| Momento: 5|| Lista para procesar | imagen RP828
-| Momento: 5|| Lista para procesar | imagen RX779
-| Momento: 5|| Lista para procesar | imagen XH181
-| Momento: 5|| Lista para procesar | imagen ME723
-| Momento: 5|| Lista para procesar | imagen FY922
-| Momento: 5|| Lista para procesar | imagen NI745
-| Momento: 5|| Lista para procesar | imagen JN662
-| Momento: 5|| Lista para procesar | imagen AZ905
-| Momento: 5|| Lista para procesar | imagen UF493
-| Momento: 5|| Lista para procesar | imagen LV840
-| Momento: 5|| Lista para procesar | imagen QO781
-| Momento: 5|| Lista para procesar | imagen MY743
-| Momento: 5|| Lista para procesar | imagen WM378
-| Momento: 5|| Lista para procesar | imagen ER504
-| Momento: 5|| Lista para procesar | imagen CW600
-| Momento: 5|| Lista para procesar | imagen PE194
-| Momento: 5|| Lista para procesar | imagen SR457
-| Momento: 5|| Lista para procesar | imagen LW728
-| Momento: 5|| Lista para procesar | imagen HJ239
-| Momento: 5|| Lista para procesar | imagen DM254
-| Momento: 5|| Lista para procesar | imagen OY758
-| Momento: 5|| Lista para procesar | imagen DI442
-| Momento: 5|| Lista para procesar | imagen NP844
-| Momento: 5|| Lista para procesar | imagen LK756
-| Momento: 5|| Lista para procesar | imagen BH489
-| Momento: 5|| Lista para procesar | imagen VT500
-| Momento: 5|| Lista para procesar | imagen ET880
-| Momento: 5|| Lista para procesar | imagen XW796
-| Momento: 5|| Lista para procesar | imagen BO983
-| Momento: 5|| Lista para procesar | imagen GQ787
-| Momento: 5|| Lista para procesar | imagen RG674
-| Momento: 5|| Lista para procesar | imagen BO312
-| Momento: 5|| Lista para procesar | imagen FQ906
-| Momento: 5|| Lista para procesar | imagen SD771
-| Momento: 5|| Lista para procesar | imagen RR186
-| Momento: 5|| Lista para procesar | imagen KN397
-| Momento: 5|| Lista para procesar | imagen PV412
-| Momento: 5|| Lista para procesar | imagen PL718
-| Momento: 5|| Lista para procesar | imagen SA729
-| Momento: 5|| Lista para procesar | imagen TM793
-| Momento: 5|| Lista para procesar | imagen XT163
-| Momento: 5|| Lista para procesar | imagen XB957
-| Momento: 5|| Lista para procesar | imagen WB731
-| Momento: 5|| Lista para procesar | imagen HG003
-| Momento: 5|| Lista para procesar | imagen FY180
-| Momento: 5|| Lista para procesar | imagen BB859
-| Momento: 5|| Lista para procesar | imagen CK786
-| Momento: 5|| Lista para procesar | imagen WD884
-| Momento: 5|| Lista para procesar | imagen PQ443
-| Momento: 5|| Lista para procesar | imagen KQ886
-| Momento: 5|| Lista para procesar | imagen CK531
-| Momento: 5|| Lista para procesar | imagen VG898
-| Momento: 5|| Lista para procesar | imagen KL186
-| Momento: 6|| Lista para procesar | imagen CH050
-| Momento: 6|| Lista para procesar | imagen CH140
-| Momento: 6|| Lista para procesar | imagen UF546
-| Momento: 6|| Lista para procesar | imagen SW117
-| Momento: 6|| Lista para procesar | imagen WK187
-| Momento: 6|| Lista para procesar | imagen YM736
-| Momento: 6|| Lista para procesar | imagen SI741
-| Momento: 6|| Lista para procesar | imagen VY784
-| Momento: 6|| Lista para procesar | imagen FU802
-| Momento: 6|| Lista para procesar | imagen NB968
-| Momento: 6|| Lista para procesar | imagen NV844
-| Momento: 6|| Lista para procesar | imagen RJ439
-| Momento: 6|| Lista para procesar | imagen CG217
-| Momento: 6|| Lista para procesar | imagen RS367
-| Momento: 6|| Lista para procesar | imagen GA215
-| Momento: 6|| Lista para procesar | imagen LG410
-| Momento: 6|| Lista para procesar | imagen WP975
-| Momento: 6|| Lista para procesar | imagen FD437
-| Momento: 6|| Lista para procesar | imagen BI596
-| Momento: 6|| Lista para procesar | imagen PL654
-| Momento: 6|| Lista para procesar | imagen GZ153
-| Momento: 6|| Lista para procesar | imagen DI971
-| Momento: 6|| Lista para procesar | imagen ZZ655
-| Momento: 6|| Lista para procesar | imagen SD546
-| Momento: 6|| Lista para procesar | imagen UO785
-| Momento: 6|| Lista para procesar | imagen WX766
-| Momento: 6|| Lista para procesar | imagen NU089
-| Momento: 6|| Lista para procesar | imagen UY294
-| Momento: 6|| Lista para procesar | imagen WI427
-| Momento: 6|| Lista para procesar | imagen FG052
-| Momento: 6|| Lista para procesar | imagen PE602
-| Momento: 6|| Lista para procesar | imagen PZ486
-| Momento: 6|| Lista para procesar | imagen NQ587
-| Momento: 6|| Lista para procesar | imagen OG566
-| Momento: 6|| Lista para procesar | imagen RJ599
-| Momento: 6|| Lista para procesar | imagen NQ744
-| Momento: 6|| Lista para procesar | imagen LY987
-| Momento: 6|| Lista para procesar | imagen WC587
-| Momento: 6|| Lista para procesar | imagen SC151
-| Momento: 6|| Lista para procesar | imagen BH125
-| Momento: 6|| Lista para procesar | imagen CM959
-| Momento: 6|| Lista para procesar | imagen DB879
-| Momento: 6|| Lista para procesar | imagen IU944
-| Momento: 6|| Lista para procesar | imagen NA060
-| Momento: 6|| Lista para procesar | imagen LF828
-| Momento: 6|| Lista para procesar | imagen AE139
-| Momento: 6|| Lista para procesar | imagen EK196
-| Momento: 6|| Lista para procesar | imagen IB757
-| Momento: 6|| Lista para procesar | imagen DD484
-| Momento: 6|| Lista para procesar | imagen OU799
-| Momento: 6|| Lista para procesar | imagen CP111
-| Momento: 6|| Lista para procesar | imagen RX291
-| Momento: 6|| Lista para procesar | imagen PG596
-| Momento: 6|| Lista para procesar | imagen XE835
-| Momento: 6|| Lista para procesar | imagen EE220
-| Momento: 6|| Lista para procesar | imagen HR675
-| Momento: 6|| Lista para procesar | imagen EE977
-| Momento: 6|| Lista para procesar | imagen CW530
-| Momento: 6|| Lista para procesar | imagen XU457
-| Momento: 6|| Lista para procesar | imagen HW972
-| Momento: 6|| Lista para procesar | imagen KV268
-| Momento: 6|| Lista para procesar | imagen PY881
-| Momento: 6|| Lista para procesar | imagen ET173
-| Momento: 6|| Lista para procesar | imagen LV903
-| Momento: 6|| Lista para procesar | imagen CV093
-| Momento: 6|| Lista para procesar | imagen QQ010
-| Momento: 6|| Lista para procesar | imagen VK766
-| Momento: 6|| Lista para procesar | imagen CR605
-| Momento: 6|| Lista para procesar | imagen TX985
-| Momento: 6|| Lista para procesar | imagen AJ991
-| Momento: 6|| Lista para procesar | imagen AL086
-| Momento: 6|| Lista para procesar | imagen TZ068
-| Momento: 6|| Lista para procesar | imagen DJ340
-| Momento: 6|| Lista para procesar | imagen MO575
-| Momento: 6|| Lista para procesar | imagen PK296
-| Momento: 6|| Lista para procesar | imagen GP179
-| Momento: 6|| Lista para procesar | imagen FI172
-| Momento: 6|| Lista para procesar | imagen IN145
-| Momento: 6|| Lista para procesar | imagen AS296
-| Momento: 6|| Lista para procesar | imagen SL967
-| Momento: 6|| Lista para procesar | imagen OU648
-| Momento: 6|| Lista para procesar | imagen ZN350
-| Momento: 6|| Lista para procesar | imagen MV758
-| Momento: 6|| Lista para procesar | imagen AD702
-| Momento: 6|| Lista para procesar | imagen RK074
-| Momento: 6|| Lista para procesar | imagen YQ721
-| Momento: 6|| Lista para procesar | imagen WB181
-| Momento: 6|| Lista para procesar | imagen EN881
-| Momento: 6|| Lista para procesar | imagen LP903
-| Momento: 6|| Lista para procesar | imagen IF387
-| Momento: 7|| Lista para procesar | imagen RJ169
-| Momento: 7|| Fin procesamiento | imagen: WF255
-| Momento: 7|| Lista para procesar | imagen LP587
-| Momento: 7|| Procesando | imagen: TS709 | Tiempo procesamiento: 2
-| Momento: 7|| Lista para procesar | imagen PR951
-| Momento: 7|| Lista para procesar | imagen AY592
-| Momento: 7|| Lista para procesar | imagen UX978
-| Momento: 7|| Lista para procesar | imagen JM126
-| Momento: 7|| Lista para procesar | imagen MD834
-| Momento: 7|| Lista para procesar | imagen YZ778
-| Momento: 7|| Lista para procesar | imagen XF433
-| Momento: 7|| Lista para procesar | imagen UL348
-| Momento: 7|| Lista para procesar | imagen EG959
-| Momento: 7|| Lista para procesar | imagen PK284
-| Momento: 7|| Lista para procesar | imagen SV948
-| Momento: 7|| Lista para procesar | imagen UG001
-| Momento: 7|| Lista para procesar | imagen MP150
-| Momento: 7|| Lista para procesar | imagen OM826
-| Momento: 7|| Lista para procesar | imagen ZT160
-| Momento: 7|| Lista para procesar | imagen NV878
-| Momento: 7|| Lista para procesar | imagen QF067
-| Momento: 7|| Lista para procesar | imagen PK642
-| Momento: 7|| Lista para procesar | imagen IA132
-| Momento: 7|| Lista para procesar | imagen UK015
-| Momento: 7|| Lista para procesar | imagen KU634
-| Momento: 7|| Lista para procesar | imagen CY873
-| Momento: 7|| Lista para procesar | imagen VD366
-| Momento: 7|| Lista para procesar | imagen UK915
-| Momento: 7|| Lista para procesar | imagen RC333
-| Momento: 7|| Lista para procesar | imagen JG446
-| Momento: 7|| Lista para procesar | imagen GF184
-| Momento: 7|| Lista para procesar | imagen HY438
-| Momento: 7|| Lista para procesar | imagen KW127
-| Momento: 7|| Lista para procesar | imagen JP224
-| Momento: 7|| Lista para procesar | imagen UN810
-| Momento: 7|| Lista para procesar | imagen WO367
-| Momento: 7|| Lista para procesar | imagen FJ699
-| Momento: 7|| Lista para procesar | imagen LJ738
-| Momento: 7|| Lista para procesar | imagen NR596
-| Momento: 7|| Lista para procesar | imagen FM409
-| Momento: 7|| Lista para procesar | imagen EN097
-| Momento: 7|| Lista para procesar | imagen NK610
-| Momento: 7|| Lista para procesar | imagen KQ633
-| Momento: 7|| Lista para procesar | imagen KI150
-| Momento: 7|| Lista para procesar | imagen IT096
-| Momento: 7|| Lista para procesar | imagen SW398
-| Momento: 7|| Lista para procesar | imagen BR676
-| Momento: 7|| Lista para procesar | imagen PB700
-| Momento: 7|| Lista para procesar | imagen MW557
-| Momento: 7|| Lista para procesar | imagen GF334
-| Momento: 7|| Lista para procesar | imagen HS254
-| Momento: 7|| Lista para procesar | imagen QB907
-| Momento: 7|| Lista para procesar | imagen KJ124
-| Momento: 7|| Lista para procesar | imagen EF056
-| Momento: 7|| Lista para procesar | imagen SR934
-| Momento: 7|| Lista para procesar | imagen JB415
-| Momento: 7|| Lista para procesar | imagen TQ877
-| Momento: 7|| Lista para procesar | imagen GL267
-| Momento: 7|| Lista para procesar | imagen JK111
-| Momento: 7|| Lista para procesar | imagen HH269
-| Momento: 7|| Lista para procesar | imagen WA703
-| Momento: 7|| Lista para procesar | imagen BQ613
-| Momento: 7|| Lista para procesar | imagen PD748
-| Momento: 7|| Lista para procesar | imagen JB687
-| Momento: 7|| Lista para procesar | imagen EI606
-| Momento: 7|| Lista para procesar | imagen XR805
-| Momento: 7|| Lista para procesar | imagen HS932
-| Momento: 7|| Lista para procesar | imagen HI864
-| Momento: 7|| Lista para procesar | imagen TU805
-| Momento: 7|| Lista para procesar | imagen UI559
-| Momento: 7|| Lista para procesar | imagen IT678
-| Momento: 7|| Lista para procesar | imagen CQ068
-| Momento: 7|| Lista para procesar | imagen IV887
-| Momento: 7|| Lista para procesar | imagen QR660
-| Momento: 7|| Lista para procesar | imagen ZM540
-| Momento: 7|| Lista para procesar | imagen RA146
-| Momento: 7|| Lista para procesar | imagen NA766
-| Momento: 7|| Lista para procesar | imagen MT893
-| Momento: 7|| Lista para procesar | imagen GH805
-| Momento: 7|| Lista para procesar | imagen DC424
-| Momento: 7|| Lista para procesar | imagen XD669
-| Momento: 7|| Lista para procesar | imagen JS126
-| Momento: 7|| Lista para procesar | imagen VL157
-| Momento: 7|| Lista para procesar | imagen ZZ700
-| Momento: 7|| Lista para procesar | imagen AM318
-| Momento: 8|| Lista para procesar | imagen HH412
-| Momento: 8|| Lista para procesar | imagen IL064
-| Momento: 8|| Lista para procesar | imagen FR952
-| Momento: 8|| Lista para procesar | imagen QT434
-| Momento: 8|| Lista para procesar | imagen YU201
-| Momento: 8|| Lista para procesar | imagen VV970
-| Momento: 8|| Lista para procesar | imagen VR599
-| Momento: 8|| Lista para procesar | imagen MQ137
-| Momento: 8|| Lista para procesar | imagen HH295
-| Momento: 8|| Lista para procesar | imagen VR578
-| Momento: 8|| Lista para procesar | imagen PI888
-| Momento: 8|| Lista para procesar | imagen EQ870
-| Momento: 8|| Lista para procesar | imagen FY009
-| Momento: 8|| Lista para procesar | imagen TP935
-| Momento: 8|| Lista para procesar | imagen YL311
-| Momento: 8|| Lista para procesar | imagen JB400
-| Momento: 8|| Lista para procesar | imagen XK210
-| Momento: 8|| Lista para procesar | imagen FP318
-| Momento: 8|| Lista para procesar | imagen DJ560
-| Momento: 8|| Lista para procesar | imagen GH353
-| Momento: 8|| Lista para procesar | imagen XS314
-| Momento: 8|| Lista para procesar | imagen CM711
-| Momento: 8|| Lista para procesar | imagen UM398
-| Momento: 8|| Lista para procesar | imagen IM761
-| Momento: 8|| Lista para procesar | imagen DE146
-| Momento: 8|| Lista para procesar | imagen WM617
-| Momento: 8|| Lista para procesar | imagen LS959
-| Momento: 8|| Lista para procesar | imagen XM135
-| Momento: 8|| Lista para procesar | imagen IQ772
-| Momento: 8|| Lista para procesar | imagen IQ977
-| Momento: 8|| Lista para procesar | imagen RO781
-| Momento: 8|| Lista para procesar | imagen WV882
-| Momento: 8|| Lista para procesar | imagen VW270
-| Momento: 8|| Lista para procesar | imagen YE333
-| Momento: 8|| Lista para procesar | imagen GH621
-| Momento: 8|| Lista para procesar | imagen XP937
-| Momento: 8|| Lista para procesar | imagen CD845
-| Momento: 8|| Lista para procesar | imagen JP515
-| Momento: 8|| Lista para procesar | imagen XV672
-| Momento: 8|| Lista para procesar | imagen HQ594
-| Momento: 8|| Lista para procesar | imagen MZ508
-| Momento: 8|| Lista para procesar | imagen RD422
-| Momento: 8|| Lista para procesar | imagen CY436
-| Momento: 8|| Lista para procesar | imagen GO613
-| Momento: 8|| Lista para procesar | imagen NR392
-| Momento: 8|| Lista para procesar | imagen YH382
-| Momento: 8|| Lista para procesar | imagen YR171
-| Momento: 8|| Lista para procesar | imagen RH761
-| Momento: 8|| Lista para procesar | imagen YV345
-| Momento: 8|| Lista para procesar | imagen YQ772
-| Momento: 8|| Lista para procesar | imagen QL543
-| Momento: 8|| Lista para procesar | imagen IY771
-| Momento: 8|| Lista para procesar | imagen SV442
-| Momento: 8|| Lista para procesar | imagen SR652
-| Momento: 8|| Lista para procesar | imagen MF128
-| Momento: 8|| Lista para procesar | imagen VJ638
-| Momento: 8|| Lista para procesar | imagen QE324
-| Momento: 8|| Lista para procesar | imagen WU387
-| Momento: 8|| Lista para procesar | imagen GF810
-| Momento: 8|| Lista para procesar | imagen IM721
-| Momento: 8|| Lista para procesar | imagen OU513
-| Momento: 8|| Lista para procesar | imagen KM576
-| Momento: 8|| Lista para procesar | imagen GJ348
-| Momento: 8|| Lista para procesar | imagen ZY658
-| Momento: 8|| Lista para procesar | imagen QS216
-| Momento: 8|| Lista para procesar | imagen RC400
-| Momento: 8|| Lista para procesar | imagen WQ895
-| Momento: 8|| Lista para procesar | imagen GG477
-| Momento: 8|| Lista para procesar | imagen JO502
-| Momento: 8|| Lista para procesar | imagen GQ272
-| Momento: 8|| Lista para procesar | imagen UM389
-| Momento: 8|| Lista para procesar | imagen JL373
-| Momento: 8|| Lista para procesar | imagen DY828
-| Momento: 8|| Lista para procesar | imagen LV994
-| Momento: 8|| Lista para procesar | imagen JR730
-| Momento: 8|| Lista para procesar | imagen KN841
-| Momento: 8|| Lista para procesar | imagen LX663
-| Momento: 8|| Lista para procesar | imagen XS586
-| Momento: 8|| Lista para procesar | imagen UH662
-| Momento: 8|| Lista para procesar | imagen JF586
-| Momento: 8|| Lista para procesar | imagen GT101
-| Momento: 8|| Lista para procesar | imagen TM574
-| Momento: 9|| Lista para procesar | imagen QQ607
-| Momento: 9|| Fin procesamiento | imagen: TS709
-| Momento: 9|| Procesando | imagen: CW532 | Tiempo procesamiento: 1
-| Momento: 9|| Lista para procesar | imagen QZ194
-| Momento: 9|| Lista para procesar | imagen DW468
-| Momento: 9|| Lista para procesar | imagen WD134
-| Momento: 9|| Lista para procesar | imagen HP878
-| Momento: 9|| Lista para procesar | imagen SR833
-| Momento: 9|| Lista para procesar | imagen IH148
-| Momento: 9|| Lista para procesar | imagen RV390
-| Momento: 9|| Lista para procesar | imagen YJ214
-| Momento: 9|| Lista para procesar | imagen ZF436
-| Momento: 9|| Lista para procesar | imagen KY943
-| Momento: 9|| Lista para procesar | imagen CF466
-| Momento: 9|| Lista para procesar | imagen HF264
-| Momento: 9|| Lista para procesar | imagen IU765
-| Momento: 9|| Lista para procesar | imagen OE712
-| Momento: 9|| Lista para procesar | imagen SV884
-| Momento: 9|| Lista para procesar | imagen RC750
-| Momento: 9|| Lista para procesar | imagen TN584
-| Momento: 9|| Lista para procesar | imagen LS931
-| Momento: 9|| Lista para procesar | imagen QH810
-| Momento: 9|| Lista para procesar | imagen OS624
-| Momento: 9|| Lista para procesar | imagen ZC651
-| Momento: 9|| Lista para procesar | imagen NZ613
-| Momento: 9|| Lista para procesar | imagen UH602
-| Momento: 9|| Lista para procesar | imagen UZ926
-| Momento: 9|| Lista para procesar | imagen KI808
-| Momento: 9|| Lista para procesar | imagen UM426
-| Momento: 9|| Lista para procesar | imagen OS983
-| Momento: 9|| Lista para procesar | imagen YS925
-| Momento: 9|| Lista para procesar | imagen PP983
-| Momento: 9|| Lista para procesar | imagen TC247
-| Momento: 9|| Lista para procesar | imagen PV612
-| Momento: 9|| Lista para procesar | imagen MJ419
-| Momento: 9|| Lista para procesar | imagen SH343
-| Momento: 9|| Lista para procesar | imagen PT977
-| Momento: 9|| Lista para procesar | imagen QD689
-| Momento: 9|| Lista para procesar | imagen VR234
-| Momento: 9|| Lista para procesar | imagen TD468
-| Momento: 9|| Lista para procesar | imagen NW140
-| Momento: 9|| Lista para procesar | imagen LQ506
-| Momento: 9|| Lista para procesar | imagen IQ249
-| Momento: 9|| Lista para procesar | imagen IZ846
-| Momento: 9|| Lista para procesar | imagen KI552
-| Momento: 9|| Lista para procesar | imagen XS730
-| Momento: 9|| Lista para procesar | imagen QH837
-| Momento: 9|| Lista para procesar | imagen CV932
-| Momento: 9|| Lista para procesar | imagen JN762
-| Momento: 9|| Lista para procesar | imagen UR189
-| Momento: 9|| Lista para procesar | imagen CH585
-| Momento: 9|| Lista para procesar | imagen NH863
-| Momento: 9|| Lista para procesar | imagen JF314
-| Momento: 9|| Lista para procesar | imagen YZ196
-| Momento: 9|| Lista para procesar | imagen ND916
-| Momento: 9|| Lista para procesar | imagen VE878
-| Momento: 9|| Lista para procesar | imagen GD879
-| Momento: 9|| Lista para procesar | imagen VF276
-| Momento: 9|| Lista para procesar | imagen XX309
-| Momento: 9|| Lista para procesar | imagen QW612
-| Momento: 9|| Lista para procesar | imagen EU461
-| Momento: 9|| Lista para procesar | imagen FZ126
-| Momento: 9|| Lista para procesar | imagen VT559
-| Momento: 9|| Lista para procesar | imagen XO164
-| Momento: 9|| Lista para procesar | imagen FW972
-| Momento: 9|| Lista para procesar | imagen CX437
-| Momento: 9|| Lista para procesar | imagen LQ184
-| Momento: 9|| Lista para procesar | imagen IW526
-| Momento: 9|| Lista para procesar | imagen FX309
-| Momento: 9|| Lista para procesar | imagen SH950
-| Momento: 9|| Lista para procesar | imagen PJ133
-| Momento: 9|| Lista para procesar | imagen VQ689
-| Momento: 9|| Lista para procesar | imagen RC466
-| Momento: 9|| Lista para procesar | imagen JC689
-| Momento: 9|| Lista para procesar | imagen JY909
-| Momento: 9|| Lista para procesar | imagen YZ602
-| Momento: 10|| Lista para procesar | imagen SN935
-| Momento: 10|| Lista para procesar | imagen HL141
-| Momento: 10|| Fin procesamiento | imagen: CW532
-| Momento: 10|| Lista para procesar | imagen UC850
-| Momento: 10|| Procesando | imagen: ZD380 | Tiempo procesamiento: 4
-| Momento: 10|| Lista para procesar | imagen FO827
-| Momento: 10|| Lista para procesar | imagen SU244
-| Momento: 10|| Lista para procesar | imagen MU911
-| Momento: 10|| Lista para procesar | imagen HN171
-| Momento: 10|| Lista para procesar | imagen UQ638
-| Momento: 10|| Lista para procesar | imagen RY808
-| Momento: 10|| Lista para procesar | imagen RG349
-| Momento: 10|| Lista para procesar | imagen IX503
-| Momento: 10|| Lista para procesar | imagen NT419
-| Momento: 10|| Lista para procesar | imagen HU536
-| Momento: 10|| Lista para procesar | imagen UE414
-| Momento: 10|| Lista para procesar | imagen WE203
-| Momento: 10|| Lista para procesar | imagen VW761
-| Momento: 10|| Lista para procesar | imagen VH273
-| Momento: 10|| Lista para procesar | imagen QK702
-| Momento: 10|| Lista para procesar | imagen YF943
-| Momento: 10|| Lista para procesar | imagen CN122
-| Momento: 10|| Lista para procesar | imagen SW716
-| Momento: 10|| Lista para procesar | imagen JK526
-| Momento: 10|| Lista para procesar | imagen ES717
-| Momento: 10|| Lista para procesar | imagen OS989
-| Momento: 10|| Lista para procesar | imagen OI365
-| Momento: 10|| Lista para procesar | imagen MW885
-| Momento: 10|| Lista para procesar | imagen DD934
-| Momento: 10|| Lista para procesar | imagen YD695
-| Momento: 10|| Lista para procesar | imagen EE538
-| Momento: 10|| Lista para procesar | imagen WG745
-| Momento: 10|| Lista para procesar | imagen ZW885
-| Momento: 10|| Lista para procesar | imagen OM568
-| Momento: 10|| Lista para procesar | imagen RL569
-| Momento: 10|| Lista para procesar | imagen XT130
-| Momento: 10|| Lista para procesar | imagen TD407
-| Momento: 10|| Lista para procesar | imagen VY833
-| Momento: 10|| Lista para procesar | imagen PD801
-| Momento: 10|| Lista para procesar | imagen PR887
-| Momento: 10|| Lista para procesar | imagen FT966
-| Momento: 10|| Lista para procesar | imagen YZ769
-| Momento: 10|| Lista para procesar | imagen WO352
-| Momento: 10|| Lista para procesar | imagen UR487
-| Momento: 10|| Lista para procesar | imagen PX101
-| Momento: 10|| Lista para procesar | imagen YZ507
-| Momento: 10|| Lista para procesar | imagen YJ717
-| Momento: 10|| Lista para procesar | imagen JZ227
-| Momento: 10|| Lista para procesar | imagen JX716
-| Momento: 10|| Lista para procesar | imagen DI666
-| Momento: 10|| Lista para procesar | imagen OX535
-| Momento: 10|| Lista para procesar | imagen YZ557
-| Momento: 10|| Lista para procesar | imagen PX549
-| Momento: 10|| Lista para procesar | imagen MQ777
-| Momento: 10|| Lista para procesar | imagen DP328
-| Momento: 10|| Lista para procesar | imagen TN199
-| Momento: 10|| Lista para procesar | imagen DK927
-| Momento: 10|| Lista para procesar | imagen GG793
-| Momento: 10|| Lista para procesar | imagen NG781
-| Momento: 10|| Lista para procesar | imagen WK304
-| Momento: 10|| Lista para procesar | imagen PI160
-| Momento: 10|| Lista para procesar | imagen WC251
-| Momento: 10|| Lista para procesar | imagen UR296
-| Momento: 10|| Lista para procesar | imagen TO326
-| Momento: 10|| Lista para procesar | imagen HN268
-| Momento: 10|| Lista para procesar | imagen PF178
-| Momento: 10|| Lista para procesar | imagen RS515
-| Momento: 10|| Lista para procesar | imagen WW874
-| Momento: 10|| Lista para procesar | imagen KR406
-| Momento: 10|| Lista para procesar | imagen RQ341
-| Momento: 10|| Lista para procesar | imagen MG658
-| Momento: 10|| Lista para procesar | imagen PD681
-| Momento: 10|| Lista para procesar | imagen RD548
-| Momento: 11|| Lista para procesar | imagen YI292
-| Momento: 11|| Lista para procesar | imagen GO902
-| Momento: 11|| Lista para procesar | imagen OY698
-| Momento: 11|| Lista para procesar | imagen GQ306
-| Momento: 11|| Lista para procesar | imagen UK127
-| Momento: 11|| Lista para procesar | imagen GQ323
-| Momento: 11|| Lista para procesar | imagen PF992
-| Momento: 11|| Lista para procesar | imagen JU408
-| Momento: 11|| Lista para procesar | imagen RO957
-| Momento: 11|| Lista para procesar | imagen TY350
-| Momento: 11|| Lista para procesar | imagen LO153
-| Momento: 11|| Lista para procesar | imagen SR375
-| Momento: 11|| Lista para procesar | imagen ZF626
-| Momento: 11|| Lista para procesar | imagen MW245
-| Momento: 11|| Lista para procesar | imagen FK262
-| Momento: 11|| Lista para procesar | imagen PN908
-| Momento: 11|| Lista para procesar | imagen GE412
-| Momento: 11|| Lista para procesar | imagen ZK519
-| Momento: 11|| Lista para procesar | imagen FF296
-| Momento: 11|| Lista para procesar | imagen TI463
-| Momento: 11|| Lista para procesar | imagen GI633
-| Momento: 11|| Lista para procesar | imagen WU819
-| Momento: 11|| Lista para procesar | imagen OV959
-| Momento: 11|| Lista para procesar | imagen PI787
-| Momento: 11|| Lista para procesar | imagen MD322
-| Momento: 11|| Lista para procesar | imagen KR439
-| Momento: 11|| Lista para procesar | imagen RC311
-| Momento: 11|| Lista para procesar | imagen SE434
-| Momento: 11|| Lista para procesar | imagen ER777
-| Momento: 11|| Lista para procesar | imagen CE465
-| Momento: 11|| Lista para procesar | imagen PP485
-| Momento: 11|| Lista para procesar | imagen XT787
-| Momento: 11|| Lista para procesar | imagen JN478
-| Momento: 11|| Lista para procesar | imagen RC683
-| Momento: 11|| Lista para procesar | imagen HP336
-| Momento: 11|| Lista para procesar | imagen MW224
-| Momento: 11|| Lista para procesar | imagen YC212
-| Momento: 11|| Lista para procesar | imagen WO795
-| Momento: 11|| Lista para procesar | imagen HO546
-| Momento: 11|| Lista para procesar | imagen TR685
-| Momento: 11|| Lista para procesar | imagen NZ632
-| Momento: 11|| Lista para procesar | imagen OE141
-| Momento: 11|| Lista para procesar | imagen SI341
-| Momento: 11|| Lista para procesar | imagen ES602
-| Momento: 11|| Lista para procesar | imagen CH333
-| Momento: 11|| Lista para procesar | imagen RP596
-| Momento: 11|| Lista para procesar | imagen KV478
-| Momento: 11|| Lista para procesar | imagen QK770
-| Momento: 11|| Lista para procesar | imagen XX962
-| Momento: 11|| Lista para procesar | imagen CN592
-| Momento: 11|| Lista para procesar | imagen CP385
-| Momento: 11|| Lista para procesar | imagen TG716
-| Momento: 11|| Lista para procesar | imagen RL392
-| Momento: 11|| Lista para procesar | imagen YK663
-| Momento: 11|| Lista para procesar | imagen KS192
-| Momento: 11|| Lista para procesar | imagen EM855
-| Momento: 11|| Lista para procesar | imagen HO147
-| Momento: 11|| Lista para procesar | imagen HN273
-| Momento: 11|| Lista para procesar | imagen QM582
-| Momento: 11|| Lista para procesar | imagen EE490
-| Momento: 11|| Lista para procesar | imagen YI748
-| Momento: 11|| Lista para procesar | imagen YE363
-| Momento: 11|| Lista para procesar | imagen FI851
-| Momento: 12|| Lista para procesar | imagen DV920
-| Momento: 12|| Lista para procesar | imagen RM123
-| Momento: 12|| Lista para procesar | imagen GF179
-| Momento: 12|| Lista para procesar | imagen UT242
-| Momento: 12|| Lista para procesar | imagen SF822
-| Momento: 12|| Lista para procesar | imagen OV879
-| Momento: 12|| Lista para procesar | imagen JW317
-| Momento: 12|| Lista para procesar | imagen XL592
-| Momento: 12|| Lista para procesar | imagen MG518
-| Momento: 12|| Lista para procesar | imagen RL724
-| Momento: 12|| Lista para procesar | imagen PR262
-| Momento: 12|| Lista para procesar | imagen QS366
-| Momento: 12|| Lista para procesar | imagen VS184
-| Momento: 12|| Lista para procesar | imagen PY240
-| Momento: 12|| Lista para procesar | imagen SN632
-| Momento: 12|| Lista para procesar | imagen PT853
-| Momento: 12|| Lista para procesar | imagen HE586
-| Momento: 12|| Lista para procesar | imagen KX949
-| Momento: 12|| Lista para procesar | imagen LO705
-| Momento: 12|| Lista para procesar | imagen RF415
-| Momento: 12|| Lista para procesar | imagen DJ825
-| Momento: 12|| Lista para procesar | imagen PK347
-| Momento: 12|| Lista para procesar | imagen HL518
-| Momento: 12|| Lista para procesar | imagen ZD370
-| Momento: 12|| Lista para procesar | imagen SI760
-| Momento: 12|| Lista para procesar | imagen CI397
-| Momento: 12|| Lista para procesar | imagen FS281
-| Momento: 12|| Lista para procesar | imagen RK292
-| Momento: 12|| Lista para procesar | imagen ZG232
-| Momento: 12|| Lista para procesar | imagen HI413
-| Momento: 12|| Lista para procesar | imagen WJ876
-| Momento: 12|| Lista para procesar | imagen VW949
-| Momento: 12|| Lista para procesar | imagen GY775
-| Momento: 12|| Lista para procesar | imagen IT871
-| Momento: 12|| Lista para procesar | imagen RQ826
-| Momento: 12|| Lista para procesar | imagen WK642
-| Momento: 12|| Lista para procesar | imagen LN801
-| Momento: 12|| Lista para procesar | imagen XO785
-| Momento: 12|| Lista para procesar | imagen KR215
-| Momento: 12|| Lista para procesar | imagen OK592
-| Momento: 12|| Lista para procesar | imagen JT706
-| Momento: 12|| Lista para procesar | imagen HP749
-| Momento: 12|| Lista para procesar | imagen IF891
-| Momento: 12|| Lista para procesar | imagen ZS278
-| Momento: 12|| Lista para procesar | imagen MZ188
-| Momento: 12|| Lista para procesar | imagen ZE269
-| Momento: 12|| Lista para procesar | imagen RO678
-| Momento: 12|| Lista para procesar | imagen EQ106
-| Momento: 12|| Lista para procesar | imagen JD932
-| Momento: 12|| Lista para procesar | imagen DQ937
-| Momento: 12|| Lista para procesar | imagen ML266
-| Momento: 13|| Lista para procesar | imagen IT745
-| Momento: 13|| Lista para procesar | imagen IZ578
-| Momento: 13|| Lista para procesar | imagen HY721
-| Momento: 13|| Lista para procesar | imagen TJ407
-| Momento: 13|| Lista para procesar | imagen IF546
-| Momento: 13|| Lista para procesar | imagen DZ306
-| Momento: 13|| Lista para procesar | imagen XF933
-| Momento: 13|| Lista para procesar | imagen ER206
-| Momento: 13|| Lista para procesar | imagen SO482
-| Momento: 13|| Lista para procesar | imagen HP246
-| Momento: 13|| Lista para procesar | imagen WO251
-| Momento: 13|| Lista para procesar | imagen MS560
-| Momento: 13|| Lista para procesar | imagen ER849
-| Momento: 13|| Lista para procesar | imagen DO267
-| Momento: 13|| Lista para procesar | imagen RI508
-| Momento: 13|| Lista para procesar | imagen EW605
-| Momento: 13|| Lista para procesar | imagen FD976
-| Momento: 13|| Lista para procesar | imagen QR288
-| Momento: 13|| Lista para procesar | imagen GT442
-| Momento: 13|| Lista para procesar | imagen UZ205
-| Momento: 13|| Lista para procesar | imagen OH604
-| Momento: 13|| Lista para procesar | imagen GO563
-| Momento: 13|| Lista para procesar | imagen EX314
-| Momento: 13|| Lista para procesar | imagen YS850
-| Momento: 13|| Lista para procesar | imagen QO674
-| Momento: 13|| Lista para procesar | imagen CZ593
-| Momento: 13|| Lista para procesar | imagen CV774
-| Momento: 13|| Lista para procesar | imagen RC897
-| Momento: 13|| Lista para procesar | imagen YY378
-| Momento: 13|| Lista para procesar | imagen HR718
-| Momento: 13|| Lista para procesar | imagen QE914
-| Momento: 13|| Lista para procesar | imagen EG911
-| Momento: 13|| Lista para procesar | imagen VR823
-| Momento: 13|| Lista para procesar | imagen GE526
-| Momento: 13|| Lista para procesar | imagen ZG458
-| Momento: 13|| Lista para procesar | imagen OH668
-| Momento: 13|| Lista para procesar | imagen MG461
-| Momento: 13|| Lista para procesar | imagen ZK843
-| Momento: 13|| Lista para procesar | imagen NY238
-| Momento: 13|| Lista para procesar | imagen RF843
-| Momento: 13|| Lista para procesar | imagen RO727
-| Momento: 13|| Lista para procesar | imagen FP748
-| Momento: 13|| Lista para procesar | imagen RZ512
-| Momento: 13|| Lista para procesar | imagen XW857
-| Momento: 13|| Lista para procesar | imagen JU744
-| Momento: 13|| Lista para procesar | imagen EK860
-| Momento: 13|| Lista para procesar | imagen EG265
-| Momento: 13|| Lista para procesar | imagen UN523
-| Momento: 13|| Lista para procesar | imagen QQ438
-| Momento: 13|| Lista para procesar | imagen IL753
-| Momento: 13|| Lista para procesar | imagen IE651
-| Momento: 13|| Lista para procesar | imagen FP545
-| Momento: 13|| Lista para procesar | imagen OU818
-| Momento: 13|| Lista para procesar | imagen YG851
-| Momento: 13|| Lista para procesar | imagen EO423
-| Momento: 13|| Lista para procesar | imagen VU510
-| Momento: 14|| Fin procesamiento | imagen: ZD380
-| Momento: 14|| Lista para procesar | imagen OV966
-| Momento: 14|| Procesando | imagen: RM219 | Tiempo procesamiento: 1
-| Momento: 14|| Lista para procesar | imagen CV235
-| Momento: 14|| Lista para procesar | imagen MT902
-| Momento: 14|| Lista para procesar | imagen RH238
-| Momento: 14|| Lista para procesar | imagen PD296
-| Momento: 14|| Lista para procesar | imagen SE742
-| Momento: 14|| Lista para procesar | imagen TE228
-| Momento: 14|| Lista para procesar | imagen NM426
-| Momento: 14|| Lista para procesar | imagen TC217
-| Momento: 14|| Lista para procesar | imagen QJ676
-| Momento: 14|| Lista para procesar | imagen KO755
-| Momento: 14|| Lista para procesar | imagen FC352
-| Momento: 14|| Lista para procesar | imagen TT267
-| Momento: 14|| Lista para procesar | imagen VF202
-| Momento: 14|| Lista para procesar | imagen SX333
-| Momento: 14|| Lista para procesar | imagen KT266
-| Momento: 14|| Lista para procesar | imagen CU853
-| Momento: 14|| Lista para procesar | imagen ZY862
-| Momento: 14|| Lista para procesar | imagen TP323
-| Momento: 14|| Lista para procesar | imagen FQ843
-| Momento: 14|| Lista para procesar | imagen LD462
-| Momento: 14|| Lista para procesar | imagen UQ569
-| Momento: 14|| Lista para procesar | imagen WV210
-| Momento: 14|| Lista para procesar | imagen QG131
-| Momento: 14|| Lista para procesar | imagen MK378
-| Momento: 14|| Lista para procesar | imagen KP723
-| Momento: 14|| Lista para procesar | imagen CL839
-| Momento: 14|| Lista para procesar | imagen FX149
-| Momento: 14|| Lista para procesar | imagen QP264
-| Momento: 14|| Lista para procesar | imagen SO706
-| Momento: 14|| Lista para procesar | imagen RW557
-| Momento: 14|| Lista para procesar | imagen VN188
-| Momento: 14|| Lista para procesar | imagen WU355
-| Momento: 14|| Lista para procesar | imagen NY898
-| Momento: 14|| Lista para procesar | imagen NH874
-| Momento: 14|| Lista para procesar | imagen KR661
-| Momento: 14|| Lista para procesar | imagen CG822
-| Momento: 14|| Lista para procesar | imagen XR275
-| Momento: 14|| Lista para procesar | imagen JL528
-| Momento: 14|| Lista para procesar | imagen NC853
-| Momento: 14|| Lista para procesar | imagen ZN537
-| Momento: 14|| Lista para procesar | imagen MJ725
-| Momento: 14|| Lista para procesar | imagen WP878
-| Momento: 14|| Lista para procesar | imagen HT921
-| Momento: 14|| Lista para procesar | imagen EG209
-| Momento: 14|| Lista para procesar | imagen XP543
-| Momento: 14|| Lista para procesar | imagen XX588
-| Momento: 14|| Lista para procesar | imagen HP498
-| Momento: 14|| Lista para procesar | imagen UW431
-| Momento: 14|| Lista para procesar | imagen WE954
-| Momento: 14|| Lista para procesar | imagen HV751
-| Momento: 14|| Lista para procesar | imagen DF642
-| Momento: 14|| Lista para procesar | imagen IT490
-| Momento: 14|| Lista para procesar | imagen MY906
-| Momento: 14|| Lista para procesar | imagen UU195
-| Momento: 14|| Lista para procesar | imagen RG588
-| Momento: 14|| Lista para procesar | imagen SK187
-| Momento: 14|| Lista para procesar | imagen ED391
-| Momento: 14|| Lista para procesar | imagen CN334
-| Momento: 14|| Lista para procesar | imagen TX554
-| Momento: 14|| Lista para procesar | imagen VZ625
-| Momento: 14|| Lista para procesar | imagen DJ143
-| Momento: 14|| Lista para procesar | imagen FR203
-| Momento: 14|| Lista para procesar | imagen IL238
-| Momento: 14|| Lista para procesar | imagen QP806
-| Momento: 14|| Lista para procesar | imagen UE859
-| Momento: 14|| Lista para procesar | imagen JJ128
-| Momento: 14|| Lista para procesar | imagen YP676
-| Momento: 14|| Lista para procesar | imagen NR392
-| Momento: 14|| Lista para procesar | imagen RV594
-| Momento: 14|| Lista para procesar | imagen LP994
-| Momento: 14|| Lista para procesar | imagen SS894
-| Momento: 14|| Lista para procesar | imagen WV979
-| Momento: 14|| Lista para procesar | imagen MK689
-| Momento: 15|| Lista para procesar | imagen LX436
-| Momento: 15|| Fin procesamiento | imagen: RM219
-| Momento: 15|| Lista para procesar | imagen KN613
-| Momento: 15|| Procesando | imagen: FP758 | Tiempo procesamiento: 2
-| Momento: 15|| Lista para procesar | imagen WJ935
-| Momento: 15|| Lista para procesar | imagen JK862
-| Momento: 15|| Lista para procesar | imagen VV835
-| Momento: 15|| Lista para procesar | imagen FC448
-| Momento: 15|| Lista para procesar | imagen IU448
-| Momento: 15|| Lista para procesar | imagen VL137
-| Momento: 15|| Lista para procesar | imagen SL733
-| Momento: 15|| Lista para procesar | imagen NC973
-| Momento: 15|| Lista para procesar | imagen PM141
-| Momento: 15|| Lista para procesar | imagen RC438
-| Momento: 15|| Lista para procesar | imagen JU756
-| Momento: 15|| Lista para procesar | imagen ID166
-| Momento: 15|| Lista para procesar | imagen ZM894
-| Momento: 15|| Lista para procesar | imagen ZS720
-| Momento: 15|| Lista para procesar | imagen RS156
-| Momento: 15|| Lista para procesar | imagen GE521
-| Momento: 15|| Lista para procesar | imagen CL838
-| Momento: 15|| Lista para procesar | imagen CQ960
-| Momento: 15|| Lista para procesar | imagen YC657
-| Momento: 15|| Lista para procesar | imagen WY149
-| Momento: 15|| Lista para procesar | imagen WK749
-| Momento: 15|| Lista para procesar | imagen WK286
-| Momento: 15|| Lista para procesar | imagen GL926
-| Momento: 15|| Lista para procesar | imagen EC740
-| Momento: 15|| Lista para procesar | imagen FV319
-| Momento: 15|| Lista para procesar | imagen LO481
-| Momento: 15|| Lista para procesar | imagen GT140
-| Momento: 15|| Lista para procesar | imagen JG416
-| Momento: 15|| Lista para procesar | imagen SF129
-| Momento: 15|| Lista para procesar | imagen CF900
-| Momento: 15|| Lista para procesar | imagen FS287
-| Momento: 15|| Lista para procesar | imagen TP737
-| Momento: 15|| Lista para procesar | imagen RF792
-| Momento: 15|| Lista para procesar | imagen EC580
-| Momento: 15|| Lista para procesar | imagen PL459
-| Momento: 15|| Lista para procesar | imagen ZV413
-| Momento: 15|| Lista para procesar | imagen ND602
-| Momento: 15|| Lista para procesar | imagen WU760
-| Momento: 15|| Lista para procesar | imagen IX678
-| Momento: 15|| Lista para procesar | imagen HG457
-| Momento: 15|| Lista para procesar | imagen LO253
-| Momento: 15|| Lista para procesar | imagen YJ186
-| Momento: 15|| Lista para procesar | imagen RT409
-| Momento: 15|| Lista para procesar | imagen YY548
-| Momento: 15|| Lista para procesar | imagen UF668
-| Momento: 15|| Lista para procesar | imagen RJ738
-| Momento: 15|| Lista para procesar | imagen EO322
-| Momento: 15|| Lista para procesar | imagen CS535
-| Momento: 15|| Lista para procesar | imagen WX688
-| Momento: 15|| Lista para procesar | imagen WN430
-| Momento: 15|| Lista para procesar | imagen IQ525
-| Momento: 15|| Lista para procesar | imagen WI348
-| Momento: 15|| Lista para procesar | imagen PI478
-| Momento: 15|| Lista para procesar | imagen FY342
-| Momento: 15|| Lista para procesar | imagen LP248
-| Momento: 15|| Lista para procesar | imagen GC560
-| Momento: 16|| Lista para procesar | imagen IH294
-| Momento: 16|| Lista para procesar | imagen HE720
-| Momento: 16|| Lista para procesar | imagen ZV312
-| Momento: 16|| Lista para procesar | imagen KF442
-| Momento: 16|| Lista para procesar | imagen GS464
-| Momento: 16|| Lista para procesar | imagen NZ209
-| Momento: 16|| Lista para procesar | imagen PE732
-| Momento: 16|| Lista para procesar | imagen OH278
-| Momento: 16|| Lista para procesar | imagen MG330
-| Momento: 16|| Lista para procesar | imagen EP452
-| Momento: 16|| Lista para procesar | imagen SK208
-| Momento: 16|| Lista para procesar | imagen NS273
-| Momento: 16|| Lista para procesar | imagen RT206
-| Momento: 16|| Lista para procesar | imagen ED321
-| Momento: 16|| Lista para procesar | imagen RZ664
-| Momento: 16|| Lista para procesar | imagen JV112
-| Momento: 16|| Lista para procesar | imagen MC493
-| Momento: 16|| Lista para procesar | imagen FH926
-| Momento: 16|| Lista para procesar | imagen OR157
-| Momento: 16|| Lista para procesar | imagen II527
-| Momento: 16|| Lista para procesar | imagen FU216
-| Momento: 16|| Lista para procesar | imagen DW240
-| Momento: 16|| Lista para procesar | imagen KV743
-| Momento: 16|| Lista para procesar | imagen GL104
-| Momento: 16|| Lista para procesar | imagen YO814
-| Momento: 16|| Lista para procesar | imagen GH309
-| Momento: 16|| Lista para procesar | imagen GM217
-| Momento: 16|| Lista para procesar | imagen UE396
-| Momento: 16|| Lista para procesar | imagen RM350
-| Momento: 16|| Lista para procesar | imagen PM478
-| Momento: 16|| Lista para procesar | imagen GL596
-| Momento: 16|| Lista para procesar | imagen CJ889
-| Momento: 16|| Lista para procesar | imagen IO183
-| Momento: 16|| Lista para procesar | imagen TI504
-| Momento: 16|| Lista para procesar | imagen JJ491
-| Momento: 16|| Lista para procesar | imagen MH460
-| Momento: 16|| Lista para procesar | imagen FC247
-| Momento: 16|| Lista para procesar | imagen SP482
-| Momento: 16|| Lista para procesar | imagen JC617
-| Momento: 16|| Lista para procesar | imagen PX394
-| Momento: 16|| Lista para procesar | imagen QH502
-| Momento: 16|| Lista para procesar | imagen CT758
-| Momento: 16|| Lista para procesar | imagen FJ385
-| Momento: 16|| Lista para procesar | imagen KT395
-| Momento: 16|| Lista para procesar | imagen RJ888
-| Momento: 16|| Lista para procesar | imagen PW455
-| Momento: 16|| Lista para procesar | imagen ZM439
-| Momento: 16|| Lista para procesar | imagen UO653
-| Momento: 16|| Lista para procesar | imagen CL254
-| Momento: 16|| Lista para procesar | imagen DC488
-| Momento: 16|| Lista para procesar | imagen MW782
-| Momento: 17|| Lista para procesar | imagen EE507
-| Momento: 17|| Fin procesamiento | imagen: FP758
-| Momento: 17|| Lista para procesar | imagen YL984
-| Momento: 17|| Lista para procesar | imagen NG691
-| Momento: 17|| Lista para procesar | imagen DV327
-| Momento: 17|| Procesando | imagen: VG348 | Tiempo procesamiento: 2
-| Momento: 17|| Lista para procesar | imagen UN459
-| Momento: 17|| Lista para procesar | imagen PG905
-| Momento: 17|| Lista para procesar | imagen EI531
-| Momento: 17|| Lista para procesar | imagen UY154
-| Momento: 17|| Lista para procesar | imagen SZ792
-| Momento: 17|| Lista para procesar | imagen EZ789
-| Momento: 17|| Lista para procesar | imagen OR241
-| Momento: 17|| Lista para procesar | imagen ZC991
-| Momento: 17|| Lista para procesar | imagen DO832
-| Momento: 17|| Lista para procesar | imagen SM930
-| Momento: 17|| Lista para procesar | imagen JE126
-| Momento: 17|| Lista para procesar | imagen VM789
-| Momento: 17|| Lista para procesar | imagen VC218
-| Momento: 17|| Lista para procesar | imagen RY733
-| Momento: 17|| Lista para procesar | imagen KH304
-| Momento: 17|| Lista para procesar | imagen KD936
-| Momento: 17|| Lista para procesar | imagen PZ815
-| Momento: 17|| Lista para procesar | imagen TO860
-| Momento: 17|| Lista para procesar | imagen OW412
-| Momento: 17|| Lista para procesar | imagen IT850
-| Momento: 17|| Lista para procesar | imagen GE734
-| Momento: 17|| Lista para procesar | imagen TT291
-| Momento: 17|| Lista para procesar | imagen HK643
-| Momento: 17|| Lista para procesar | imagen ZZ325
-| Momento: 17|| Lista para procesar | imagen QG696
-| Momento: 17|| Lista para procesar | imagen DY454
-| Momento: 17|| Lista para procesar | imagen TX957
-| Momento: 17|| Lista para procesar | imagen MU150
-| Momento: 17|| Lista para procesar | imagen NV705
-| Momento: 17|| Lista para procesar | imagen SS660
-| Momento: 17|| Lista para procesar | imagen II721
-| Momento: 17|| Lista para procesar | imagen UX576
-| Momento: 17|| Lista para procesar | imagen KW957
-| Momento: 17|| Lista para procesar | imagen XP604
-| Momento: 17|| Lista para procesar | imagen DF113
-| Momento: 17|| Lista para procesar | imagen WC763
-| Momento: 17|| Lista para procesar | imagen EE269
-| Momento: 17|| Lista para procesar | imagen TC480
-| Momento: 19|| Fin procesamiento | imagen: VG348
-| Momento: 19|| Procesando | imagen: LZ653 | Tiempo procesamiento: 4
-| Momento: 23|| Fin procesamiento | imagen: LZ653
-| Momento: 23|| Procesando | imagen: CW638 | Tiempo procesamiento: 1
-| Momento: 24|| Fin procesamiento | imagen: CW638
-| Momento: 24|| Procesando | imagen: LY753 | Tiempo procesamiento: 4
-| Momento: 28|| Fin procesamiento | imagen: LY753
-| Momento: 28|| Procesando | imagen: HU669 | Tiempo procesamiento: 3
-| Momento: 31|| Fin procesamiento | imagen: HU669
-| Momento: 31|| Procesando | imagen: KG533 | Tiempo procesamiento: 2
-| Momento: 33|| Fin procesamiento | imagen: KG533
-| Momento: 33|| Procesando | imagen: QT467 | Tiempo procesamiento: 1
-| Momento: 34|| Fin procesamiento | imagen: QT467
-| Momento: 34|| Procesando | imagen: XY866 | Tiempo procesamiento: 3
-| Momento: 37|| Fin procesamiento | imagen: XY866
-| Momento: 37|| Procesando | imagen: TO578 | Tiempo procesamiento: 4
+| Momento: 3|| Lista para procesar | imagen WF255
+| Momento: 3|| Lista para procesar | imagen TS709
+| Momento: 3|| Procesando | imagen: TS709 | Tiempo procesamiento: 2
+| Momento: 3|| Procesando | imagen: WF255 | Tiempo procesamiento: 3
+| Momento: 3|| Lista para procesar | imagen CW532
+| Momento: 3|| Lista para procesar | imagen ZD380
+| Momento: 3|| Lista para procesar | imagen RM219
+| Momento: 3|| Lista para procesar | imagen FP758
+| Momento: 3|| Lista para procesar | imagen VG348
+| Momento: 3|| Lista para procesar | imagen LZ653
+| Momento: 3|| Lista para procesar | imagen CW638
+| Momento: 3|| Lista para procesar | imagen VH684
+| Momento: 3|| Lista para procesar | imagen BX261
+| Momento: 3|| Lista para procesar | imagen GV183
+| Momento: 3|| Lista para procesar | imagen RH943
+| Momento: 3|| Lista para procesar | imagen LV430
+| Momento: 3|| Lista para procesar | imagen DX473
+| Momento: 3|| Lista para procesar | imagen FM084
+| Momento: 3|| Lista para procesar | imagen JG885
+| Momento: 3|| Lista para procesar | imagen KF624
+| Momento: 3|| Lista para procesar | imagen IF234
+| Momento: 3|| Lista para procesar | imagen WJ182
+| Momento: 3|| Lista para procesar | imagen JB674
+| Momento: 3|| Lista para procesar | imagen TN672
+| Momento: 3|| Lista para procesar | imagen AX444
+| Momento: 3|| Lista para procesar | imagen AP229
+| Momento: 3|| Lista para procesar | imagen SJ073
+| Momento: 3|| Lista para procesar | imagen GW200
+| Momento: 3|| Lista para procesar | imagen KZ448
+| Momento: 3|| Lista para procesar | imagen WZ963
+| Momento: 3|| Lista para procesar | imagen WM617
+| Momento: 3|| Lista para procesar | imagen LS959
+| Momento: 3|| Lista para procesar | imagen XM135
+| Momento: 3|| Lista para procesar | imagen IQ772
+| Momento: 3|| Lista para procesar | imagen IQ977
+| Momento: 3|| Lista para procesar | imagen RO781
+| Momento: 3|| Lista para procesar | imagen WV882
+| Momento: 3|| Lista para procesar | imagen VW270
+| Momento: 3|| Lista para procesar | imagen IT871
+| Momento: 3|| Lista para procesar | imagen RQ826
+| Momento: 3|| Lista para procesar | imagen WK642
+| Momento: 3|| Lista para procesar | imagen LN801
+| Momento: 3|| Lista para procesar | imagen XO785
+| Momento: 3|| Lista para procesar | imagen KR215
+| Momento: 3|| Lista para procesar | imagen OK592
+| Momento: 3|| Lista para procesar | imagen JT706
+| Momento: 3|| Lista para procesar | imagen HP749
+| Momento: 3|| Lista para procesar | imagen LY753
+| Momento: 3|| Lista para procesar | imagen HU669
+| Momento: 3|| Lista para procesar | imagen KG533
+| Momento: 3|| Lista para procesar | imagen QT467
+| Momento: 3|| Lista para procesar | imagen XY866
+| Momento: 3|| Lista para procesar | imagen DO342
+| Momento: 3|| Lista para procesar | imagen HU051
+| Momento: 3|| Lista para procesar | imagen QN887
+| Momento: 3|| Lista para procesar | imagen XB849
+| Momento: 3|| Lista para procesar | imagen VI373
+| Momento: 3|| Lista para procesar | imagen YV365
+| Momento: 3|| Lista para procesar | imagen DG148
+| Momento: 3|| Lista para procesar | imagen KN545
+| Momento: 3|| Lista para procesar | imagen GL926
+| Momento: 3|| Lista para procesar | imagen IM342
+| Momento: 3|| Lista para procesar | imagen YE333
+| Momento: 3|| Lista para procesar | imagen GH621
+| Momento: 3|| Lista para procesar | imagen XP937
+| Momento: 3|| Lista para procesar | imagen CD845
+| Momento: 3|| Lista para procesar | imagen JP515
+| Momento: 3|| Lista para procesar | imagen IF891
+| Momento: 3|| Lista para procesar | imagen ZS278
+| Momento: 3|| Lista para procesar | imagen MZ188
+| Momento: 3|| Lista para procesar | imagen ZE269
+| Momento: 3|| Lista para procesar | imagen RO678
+| Momento: 4|| Lista para procesar | imagen TO578
+| Momento: 4|| Lista para procesar | imagen ZG764
+| Momento: 4|| Lista para procesar | imagen TN167
+| Momento: 4|| Lista para procesar | imagen UY684
+| Momento: 4|| Lista para procesar | imagen LC932
+| Momento: 4|| Lista para procesar | imagen NK003
+| Momento: 4|| Lista para procesar | imagen UK299
+| Momento: 4|| Lista para procesar | imagen JR998
+| Momento: 4|| Lista para procesar | imagen TR666
+| Momento: 4|| Lista para procesar | imagen OQ235
+| Momento: 4|| Lista para procesar | imagen ZL879
+| Momento: 4|| Lista para procesar | imagen VB601
+| Momento: 4|| Lista para procesar | imagen XR979
+| Momento: 4|| Lista para procesar | imagen GH660
+| Momento: 4|| Lista para procesar | imagen IW702
+| Momento: 4|| Lista para procesar | imagen XV672
+| Momento: 4|| Lista para procesar | imagen HQ594
+| Momento: 4|| Lista para procesar | imagen MZ508
+| Momento: 4|| Lista para procesar | imagen RD422
+| Momento: 4|| Lista para procesar | imagen CY436
+| Momento: 4|| Lista para procesar | imagen EQ106
+| Momento: 4|| Lista para procesar | imagen JD932
+| Momento: 4|| Lista para procesar | imagen DQ937
+| Momento: 4|| Lista para procesar | imagen ML266
+| Momento: 4|| Lista para procesar | imagen IT745
+| Momento: 4|| Lista para procesar | imagen RC725
+| Momento: 4|| Lista para procesar | imagen ID299
+| Momento: 4|| Lista para procesar | imagen OJ842
+| Momento: 4|| Lista para procesar | imagen EQ201
+| Momento: 4|| Lista para procesar | imagen AV747
+| Momento: 4|| Lista para procesar | imagen YY866
+| Momento: 4|| Lista para procesar | imagen SI913
+| Momento: 4|| Lista para procesar | imagen JG257
+| Momento: 4|| Lista para procesar | imagen IW397
+| Momento: 4|| Lista para procesar | imagen UF450
+| Momento: 4|| Lista para procesar | imagen YB736
+| Momento: 4|| Lista para procesar | imagen XB339
+| Momento: 4|| Lista para procesar | imagen FK844
+| Momento: 4|| Lista para procesar | imagen BL945
+| Momento: 4|| Lista para procesar | imagen GL899
+| Momento: 4|| Lista para procesar | imagen LC739
+| Momento: 4|| Lista para procesar | imagen HG054
+| Momento: 4|| Lista para procesar | imagen OI270
+| Momento: 4|| Lista para procesar | imagen MP214
+| Momento: 4|| Lista para procesar | imagen HX134
+| Momento: 4|| Lista para procesar | imagen GO613
+| Momento: 4|| Lista para procesar | imagen NR392
+| Momento: 4|| Lista para procesar | imagen YH382
+| Momento: 4|| Lista para procesar | imagen YR171
+| Momento: 4|| Lista para procesar | imagen RH761
+| Momento: 4|| Lista para procesar | imagen YV345
+| Momento: 4|| Lista para procesar | imagen YQ772
+| Momento: 4|| Lista para procesar | imagen QL543
+| Momento: 4|| Lista para procesar | imagen IY771
+| Momento: 4|| Lista para procesar | imagen SV442
+| Momento: 4|| Lista para procesar | imagen IZ578
+| Momento: 4|| Lista para procesar | imagen HY721
+| Momento: 4|| Lista para procesar | imagen TJ407
+| Momento: 4|| Lista para procesar | imagen IF546
+| Momento: 4|| Lista para procesar | imagen DZ306
+| Momento: 4|| Lista para procesar | imagen XF933
+| Momento: 4|| Lista para procesar | imagen ER206
+| Momento: 4|| Lista para procesar | imagen SO482
+| Momento: 4|| Lista para procesar | imagen HP246
+| Momento: 4|| Lista para procesar | imagen WO251
+| Momento: 6|| Fin procesamiento | imagen: WF255
+| Momento: 6|| Fin procesamiento | imagen: TS709
+| Momento: 6|| Procesando | imagen: CW532 | Tiempo procesamiento: 1
+| Momento: 6|| Procesando | imagen: ZD380 | Tiempo procesamiento: 4
+| Momento: 9|| Fin procesamiento | imagen: CW532
+| Momento: 9|| Procesando | imagen: RM219 | Tiempo procesamiento: 1
+| Momento: 12|| Fin procesamiento | imagen: RM219
+| Momento: 12|| Fin procesamiento | imagen: ZD380
+| Momento: 12|| Procesando | imagen: FP758 | Tiempo procesamiento: 2
+| Momento: 12|| Procesando | imagen: VG348 | Tiempo procesamiento: 2
+| Momento: 14|| Fin procesamiento | imagen: VG348
+| Momento: 14|| Fin procesamiento | imagen: FP758
+| Momento: 14|| Procesando | imagen: LZ653 | Tiempo procesamiento: 4
+| Momento: 14|| Procesando | imagen: CW638 | Tiempo procesamiento: 1
+| Momento: 18|| Fin procesamiento | imagen: CW638
+| Momento: 18|| Procesando | imagen: VH684 | Tiempo procesamiento: 1
+| Momento: 18|| Fin procesamiento | imagen: LZ653
+| Momento: 18|| Procesando | imagen: BX261 | Tiempo procesamiento: 2
+| Momento: 23|| Fin procesamiento | imagen: VH684
+| Momento: 23|| Fin procesamiento | imagen: BX261
+| Momento: 23|| Alerta agregada | Persona: Mario Bueno
+| Momento: 23|| Procesando | imagen: GV183 | Tiempo procesamiento: 1
+| Momento: 23|| Alerta agregada | Persona: Mario Mas
+| Momento: 23|| Procesando | imagen: RH943 | Tiempo procesamiento: 2
+| Momento: 23|| Alerta enviada | Tablet: D2 | Persona: Mario Bueno
+| Momento: 23|| Alerta enviada | Tablet: D1 | Persona: Mario Mas
+| Momento: 30|| Fin procesamiento | imagen: RH943
+| Momento: 30|| Alerta agregada | Persona: Joaquin Bueno
+| Momento: 30|| Fin procesamiento | imagen: GV183
+| Momento: 30|| Procesando | imagen: LV430 | Tiempo procesamiento: 1
+| Momento: 30|| Alerta agregada | Persona: Olivia Mas
+| Momento: 30|| Procesando | imagen: DX473 | Tiempo procesamiento: 3
+| Momento: 30|| Alerta enviada | Tablet: D4 | Persona: Joaquin Bueno
+| Momento: 30|| Alerta enviada | Tablet: D3 | Persona: Olivia Mas
+| Momento: 34|| Fin procesamiento | imagen: LV430
+| Momento: 34|| Fin procesamiento | imagen: DX473
+| Momento: 34|| Alerta agregada | Persona: Mario Bueno
+| Momento: 34|| Procesando | imagen: FM084 | Tiempo procesamiento: 4
+| Momento: 34|| Alerta enviada | Tablet: D6 | Persona: Mario Bueno
+| Momento: 34|| Alerta agregada | Persona: Mario Mas
+| Momento: 34|| Procesando | imagen: JG885 | Tiempo procesamiento: 2
+| Momento: 34|| Alerta enviada | Tablet: D5 | Persona: Mario Mas
+| Momento: 36|| Fin procesamiento | imagen: JG885
+| Momento: 36|| Alerta agregada | Persona: Mario Bueno
+| Momento: 37|| Procesando | imagen: KF624 | Tiempo procesamiento: 2
+| Momento: 37|| Alerta enviada | Tablet: D8 | Persona: Mario Bueno
+| Momento: 39|| Fin procesamiento | imagen: KF624
+| Momento: 39|| Fin procesamiento | imagen: FM084
+| Momento: 39|| Alerta agregada | Persona: Fernando Mas
+| Momento: 39|| Procesando | imagen: IF234 | Tiempo procesamiento: 4
+| Momento: 39|| Alerta enviada | Tablet: D9 | Persona: Fernando Mas
+| Momento: 39|| Alerta agregada | Persona: Mario Mas
+| Momento: 39|| Procesando | imagen: WJ182 | Tiempo procesamiento: 1
+| Momento: 39|| Alerta enviada | Tablet: D7 | Persona: Mario Mas
+| Momento: 41|| Fin procesamiento | imagen: WJ182
+| Momento: 41|| Procesando | imagen: JB674 | Tiempo procesamiento: 4
+| Momento: 44|| Fin procesamiento | imagen: IF234
+| Momento: 44|| Procesando | imagen: TN672 | Tiempo procesamiento: 3
+| Momento: 47|| Fin procesamiento | imagen: JB674
+| Momento: 47|| Fin procesamiento | imagen: TN672
+| Momento: 47|| Procesando | imagen: AP229 | Tiempo procesamiento: 1
+| Momento: 47|| Procesando | imagen: AX444 | Tiempo procesamiento: 1
+| Momento: 49|| Fin procesamiento | imagen: AP229
+| Momento: 49|| Fin procesamiento | imagen: AX444
+| Momento: 49|| Procesando | imagen: SJ073 | Tiempo procesamiento: 2
+| Momento: 49|| Procesando | imagen: GW200 | Tiempo procesamiento: 4
+| Momento: 51|| Fin procesamiento | imagen: SJ073
+| Momento: 51|| Procesando | imagen: KZ448 | Tiempo procesamiento: 3
+| Momento: 54|| Fin procesamiento | imagen: KZ448
+| Momento: 54|| Procesando | imagen: WZ963 | Tiempo procesamiento: 3
+| Momento: 54|| Fin procesamiento | imagen: GW200
+| Momento: 54|| Procesando | imagen: WM617 | Tiempo procesamiento: 1
+| Momento: 59|| Fin procesamiento | imagen: WM617
+| Momento: 59|| Fin procesamiento | imagen: WZ963
+| Momento: 59|| Procesando | imagen: LS959 | Tiempo procesamiento: 4
+| Momento: 59|| Procesando | imagen: XM135 | Tiempo procesamiento: 4
+| Momento: 66|| Fin procesamiento | imagen: XM135
+| Momento: 66|| Procesando | imagen: IQ772 | Tiempo procesamiento: 2
+| Momento: 66|| Fin procesamiento | imagen: LS959
+| Momento: 66|| Procesando | imagen: IQ977 | Tiempo procesamiento: 3
+| Momento: 69|| Fin procesamiento | imagen: IQ772
+| Momento: 69|| Fin procesamiento | imagen: IQ977
+| Momento: 69|| Procesando | imagen: RO781 | Tiempo procesamiento: 4
+| Momento: 69|| Procesando | imagen: WV882 | Tiempo procesamiento: 2
+| Momento: 72|| Fin procesamiento | imagen: WV882
+| Momento: 72|| Procesando | imagen: VW270 | Tiempo procesamiento: 1
+| Momento: 75|| Fin procesamiento | imagen: RO781
+| Momento: 75|| Fin procesamiento | imagen: VW270
+| Momento: 75|| Procesando | imagen: IT871 | Tiempo procesamiento: 1
+| Momento: 75|| Procesando | imagen: RQ826 | Tiempo procesamiento: 2
+| Momento: 76|| Fin procesamiento | imagen: IT871
+| Momento: 76|| Procesando | imagen: WK642 | Tiempo procesamiento: 3
+| Momento: 80|| Fin procesamiento | imagen: RQ826
+| Momento: 80|| Fin procesamiento | imagen: WK642
+| Momento: 80|| Procesando | imagen: LN801 | Tiempo procesamiento: 2
+| Momento: 80|| Procesando | imagen: XO785 | Tiempo procesamiento: 2
+| Momento: 83|| Fin procesamiento | imagen: LN801
+| Momento: 83|| Procesando | imagen: KR215 | Tiempo procesamiento: 4
+| Momento: 83|| Fin procesamiento | imagen: XO785
+| Momento: 83|| Procesando | imagen: OK592 | Tiempo procesamiento: 3
+| Momento: 86|| Fin procesamiento | imagen: OK592
+| Momento: 86|| Procesando | imagen: JT706 | Tiempo procesamiento: 3
+| Momento: 87|| Fin procesamiento | imagen: KR215
+| Momento: 87|| Procesando | imagen: HP749 | Tiempo procesamiento: 4
+| Momento: 90|| Fin procesamiento | imagen: JT706
+| Momento: 90|| Procesando | imagen: LY753 | Tiempo procesamiento: 4
+| Momento: 94|| Fin procesamiento | imagen: HP749
+| Momento: 94|| Procesando | imagen: HU669 | Tiempo procesamiento: 3
+| Momento: 94|| Fin procesamiento | imagen: LY753
+| Momento: 94|| Procesando | imagen: KG533 | Tiempo procesamiento: 2
+| Momento: 97|| Fin procesamiento | imagen: HU669
+| Momento: 97|| Procesando | imagen: QT467 | Tiempo procesamiento: 1
+| Momento: 97|| Fin procesamiento | imagen: KG533
+| Momento: 97|| Procesando | imagen: XY866 | Tiempo procesamiento: 3
+| Momento: 100|| Fin procesamiento | imagen: QT467
+| Momento: 100|| Procesando | imagen: DO342 | Tiempo procesamiento: 2
+| Momento: 100|| Fin procesamiento | imagen: XY866
+| Momento: 100|| Procesando | imagen: HU051 | Tiempo procesamiento: 4
+| Momento: 103|| Fin procesamiento | imagen: DO342
+| Momento: 103|| Alerta agregada | Persona: Mario Bueno
+| Momento: 103|| Alerta enviada | Tablet: D1 | Persona: Mario Bueno
+| Momento: 103|| Procesando | imagen: QN887 | Tiempo procesamiento: 3
+| Momento: 106|| Fin procesamiento | imagen: QN887
+| Momento: 106|| Alerta agregada | Persona: Mario Bueno
+| Momento: 106|| Fin procesamiento | imagen: HU051
+| Momento: 106|| Procesando | imagen: XB849 | Tiempo procesamiento: 1
+| Momento: 106|| Alerta enviada | Tablet: D3 | Persona: Mario Bueno
+| Momento: 106|| Alerta agregada | Persona: Mario Mas
+| Momento: 106|| Procesando | imagen: VI373 | Tiempo procesamiento: 3
+| Momento: 106|| Alerta enviada | Tablet: D2 | Persona: Mario Mas
+| Momento: 109|| Fin procesamiento | imagen: VI373
+| Momento: 109|| Fin procesamiento | imagen: XB849
+| Momento: 109|| Alerta agregada | Persona: Mario Bueno
+| Momento: 109|| Procesando | imagen: YV365 | Tiempo procesamiento: 4
+| Momento: 109|| Alerta enviada | Tablet: D5 | Persona: Mario Bueno
+| Momento: 109|| Alerta agregada | Persona: Mario Mas
+| Momento: 109|| Procesando | imagen: DG148 | Tiempo procesamiento: 2
+| Momento: 109|| Alerta enviada | Tablet: D4 | Persona: Mario Mas
+| Momento: 113|| Fin procesamiento | imagen: DG148
+| Momento: 113|| Fin procesamiento | imagen: YV365
+| Momento: 113|| Procesando | imagen: KN545 | Tiempo procesamiento: 3
+| Momento: 113|| Procesando | imagen: GL926 | Tiempo procesamiento: 3
+| Momento: 117|| Fin procesamiento | imagen: KN545
+| Momento: 117|| Fin procesamiento | imagen: GL926
+| Momento: 117|| Procesando | imagen: IM342 | Tiempo procesamiento: 3
+| Momento: 117|| Procesando | imagen: YE333 | Tiempo procesamiento: 3
+| Momento: 120|| Fin procesamiento | imagen: YE333
+| Momento: 120|| Fin procesamiento | imagen: IM342
+| Momento: 120|| Procesando | imagen: GH621 | Tiempo procesamiento: 1
+| Momento: 120|| Procesando | imagen: XP937 | Tiempo procesamiento: 1
+| Momento: 122|| Fin procesamiento | imagen: GH621
+| Momento: 122|| Procesando | imagen: CD845 | Tiempo procesamiento: 3
+| Momento: 122|| Fin procesamiento | imagen: XP937
+| Momento: 122|| Procesando | imagen: JP515 | Tiempo procesamiento: 4
+| Momento: 126|| Fin procesamiento | imagen: CD845
+| Momento: 126|| Fin procesamiento | imagen: JP515
+| Momento: 126|| Procesando | imagen: IF891 | Tiempo procesamiento: 2
+| Momento: 126|| Procesando | imagen: ZS278 | Tiempo procesamiento: 3
+| Momento: 128|| Fin procesamiento | imagen: IF891
+| Momento: 128|| Procesando | imagen: MZ188 | Tiempo procesamiento: 1
+| Momento: 129|| Fin procesamiento | imagen: MZ188
+| Momento: 129|| Procesando | imagen: ZE269 | Tiempo procesamiento: 3
+| Momento: 129|| Fin procesamiento | imagen: ZS278
+| Momento: 129|| Procesando | imagen: RO678 | Tiempo procesamiento: 3
+| Momento: 133|| Fin procesamiento | imagen: ZE269
+| Momento: 133|| Procesando | imagen: TO578 | Tiempo procesamiento: 4
+| Momento: 133|| Fin procesamiento | imagen: RO678
+| Momento: 133|| Procesando | imagen: ZG764 | Tiempo procesamiento: 2
+| Momento: 136|| Fin procesamiento | imagen: ZG764
+| Momento: 136|| Procesando | imagen: TN167 | Tiempo procesamiento: 3
+| Momento: 139|| Fin procesamiento | imagen: TO578
+| Momento: 139|| Fin procesamiento | imagen: TN167
+| Momento: 139|| Procesando | imagen: UY684 | Tiempo procesamiento: 4
+| Momento: 139|| Procesando | imagen: LC932 | Tiempo procesamiento: 4
+| Momento: 145|| Fin procesamiento | imagen: LC932
+| Momento: 145|| Fin procesamiento | imagen: UY684
+| Momento: 145|| Procesando | imagen: NK003 | Tiempo procesamiento: 1
+| Momento: 145|| Procesando | imagen: UK299 | Tiempo procesamiento: 3
+| Momento: 148|| Fin procesamiento | imagen: NK003
+| Momento: 148|| Fin procesamiento | imagen: UK299
+| Momento: 148|| Alerta agregada | Persona: Mario Mas
+| Momento: 148|| Procesando | imagen: JR998 | Tiempo procesamiento: 3
+| Momento: 148|| Alerta agregada | Persona: Carla Bueno
+| Momento: 148|| Procesando | imagen: TR666 | Tiempo procesamiento: 1
+| Momento: 148|| Alerta enviada | Tablet: D6 | Persona: Mario Mas
+| Momento: 148|| Alerta enviada | Tablet: D7 | Persona: Carla Bueno
+| Momento: 149|| Fin procesamiento | imagen: TR666
+| Momento: 149|| Alerta agregada | Persona: Mario Bueno
+| Momento: 149|| Procesando | imagen: OQ235 | Tiempo procesamiento: 3
+| Momento: 149|| Alerta enviada | Tablet: D9 | Persona: Mario Bueno
+| Momento: 152|| Fin procesamiento | imagen: OQ235
+| Momento: 152|| Fin procesamiento | imagen: JR998
+| Momento: 152|| Alerta agregada | Persona: Mario Mas
+| Momento: 152|| Procesando | imagen: ZL879 | Tiempo procesamiento: 2
+| Momento: 152|| Alerta agregada | Persona: Mario Mas
+| Momento: 152|| Procesando | imagen: VB601 | Tiempo procesamiento: 4
+| Momento: 152|| Alerta enviada | Tablet: D8 | Persona: Mario Mas
+| Momento: 152|| Alerta enviada | Tablet: D1 | Persona: Mario Mas
+| Momento: 154|| Fin procesamiento | imagen: ZL879
+| Momento: 154|| Procesando | imagen: XR979 | Tiempo procesamiento: 3
+| Momento: 157|| Fin procesamiento | imagen: VB601
+| Momento: 157|| Procesando | imagen: GH660 | Tiempo procesamiento: 3
+| Momento: 157|| Fin procesamiento | imagen: XR979
+| Momento: 157|| Procesando | imagen: IW702 | Tiempo procesamiento: 4
+| Momento: 160|| Fin procesamiento | imagen: GH660
+| Momento: 160|| Procesando | imagen: XV672 | Tiempo procesamiento: 3
+| Momento: 163|| Fin procesamiento | imagen: XV672
+| Momento: 163|| Fin procesamiento | imagen: IW702
+| Momento: 163|| Procesando | imagen: HQ594 | Tiempo procesamiento: 3
+| Momento: 163|| Procesando | imagen: MZ508 | Tiempo procesamiento: 3
+| Momento: 166|| Fin procesamiento | imagen: MZ508
+| Momento: 166|| Procesando | imagen: RD422 | Tiempo procesamiento: 1
+| Momento: 166|| Fin procesamiento | imagen: HQ594
+| Momento: 166|| Procesando | imagen: CY436 | Tiempo procesamiento: 1
+| Momento: 169|| Fin procesamiento | imagen: RD422
+| Momento: 169|| Fin procesamiento | imagen: CY436
+| Momento: 169|| Procesando | imagen: EQ106 | Tiempo procesamiento: 1
+| Momento: 169|| Procesando | imagen: JD932 | Tiempo procesamiento: 1
+| Momento: 170|| Fin procesamiento | imagen: EQ106
+| Momento: 170|| Procesando | imagen: DQ937 | Tiempo procesamiento: 3
+| Momento: 170|| Fin procesamiento | imagen: JD932
+| Momento: 170|| Procesando | imagen: ML266 | Tiempo procesamiento: 4
+| Momento: 173|| Fin procesamiento | imagen: DQ937
+| Momento: 173|| Procesando | imagen: IT745 | Tiempo procesamiento: 3
+| Momento: 175|| Fin procesamiento | imagen: ML266
+| Momento: 175|| Procesando | imagen: RC725 | Tiempo procesamiento: 4
+| Momento: 176|| Fin procesamiento | imagen: IT745
+| Momento: 176|| Procesando | imagen: ID299 | Tiempo procesamiento: 2
+| Momento: 179|| Fin procesamiento | imagen: ID299
+| Momento: 179|| Fin procesamiento | imagen: RC725
+| Momento: 179|| Alerta agregada | Persona: Mario Mas
+| Momento: 179|| Procesando | imagen: OJ842 | Tiempo procesamiento: 3
+| Momento: 179|| Alerta enviada | Tablet: D3 | Persona: Mario Mas
+| Momento: 179|| Alerta agregada | Persona: Mario Bueno
+| Momento: 179|| Procesando | imagen: EQ201 | Tiempo procesamiento: 3
+| Momento: 179|| Alerta enviada | Tablet: D2 | Persona: Mario Bueno
+| Momento: 182|| Fin procesamiento | imagen: EQ201
+| Momento: 182|| Alerta agregada | Persona: Mario Mas
+| Momento: 182|| Fin procesamiento | imagen: OJ842
+| Momento: 182|| Procesando | imagen: AV747 | Tiempo procesamiento: 4
+| Momento: 182|| Alerta enviada | Tablet: D5 | Persona: Mario Mas
+| Momento: 182|| Alerta agregada | Persona: Mario Bueno
+| Momento: 182|| Procesando | imagen: YY866 | Tiempo procesamiento: 4
+| Momento: 182|| Alerta enviada | Tablet: D4 | Persona: Mario Bueno
+| Momento: 187|| Fin procesamiento | imagen: YY866
+| Momento: 187|| Fin procesamiento | imagen: AV747
+| Momento: 187|| Alerta agregada | Persona: Mario Mas
+| Momento: 187|| Alerta enviada | Tablet: D7 | Persona: Mario Mas
+| Momento: 187|| Procesando | imagen: SI913 | Tiempo procesamiento: 1
+| Momento: 187|| Alerta agregada | Persona: Mario Bueno
+| Momento: 187|| Procesando | imagen: JG257 | Tiempo procesamiento: 2
+| Momento: 187|| Alerta enviada | Tablet: D6 | Persona: Mario Bueno
+| Momento: 188|| Fin procesamiento | imagen: SI913
+| Momento: 188|| Alerta agregada | Persona: Mario Bueno
+| Momento: 188|| Procesando | imagen: IW397 | Tiempo procesamiento: 4
+| Momento: 188|| Alerta enviada | Tablet: D8 | Persona: Mario Bueno
+| Momento: 190|| Fin procesamiento | imagen: JG257
+| Momento: 190|| Alerta agregada | Persona: Mario Mas
+| Momento: 190|| Procesando | imagen: UF450 | Tiempo procesamiento: 4
+| Momento: 190|| Alerta enviada | Tablet: D9 | Persona: Mario Mas
+| Momento: 193|| Fin procesamiento | imagen: IW397
+| Momento: 193|| Alerta agregada | Persona: Mario Bueno
+| Momento: 193|| Alerta enviada | Tablet: D1 | Persona: Mario Bueno
+| Momento: 193|| Procesando | imagen: YB736 | Tiempo procesamiento: 2
+| Momento: 195|| Fin procesamiento | imagen: YB736
+| Momento: 195|| Procesando | imagen: XB339 | Tiempo procesamiento: 3
+| Momento: 195|| Fin procesamiento | imagen: UF450
+| Momento: 195|| Alerta agregada | Persona: Mario Mas
+| Momento: 195|| Procesando | imagen: FK844 | Tiempo procesamiento: 4
+| Momento: 195|| Alerta enviada | Tablet: D2 | Persona: Mario Mas
+| Momento: 199|| Fin procesamiento | imagen: XB339
+| Momento: 199|| Procesando | imagen: BL945 | Tiempo procesamiento: 1
+| Momento: 199|| Fin procesamiento | imagen: FK844
+| Momento: 199|| Procesando | imagen: GL899 | Tiempo procesamiento: 4
+| Momento: 202|| Fin procesamiento | imagen: BL945
+| Momento: 202|| Procesando | imagen: LC739 | Tiempo procesamiento: 2
+| Momento: 204|| Fin procesamiento | imagen: GL899
+| Momento: 204|| Procesando | imagen: HG054 | Tiempo procesamiento: 3
+| Momento: 204|| Fin procesamiento | imagen: LC739
+| Momento: 204|| Procesando | imagen: OI270 | Tiempo procesamiento: 2
+| Momento: 208|| Fin procesamiento | imagen: HG054
+| Momento: 208|| Procesando | imagen: MP214 | Tiempo procesamiento: 4
+| Momento: 208|| Fin procesamiento | imagen: OI270
+| Momento: 208|| Procesando | imagen: HX134 | Tiempo procesamiento: 4
+| Momento: 214|| Fin procesamiento | imagen: MP214
+| Momento: 214|| Fin procesamiento | imagen: HX134
+| Momento: 214|| Procesando | imagen: GO613 | Tiempo procesamiento: 2
+| Momento: 214|| Procesando | imagen: NR392 | Tiempo procesamiento: 3
+| Momento: 218|| Fin procesamiento | imagen: NR392
+| Momento: 218|| Procesando | imagen: YH382 | Tiempo procesamiento: 3
+| Momento: 218|| Fin procesamiento | imagen: GO613
+| Momento: 218|| Procesando | imagen: YR171 | Tiempo procesamiento: 3
+| Momento: 225|| Fin procesamiento | imagen: YR171
+| Momento: 225|| Fin procesamiento | imagen: YH382
+| Momento: 225|| Procesando | imagen: RH761 | Tiempo procesamiento: 1
+| Momento: 225|| Procesando | imagen: YV345 | Tiempo procesamiento: 3
+| Momento: 228|| Fin procesamiento | imagen: YV345
+| Momento: 228|| Fin procesamiento | imagen: RH761
+| Momento: 228|| Procesando | imagen: YQ772 | Tiempo procesamiento: 3
+| Momento: 228|| Procesando | imagen: QL543 | Tiempo procesamiento: 4
+| Momento: 231|| Fin procesamiento | imagen: YQ772
+| Momento: 231|| Procesando | imagen: IY771 | Tiempo procesamiento: 1
+| Momento: 233|| Fin procesamiento | imagen: IY771
+| Momento: 233|| Fin procesamiento | imagen: QL543
+| Momento: 233|| Procesando | imagen: SV442 | Tiempo procesamiento: 4
+| Momento: 233|| Procesando | imagen: IZ578 | Tiempo procesamiento: 4
+| Momento: 240|| Fin procesamiento | imagen: IZ578
+| Momento: 240|| Fin procesamiento | imagen: SV442
+| Momento: 240|| Procesando | imagen: HY721 | Tiempo procesamiento: 4
+| Momento: 240|| Procesando | imagen: TJ407 | Tiempo procesamiento: 3
+| Momento: 245|| Fin procesamiento | imagen: HY721
+| Momento: 245|| Fin procesamiento | imagen: TJ407
+| Momento: 245|| Procesando | imagen: IF546 | Tiempo procesamiento: 2
+| Momento: 245|| Procesando | imagen: DZ306 | Tiempo procesamiento: 1
+| Momento: 250|| Fin procesamiento | imagen: DZ306
+| Momento: 250|| Procesando | imagen: XF933 | Tiempo procesamiento: 1
+| Momento: 255|| Fin procesamiento | imagen: IF546
+| Momento: 255|| Procesando | imagen: ER206 | Tiempo procesamiento: 3
+| Momento: 255|| Fin procesamiento | imagen: XF933
+| Momento: 255|| Procesando | imagen: SO482 | Tiempo procesamiento: 2
+| Momento: 259|| Fin procesamiento | imagen: SO482
+| Momento: 259|| Fin procesamiento | imagen: ER206
+| Momento: 259|| Procesando | imagen: HP246 | Tiempo procesamiento: 3
+| Momento: 259|| Procesando | imagen: WO251 | Tiempo procesamiento: 2
+| Momento: 262|| Fin procesamiento | imagen: HP246
+| Momento: 262|| Fin procesamiento | imagen: WO251
