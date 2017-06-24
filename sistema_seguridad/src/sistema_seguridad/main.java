@@ -6,6 +6,7 @@
 package sistema_seguridad;
 
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -47,7 +48,24 @@ public class main {
         Logger.getInstancia().log("Se inician hilos de simulacion");
         
         // Inicio de la simulacion
-        new Thread(new Simulador()).start();
+        
+        Thread simulador = new Thread(new Simulador());
+        simulador.start();
+        
+        
+        /* Script para hacer que el programa termine despues de 30 segundos */
+        for (long stop=System.nanoTime()+TimeUnit.SECONDS.toNanos(30);stop>System.nanoTime();) {}
+        simulador.stop();
+        reloj.stop();
+        receptorImagenThread.stop();
+        procesadorImagenTrhead.stop();
+        procesadorImagenTrhead2.stop();
+        notificadorThread.stop();
+        Logger.getInstancia().log("Simulacion Finalizada");
+        /* Fin del script */
+        
+        
+        
         
     }
 }
