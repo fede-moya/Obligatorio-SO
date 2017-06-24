@@ -15,7 +15,9 @@ import java.util.logging.Level;
  */
 public class ReceptorImagen implements Runnable{
 
-    private Semaphore semImagen;
+    private final Semaphore semImagenProductor;
+    private final Semaphore semImagenConsumidor;
+    private final Semaphore semImagenMutex;
     
     @Override
     public void run() {
@@ -23,20 +25,23 @@ public class ReceptorImagen implements Runnable{
             Imagen proximaImagen = PlanificadorReceptor.getProximaImagen();
             if (proximaImagen != null) {
                 try {
-                    semImagen.acquire();
+                    semImagenProductor.acquire();
+                    semImagenMutex.acquire();
                 } catch (InterruptedException ex) {
-                    java.util.logging.Logger.getLogger(ReceptorImagen.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 Buffers.imagenesAProcesar.add(proximaImagen);
                 Logger.getInstancia().log("Lista para procesar | imagen " + proximaImagen.getCodigo());
-                semImagen.release();
+                semImagenMutex.release();
+                semImagenConsumidor.release();
                             
             }
         }
     }
 
-    public ReceptorImagen(Semaphore semImagen) {
-        this.semImagen = semImagen;
+    public ReceptorImagen(Semaphore productor,Semaphore consumidor,Semaphore mutex) {
+        this.semImagenProductor = productor;
+        this.semImagenConsumidor = consumidor;
+        this.semImagenMutex = mutex;
     }
     
     

@@ -26,22 +26,28 @@ public class main {
         BaseDatos.cargarDatos();
         
         // Se inicializan los semaforos
-        Semaphore semImagen = new Semaphore(1);
-        Semaphore semAlerta = new Semaphore(1);
+        Semaphore semImagenProductor = new Semaphore(1);
+        Semaphore semImagenConsumidor = new Semaphore(0);
+        Semaphore semImagenMutex = new Semaphore(1);
+        
+        Semaphore semAlertaProductor = new Semaphore(1);
+        Semaphore semAlertaConsumidor = new Semaphore(0);
+        Semaphore semAlertaMutex = new Semaphore(1);
         
         
-        // Hilos del sistema
-        Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagen));
-        Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagen,semAlerta));
-        Thread procesadorImagenTrhead2 = new Thread(new ProcesadorImagen(semImagen,semAlerta));
-        Thread notificadorThread = new Thread(new Notificador(semAlerta));
+        
+        // Hilos del sistema        
+        Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
+        Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
+        Thread procesadorImagenTrhead2 = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
+        Thread notificadorThread = new Thread(new Notificador(semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
 
         Thread reloj = new Thread(Reloj.getInstance());
 
         reloj.start();
         receptorImagenThread.start();
         procesadorImagenTrhead.start();
-        procesadorImagenTrhead2.start();
+//        procesadorImagenTrhead2.start();
         notificadorThread.start();
 
 

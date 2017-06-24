@@ -15,7 +15,9 @@ import java.util.concurrent.Semaphore;
  */
 public class Notificador implements Runnable {
     
-    private final Semaphore semAlerta;
+    private final Semaphore semAlertaProductor;
+    private final Semaphore semAlertaConsumidor;
+    private final Semaphore semMutex;
     
     @Override
     public void run() {
@@ -31,7 +33,8 @@ public class Notificador implements Runnable {
     private void notificar() throws IOException, InterruptedException{
         System.out.println("");
         if(!Buffers.alertasANotificar.isEmpty()){
-            semAlerta.acquireUninterruptibly();
+            semAlertaConsumidor.acquire();
+            semMutex.acquire();
             Alerta notificacion = Buffers.alertasANotificar.poll();
             notificacion.setMomentoNotificada(Reloj.getInstance().getMomentoActual());
             Imagen imagen  = notificacion.getRequerido();
@@ -40,13 +43,16 @@ public class Notificador implements Runnable {
                     "Tablet: " + idTablet + " | "+ 
                     "Persona: " + notificacion.getPersona().getNombre() + " " + notificacion.getPersona().getApellido();
             Logger.getInstancia().log(texto);
-            semAlerta.release();
+            semMutex.release();
+            semAlertaProductor.release();
         }
         
     }
 
-    public Notificador(Semaphore semAlerta) {
-        this.semAlerta = semAlerta;
+    public Notificador(Semaphore productor, Semaphore consumidor, Semaphore mutex) {
+        this.semAlertaProductor = productor;
+        this.semAlertaConsumidor = consumidor;
+        this.semMutex = mutex;
     }
     
 }

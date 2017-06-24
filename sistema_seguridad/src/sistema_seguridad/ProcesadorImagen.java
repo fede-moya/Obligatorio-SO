@@ -15,16 +15,25 @@ import java.util.concurrent.Semaphore;
  */
 public class ProcesadorImagen implements Runnable {
 
-    private final Semaphore semImagen;
-    private final Semaphore semAlerta;
+    //private final Semaphore semImagen;
+    private final Semaphore semAlertaProductor;
+    private final Semaphore semAlertaConsumidor;
+    private final Semaphore semAlertaMutex;
+    
+    
+    private final Semaphore semImagenProductor;
+    private final Semaphore semImagenConsumidor;
+    private final Semaphore semImagenMutex;
 
     @Override
     public void run() {
         while (true) {
             try {
-                semImagen.acquireUninterruptibly();
+                semImagenConsumidor.acquire();
+                semImagenMutex.acquire();
                 Imagen imagen = Buffers.imagenesAProcesar.poll();
-                semImagen.release();
+                semImagenMutex.release();
+                semImagenProductor.release();
 
                 if (imagen != null) {
 //                try {
@@ -56,18 +65,29 @@ public class ProcesadorImagen implements Runnable {
         Delincuente delincuente = BaseDatos.esDelincuente(imagen);
         if (delincuente != null) {
             Alerta alerta = new Alerta(imagen, delincuente, Reloj.getInstance().getMomentoActual());
-            semAlerta.acquire();
+            semAlertaProductor.acquire();
+            semAlertaMutex.acquire();
             Buffers.alertasANotificar.add(alerta);
             Logger.getInstancia().log("Alerta agregada | " + 
                     "Persona: " + alerta.getPersona().getNombre() + " " + alerta.getPersona().getApellido());
-            semAlerta.release();
+            semAlertaMutex.release();
+            semAlertaConsumidor.release();
 
         }
     }
 
-    public ProcesadorImagen(Semaphore semImagen, Semaphore semAlerta) {
-        this.semImagen = semImagen;
-        this.semAlerta = semAlerta;
+    public ProcesadorImagen(
+            Semaphore imagenProductor,Semaphore imagenConsumidor, Semaphore imagenMutex,
+            Semaphore alertaProductor,Semaphore alertaConsumidor, Semaphore alertaMutex) {
+        //this.semImagen = semImagen;
+        
+        this.semImagenProductor = imagenProductor;
+        this.semImagenConsumidor = imagenConsumidor;
+        this.semImagenMutex = imagenMutex;
+        
+        this.semAlertaProductor = alertaProductor;
+        this.semAlertaConsumidor = alertaConsumidor;
+        this.semAlertaMutex = alertaMutex;
     }
 
 }
