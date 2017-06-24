@@ -34,12 +34,14 @@ public class main {
         Semaphore semAlertaConsumidor = new Semaphore(0);
         Semaphore semAlertaMutex = new Semaphore(1);
         
+        Semaphore semCamaraMutex = new Semaphore(1);
+        
         
         
         // Hilos del sistema        
-        Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
-        Thread receptorImagenThread2 = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
-        Thread receptorImagenThread3 = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
+        Thread receptorImagenThread = new Thread(new ReceptorImagen(semCamaraMutex, semImagenProductor,semImagenConsumidor,semImagenMutex));
+        Thread receptorImagenThread2 = new Thread(new ReceptorImagen(semCamaraMutex, semImagenProductor,semImagenConsumidor,semImagenMutex));
+        Thread receptorImagenThread3 = new Thread(new ReceptorImagen(semCamaraMutex, semImagenProductor,semImagenConsumidor,semImagenMutex));
         
         Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
         Thread procesadorImagenTrhead2 = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
