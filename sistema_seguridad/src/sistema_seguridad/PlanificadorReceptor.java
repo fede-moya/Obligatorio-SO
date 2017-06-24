@@ -68,19 +68,19 @@ public class PlanificadorReceptor {
 
     private static void subirPrioridad() {
         for (Imagen imagen : Buffers.amsterdam.getImagenes()) {
-            imagen.setTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando(1);
         }
         for (Imagen imagen : Buffers.colombes.getImagenes()) {
-            imagen.setTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando(1);
         }
         for (Imagen imagen : Buffers.especiales.getImagenes()) {
-            imagen.setTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando(1);
         }
         for (Imagen imagen : Buffers.olimpica.getImagenes()) {
-            imagen.setTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando(1);
         }
         for (Imagen imagen : Buffers.america.getImagenes()) {
-            imagen.setTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando(1);
         }
     }
 }

@@ -46,7 +46,7 @@ public class Imagen {
         return tiempoEsperando;
     }
 
-    public void setTiempoEsperando(int tiempo) {
+    public void aumentarTiempoEsperando(int tiempo) {
         if (this.tiempoEsperando + tiempo == 3) {
             this.tiempoEsperando = 0;
             aumentarPrioridad(1);
