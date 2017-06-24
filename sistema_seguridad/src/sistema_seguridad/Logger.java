@@ -22,7 +22,7 @@ public class Logger {
      
         
     public Logger(){
-        String fecha = new SimpleDateFormat("dd.MM|HH:mm").format(new Date());
+        String fecha = new SimpleDateFormat("dd_MM_HH_mm").format(new Date());
         this.nombre = "Simulaciones/"+ "Simulacion" + "_" + fecha;
         this.log("Simulacion iniciada");
     }
