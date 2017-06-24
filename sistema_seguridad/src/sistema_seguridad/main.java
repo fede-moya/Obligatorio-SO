@@ -38,17 +38,29 @@ public class main {
         
         // Hilos del sistema        
         Thread receptorImagenThread = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
+        Thread receptorImagenThread2 = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
+        Thread receptorImagenThread3 = new Thread(new ReceptorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex));
+        
         Thread procesadorImagenTrhead = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
         Thread procesadorImagenTrhead2 = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
+        Thread procesadorImagenTrhead3 = new Thread(new ProcesadorImagen(semImagenProductor,semImagenConsumidor,semImagenMutex,semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
+        
         Thread notificadorThread = new Thread(new Notificador(semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
+        Thread notificadorThread2 = new Thread(new Notificador(semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
+        Thread notificadorThread3 = new Thread(new Notificador(semAlertaProductor,semAlertaConsumidor,semAlertaMutex));
 
         Thread reloj = new Thread(Reloj.getInstance());
 
         reloj.start();
         receptorImagenThread.start();
+        receptorImagenThread2.start();
+        receptorImagenThread3.start();
         procesadorImagenTrhead.start();
-//        procesadorImagenTrhead2.start();
+        procesadorImagenTrhead2.start();
+        procesadorImagenTrhead3.start();
         notificadorThread.start();
+        notificadorThread2.start();
+        notificadorThread3.start();
 
 
         Logger.getInstancia().log("Se inician hilos de simulacion");
@@ -64,9 +76,14 @@ public class main {
         simulador.stop();
         reloj.stop();
         receptorImagenThread.stop();
+        receptorImagenThread2.stop();
+        receptorImagenThread3.stop();
         procesadorImagenTrhead.stop();
         procesadorImagenTrhead2.stop();
+        procesadorImagenTrhead3.stop();
         notificadorThread.stop();
+        notificadorThread2.stop();
+        notificadorThread3.stop();
         Logger.getInstancia().log("Simulacion Finalizada");
         /* Fin del script */
         
