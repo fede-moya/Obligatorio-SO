@@ -32,6 +32,25 @@ public class ManejadorArchivos {
         }
     }
     
+        public static void escribirArchivoPruebas(String nombreArchivo,String texto){
+        FileWriter simulacion = null;
+        try {
+            simulacion = new FileWriter(nombreArchivo,true);
+            PrintWriter pw = new PrintWriter(simulacion);
+            pw.println(texto);
+            simulacion.close();
+        } catch (IOException ex) {
+            System.out.println("Algo salio mal tratando de escribir el archivo "+ nombreArchivo);
+        } finally {
+            try {
+                simulacion.close();
+            } catch (IOException ex) {
+                System.out.println("Algo salio mal tratando de cerrar el archivo "+ nombreArchivo);
+            }
+        }
+    }
+
+    
     public static String[] leerArchivo(String nombreCompletoArchivo, boolean ignoreHeader) {
         FileReader fr;
         BufferedReader br;

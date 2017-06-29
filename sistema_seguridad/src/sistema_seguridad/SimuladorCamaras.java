@@ -62,7 +62,7 @@ public class SimuladorCamaras implements Runnable {
                 capturadas++;
                 if (capturadas == 5) {
                     try {
-                        Thread.sleep(10);
+                        Thread.sleep(50);
                     } catch (InterruptedException ex) {
                         System.out.println("Error tratando de dormir el hilo de la tribuna" + this.tribuna);
                     }

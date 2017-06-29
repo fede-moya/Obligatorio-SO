@@ -5,7 +5,9 @@
  */
 package sistema_seguridad;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  *
@@ -15,44 +17,62 @@ public class PlanificadorReceptor {
 
     public static Imagen getProximaImagen() {
         // lista con las primeras imagenes de los grupos de camaras
-        ArrayList<Imagen> primerasImagenes;
-        primerasImagenes = new ArrayList<>();
-        
+        Imagen[] primerasImagenes = new Imagen[5];
+
         Imagen amsterdam = Buffers.amsterdam.getProximaImagen();
         Imagen colombes = Buffers.colombes.getProximaImagen();
         Imagen especial = Buffers.especiales.getProximaImagen();
         Imagen olimpica = Buffers.olimpica.getProximaImagen();
         Imagen america = Buffers.america.getProximaImagen();
 
-        primerasImagenes.add(america);
-        primerasImagenes.add(olimpica);
-        primerasImagenes.add(amsterdam);
-        primerasImagenes.add(colombes);
-        primerasImagenes.add(especial);
+        primerasImagenes[0] = america;
+        primerasImagenes[1] = olimpica;
+        primerasImagenes[2] = colombes;
+        primerasImagenes[3] = amsterdam;
+        primerasImagenes[4] = especial;
 
         // se obtiene la imagen con mayor prioridad
         Imagen prioritaria = getImagenPrioritaria(primerasImagenes);
-        Imagen result;
-        if (america != null && prioritaria.getCodigo().equals(primerasImagenes.get(0).getCodigo())) {
-            result = Buffers.america.eliminarImagen();
-        } else if (olimpica != null && prioritaria.getCodigo().equals(primerasImagenes.get(1).getCodigo())) {
-            result = Buffers.olimpica.eliminarImagen();
-        } else if (amsterdam != null && prioritaria.getCodigo().equals(primerasImagenes.get(2).getCodigo())) {
-            result = Buffers.amsterdam.eliminarImagen();
-        } else if (colombes != null && prioritaria.getCodigo().equals(primerasImagenes.get(3).getCodigo())) {
-            result = Buffers.colombes.eliminarImagen();
-        } else {
-            result = Buffers.especiales.eliminarImagen();
-        }
-        if (result != null && result.getMomentoGeneracion() + result.getTiempoEsperando() != Reloj.getInstance().getMomentoActual()) {
+        Imagen result = null;
+        if (prioritaria != null) {
 
-            subirPrioridad();
+            if (america != null && prioritaria.getCodigo().equals(primerasImagenes[0].getCodigo())) {
+
+                result = Buffers.america.eliminarImagen();
+                log("imagen: " + result.getCodigo() + " | tribuna: america" + " | prioridad: " + result.getPrioridad());
+
+            } else if (olimpica != null && prioritaria.getCodigo().equals(primerasImagenes[1].getCodigo())) {
+
+                result = Buffers.olimpica.eliminarImagen();
+                log("imagen: " + result.getCodigo() + " | tribuna olimpica " + "| prioridad: " + result.getPrioridad());
+
+            } else if (colombes != null && prioritaria.getCodigo().equals(primerasImagenes[2].getCodigo())) {
+
+                result = Buffers.colombes.eliminarImagen();
+                log("imagen: " + result.getCodigo() + " | tribuna: colombes" + " | prioridad: " + result.getPrioridad());
+
+            } else if (amsterdam != null && prioritaria.getCodigo().equals(primerasImagenes[3].getCodigo())) {
+
+                result = Buffers.amsterdam.eliminarImagen();
+                log("imagen: " + result.getCodigo() + " | tribuna: amsterdam" + " | prioridad: " + result.getPrioridad());
+
+            } else if (especial != null && prioritaria.getCodigo().equals(primerasImagenes[4].getCodigo())) {
+
+                result = Buffers.especiales.eliminarImagen();
+                log("imagen: " + result.getCodigo() + " | tribuna: especial" + " | prioridad: " + result.getPrioridad());
+            }
+
+            if (result != null && result.getMomentoGeneracion() + result.getTiempoEsperando() != Reloj.getInstance().getMomentoActual()) {
+
+                subirPrioridad();
+            }
         }
         return result;
     }
 
     // busca entre las imagenes la de mayor prioridad
-    private static Imagen getImagenPrioritaria(ArrayList<Imagen> primerasImagenes) {
+    // private static Imagen getImagenPrioritaria(ArrayList<Imagen> primerasImagenes) {
+    private static Imagen getImagenPrioritaria(Imagen[] primerasImagenes) {
 
         Imagen imagenPrioridadMaxima = null;
         int prioridadMaxima = 0;
@@ -68,19 +88,26 @@ public class PlanificadorReceptor {
 
     private static void subirPrioridad() {
         for (Imagen imagen : Buffers.amsterdam.getImagenes()) {
-            imagen.aumentarTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando();
         }
         for (Imagen imagen : Buffers.colombes.getImagenes()) {
-            imagen.aumentarTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando();
         }
         for (Imagen imagen : Buffers.especiales.getImagenes()) {
-            imagen.aumentarTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando();
         }
         for (Imagen imagen : Buffers.olimpica.getImagenes()) {
-            imagen.aumentarTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando();
         }
         for (Imagen imagen : Buffers.america.getImagenes()) {
-            imagen.aumentarTiempoEsperando(1);
+            imagen.aumentarTiempoEsperando();
         }
+    }
+
+    private static void log(String entrada) {
+        String fecha = new SimpleDateFormat("dd_MM_HH_mm").format(new Date());
+        String base = "| Momento: " + Reloj.getInstance().getMomentoActual() + "|| ";
+        String nombre = "Imagenes/" + "Imagenes" + "_" + fecha;
+        ManejadorArchivos.escribirArchivoPruebas(nombre, base + entrada);
     }
 }

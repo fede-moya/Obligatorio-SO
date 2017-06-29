@@ -46,12 +46,12 @@ public class Imagen {
         return tiempoEsperando;
     }
 
-    public void aumentarTiempoEsperando(int tiempo) {
-        if (this.tiempoEsperando + tiempo == 3) {
+    public void aumentarTiempoEsperando() {
+        if (this.tiempoEsperando + 1 == 2) {
             this.tiempoEsperando = 0;
             aumentarPrioridad(1);
         } else {
-            this.tiempoEsperando += tiempo;
+            this.tiempoEsperando += 1;
         }
     }
 
